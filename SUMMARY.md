@@ -1,11 +1,8 @@
 # Table of contents
 
-* [🏡 Introduction](README.md)
-  * [🚩 About](master/about.md)
-
 ## Coding
 
-* [🖱 Web development](contexts/webdev/README.md)
+* [🖱 Web development](README.md)
   * [🧰 Workspace](contexts/webdev/workspace/README.md)
     * [Command line](contexts/webdev/workspace/command-line.md)
   * [🛡 HTML](contexts/webdev/html/README.md)
@@ -112,3 +109,8 @@
 * [📜 History](living/history.md)
 * [🀄 Language](living/language.md)
 * [📊 Mathematics](living/mathematics.md)
+
+***
+
+* [🏡 Introduction](readme.md)
+* [🚩 About](about.md)
