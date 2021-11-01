@@ -1,8 +1,8 @@
 ---
-description: the things we have to do
+description: about the things we do
 ---
 
-# 💻 Web development
+# 🖱 Web development
 
 ### **Introduction**
 
@@ -14,7 +14,7 @@ description: the things we have to do
 We will see later on this page that:
 
 * the line between the front-end and the back-end often blurs
-* [theory](../../concepts/programming/) plays a large role in web development in surprising ways
+* [theory](../programming/) plays a large role in web development in surprising ways
 
 ### The front-end
 
@@ -37,12 +37,12 @@ The front-end usually involves the following "3 S's":
 [css](css/)
 {% endcontent-ref %}
 
-{% content-ref url="../javascript/javascript/" %}
-[javascript](../javascript/javascript/)
+{% content-ref url="javascript/" %}
+[javascript](javascript/)
 {% endcontent-ref %}
 
-{% content-ref url="../javascript/react/" %}
-[react](../javascript/react/)
+{% content-ref url="react/" %}
+[react](react/)
 {% endcontent-ref %}
 
 Sometimes, front-end developers may have to take part in:
@@ -71,8 +71,8 @@ Each developer may also have to take part in:
   * to not only submit content "to the cloud" but also to ensure backups if something goes wrong
   * to allow for collaboration by multiple developers within the same project(s)
 
-{% content-ref url="../javascript/git/" %}
-[git](../javascript/git/)
+{% content-ref url="git/" %}
+[git](git/)
 {% endcontent-ref %}
 
 * **Deployment** (e.g. FTP, Jenkins, Netlify, etc.)
