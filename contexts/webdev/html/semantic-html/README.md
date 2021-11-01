@@ -8,21 +8,21 @@ Instead of using `<div>` tags to divide an HTML page up, **semantic HTML** allow
 
 >
 
-| Tag | For |
-| :--- | :--- |
-| `<header>` | the top of a page |
-| `<nav>` | ...a menu inside a header |
-| `<main>` | the main content of the page |
-| `<section>` | ...a part of the main content |
-| `<article>` |    ...\(think of a blog or a news site that show a list of posts!\) |
-| `<aside>` |    ...related but "optional" content |
-| `<span>` |    ...differentiating content on the same line as the rest |
-| `<figure>` |    ...encapsulating images/charts/diagrams or similar |
-| `<figurecaption>` |        ...a caption for the figure |
-| `<embed src="...">` |    ...animated GIFs \(by convention, formerly for videos\) |
-| `<audio>` |    ...a sound file |
-| `<video>` |    ...a video file |
-| `<footer>` | the bottom of a page |
+| Tag                 | For                                                            |
+| ------------------- | -------------------------------------------------------------- |
+| `<header>`          | the top of a page                                              |
+| `<nav>`             | ...a menu inside a header                                      |
+| `<main>`            | the main content of the page                                   |
+| `<section>`         | ...a part of the main content                                  |
+| `<article>`         | ...(think of a blog or a news site that show a list of posts!) |
+| `<aside>`           | ...related but "optional" content                              |
+| `<span>`            | ...differentiating content on the same line as the rest        |
+| `<figure>`          | ...encapsulating images/charts/diagrams or similar             |
+| `<figurecaption>`   | ...a caption for the figure                                    |
+| `<embed src="...">` | ...animated GIFs (by convention, formerly for videos)          |
+| `<audio>`           | ...a sound file                                                |
+| `<video>`           | ...a video file                                                |
+| `<footer>`          | the bottom of a page                                           |
 
 Most of these tags could simply exist as `<div>` tags ... and the HTML would work the same way:
 
@@ -68,9 +68,8 @@ Most of these tags could simply exist as `<div>` tags ... and the HTML would wor
 
 ### Older tags as semantic HTML
 
-Some tags such as `<table>` and `<form>` could be seen as a pre-cursor to semantic HTML: 
+Some tags such as `<table>` and `<form>` could be seen as a pre-cursor to semantic HTML:
 
-* their tags say what they mean 
-* we could use `<div>` tags and [JavaScript](../../javascript/) to re-create their functionality
+* their tags say what they mean
+* we could use `<div>` tags and [JavaScript](../../../javascript/javascript/) to re-create their functionality
 * yet, we continue to use the old tags because they still make so much more sense
-

@@ -6,31 +6,31 @@ description: Going from nothing to a boilerplate for your future React projects
 
 ### Pre-requisites
 
-* Ability to run UNIX commands on a [command-line interface](../workspace/command-line.md)
-* You know that `$` means the prompt of a Terminal command line 
-* You have [npm](https://www.npmjs.com/) installed \(check by entering  `$ npm -v` on Terminal\)
+* Ability to run UNIX commands on a [command-line interface](../../webdev/workspace/command-line.md)
+* You know that `$` means the prompt of a Terminal command line
+* You have [npm](https://www.npmjs.com) installed (check by entering `$ npm -v` on Terminal)
   * If it reveals a version number, then you're okay
   * If not:
-    * `$ npm install -g n`\(let the installation of the installer run\)
-    * `$ n stable` \( to get the latest stable version of node and npm\)
+    * `$ npm install -g n`(let the installation of the installer run)
+    * `$ n stable` ( to get the latest stable version of node and npm)
 
 ### Installing _create-react-app_
 
-This will create a React app boilerplate creator \(yup, they've created a "creator"\):
+This will create a React app boilerplate creator (yup, they've created a "creator"):
 
-* `$ npm install create-react-app -g` 
+* `$ npm install create-react-app -g`
 
 ### Creating the React app
 
 * `$ npx create-react-app appname`
   * you can change `appname` to whatever app name you want
   * this will generate a folder called `appname` and a whole bunch of files within it
-  * this `appname` folder therefore makes up your "newborn app" 
+  * this `appname` folder therefore makes up your "newborn app"
 
 ### Previewing the React app
 
 * `$ npx yarn start`
-  * this will run your app on your machine \(by default on `localhost:3000`\)
+  * this will run your app on your machine (by default on `localhost:3000`)
   * you can go to your browser, enter `localhost:3000` and see React's atomic logo
 
 ![](../../../.gitbook/assets/2020-05-28-at-10.57.49.png)
@@ -69,12 +69,12 @@ To keep things simple, we can also remove all files in the `public` and `src` fo
 
 * public/index.html
 * src/index.js
-* src/index.css 
+* src/index.css
 * src/App.js
 
-It is possible to reduce this just down to `public/index.html` and `src/index.js` but that would make our code less maintainable in the long run. 
+It is possible to reduce this just down to `public/index.html` and `src/index.js` but that would make our code less maintainable in the long run.
 
-Then, use the following code in each file: 
+Then, use the following code in each file:
 
 #### public/index.html
 
@@ -105,7 +105,7 @@ You will almost never touch this file because React puts everything inside of th
 
 #### src/index.js
 
-We can boil index.js just down to this: 
+We can boil index.js just down to this:
 
 ```jsx
 import React from 'react';
@@ -121,15 +121,14 @@ ReactDOM.render(
 
 #### src/index.css
 
-It can actually remain blank but you may wish to use it to add your own styles: 
+It can actually remain blank but you may wish to use it to add your own styles:
 
 ```jsx
-
 ```
 
 #### src/App.js
 
-This is where you will begin extending your app's code: 
+This is where you will begin extending your app's code:
 
 ```jsx
 import React from 'react';
@@ -149,4 +148,3 @@ export default App;
 ### Moving on!
 
 We will try to make an app that does something real by building upon the things learned from this page ➡️
-

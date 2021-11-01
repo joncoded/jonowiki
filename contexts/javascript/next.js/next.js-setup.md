@@ -6,43 +6,43 @@ description: getting ourselves ready with Next.js
 
 ### Pre-requisites
 
-* Ability to run UNIX commands on a [command-line interface](../workspace/command-line.md)
-* You know that `$` means the prompt of a Terminal command line 
-* You have [npm](https://www.npmjs.com/) installed \(check by entering  `$ npm -v` on Terminal\)
+* Ability to run UNIX commands on a [command-line interface](../../webdev/workspace/command-line.md)
+* You know that `$` means the prompt of a Terminal command line
+* You have [npm](https://www.npmjs.com) installed (check by entering `$ npm -v` on Terminal)
   * If it reveals a version number, then you're okay
   * If not:
-    * `$ npm install -g n`\(let the installation of the installer run\)
-    * `$ n stable` \( to get the latest stable version of node and npm\)
+    * `$ npm install -g n`(let the installation of the installer run)
+    * `$ n stable` ( to get the latest stable version of node and npm)
 * Knowledge of JavaScript and JSON
 * Some knowledge of React will help
 
 ### Installation
 
-On **Terminal** try: 
+On **Terminal** try:
 
-```text
+```
 $ npx create-next-app appname
 ```
 
 ...replacing `appname` with the name of our choice...
 
-We may get a prompt to install `create-next-app` \(just enter `y` for yes\) and then the boilerplate app will install!
+We may get a prompt to install `create-next-app` (just enter `y` for yes) and then the boilerplate app will install!
 
 ### Working with Next.js
 
-Let's go into the code: 
+Let's go into the code:
 
-```text
+```
 $ cd appname
 ```
 
-We will notice that the folder structure looks like: 
+We will notice that the folder structure looks like:
 
 {% tabs %}
 {% tab title="root" %}
-`package.json` will look something like this: 
+`package.json` will look something like this:
 
-```text
+```
 {
   "name": "codenext",
   "version": "0.1.0",
@@ -62,7 +62,7 @@ We will notice that the folder structure looks like:
 
 Pretty straightforward looking! Looking at the `dependencies` we see that Next.js only really needs React, React-DOM and Next itself!
 
-Other files included are also pretty standard stuff: 
+Other files included are also pretty standard stuff:
 
 * `README.md`
 * `package-lock.json`
@@ -90,7 +90,7 @@ The built code as well as any hard assets go here - as the boilerplate has:
 {% endtab %}
 
 {% tab title="styles" %}
-CSS goes here! Next comes with: 
+CSS goes here! Next comes with:
 
 * `/styles/globals.css` - the reset sheet
 * `/styles/Home.module.css` - the style sheet for the home page
@@ -109,7 +109,7 @@ As we can see from the above walkthrough, Next.js starts off pretty minimal and 
 
 To create our deployment-friendly version, we run:
 
-```text
+```
 $ npm run build
 ```
 
@@ -119,9 +119,8 @@ We will then notice that a `.next` folder appears in our project folder, ready f
 
 Let's see what the boilerplate app looks like:
 
-```text
+```
 $ npm run dev
 ```
 
 On `localhost:3000` a sample Next.js website will appear!
-
