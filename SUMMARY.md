@@ -1,8 +1,10 @@
 # Table of contents
 
+* [🏡 Introduction](README.md)
+
 ## Coding
 
-* [🖱 Web development](README.md)
+* [🖱 Web development](contexts/webdev/README.md)
   * [🧰 Workspace](contexts/webdev/workspace/README.md)
     * [Command line](contexts/webdev/workspace/command-line.md)
   * [🛡 HTML](contexts/webdev/html/README.md)
@@ -91,17 +93,21 @@
     * [React props](contexts/javascript/react/react-props.md)
     * [React imports](contexts/javascript/react/react-imports.md)
     * [React debugging](contexts/javascript/react/react-debugging.md)
-  * [🚨 Errors](contexts/javascript/errors.md)
+  * [🗺 Mapbox with React](coding/webdev/mapbox-with-react/README.md)
+    * [Mapbox with React (introduction)](coding/webdev/mapbox-with-react/mapbox-with-react-introduction.md)
+    * [Mapbox with React (components)](coding/webdev/mapbox-with-react/mapbox-with-react-components.md)
   * [🐙 Git](contexts/javascript/git/README.md)
     * [Git setup](contexts/javascript/git/git-setup.md)
     * [Git terms and commands](contexts/javascript/git/basic-git-terms-and-commands.md)
     * [Git command aliasing](contexts/javascript/git/git-aliasing.md)
     * [Git troubleshooting](contexts/javascript/git/git-troubleshooting.md)
   * [🚀 Deployment](contexts/javascript/web-operations/README.md)
+    * [Deploying React sites on GitHub pages](coding/webdev/web-operations/deploying-react-sites-on-github-pages.md)
     * [Deploying on Netlify](contexts/javascript/web-operations/deploying-on-netlify.md)
   * [🤔 Theories](contexts/javascript/theories/README.md)
     * [3 basic kinds of websites](contexts/javascript/theories/3-basic-kinds-of-websites.md)
-  * [📕 (Glossary)](contexts/javascript/glossary.md)
+  * [📕 (Glossary)](coding/webdev/glossary/README.md)
+    * [🚨 Errors](coding/webdev/glossary/errors.md)
 
 ## Living
 
@@ -112,5 +118,4 @@
 
 ***
 
-* [🏡 Introduction](readme.md)
-* [🚩 About](about.md)
+* [🚩 About](master/about.md)
