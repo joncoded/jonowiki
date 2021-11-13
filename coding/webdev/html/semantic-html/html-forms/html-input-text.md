@@ -1,2 +1,6 @@
-# HTML input: text
+---
+description: allowing the user to enter alphanumeric content
+---
+
+# 🚧 HTML input: text
 

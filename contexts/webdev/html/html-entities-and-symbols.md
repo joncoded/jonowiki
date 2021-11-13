@@ -1,3 +1,7 @@
+---
+description: adding non-alphanumeric text
+---
+
 # HTML special characters
 
 These special characters come in three main types:
@@ -39,10 +43,10 @@ Common entities include:
 Remember that when HTML entities by name are _case sensitive!_
 {% endhint %}
 
-### Emojis
+### Emoji
 
 {% hint style="info" %}
-Ensure that the `<head>` contains the following in order for emojis to work on the page:
+Ensure that the `<head>` contains the following in order for emoji to work on the page:
 
 ```markup
 ...
@@ -55,7 +59,11 @@ Ensure that the `<head>` contains the following in order for emojis to work on t
 ```
 {% endhint %}
 
-Emojis are just symbols like $ or ¢ and we can simply input them using:
+Emoji are just symbols like $ or ¢ and we can simply input them using:
 
 * an emoji keyboard (`control + command + space` on a Mac)
 * HTML entity code (such as `&#128516` for 😄)
+
+{% hint style="info" %}
+Emoji is the plural of emoji!
+{% endhint %}
