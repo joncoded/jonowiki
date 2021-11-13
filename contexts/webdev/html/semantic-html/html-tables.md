@@ -2,7 +2,7 @@
 description: displaying data in cells on an HTML page
 ---
 
-# 🚧 HTML tables
+# HTML tables
 
 As part of semantic HTML, **tables** allow us to make "two-dimensional lists" with headers, rows, columns and footers:
 
