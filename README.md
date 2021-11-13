@@ -1,3 +1,5 @@
 # 🏡 Introduction
 
-a personal notebook of coding and non-coding topics (an on-going work-in-progress)
+Welcome to my personal notebook (an on-going work-in-progress)!
+
+![](.gitbook/assets/scalar-j-desk.jpg)
