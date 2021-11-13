@@ -12,7 +12,7 @@
     * [HTML commenting](contexts/webdev/html/html-commenting.md)
     * [HTML tag structure](contexts/webdev/html/html-tag-structure.md)
     * [HTML tag attributes](contexts/webdev/html/html-tag-attributes.md)
-    * [🚧 HTML \<div>](contexts/webdev/html/html-less-than-div-greater-than.md)
+    * [HTML \<div>](coding/webdev/html/html-div.md)
     * [Semantic HTML](contexts/webdev/html/semantic-html/README.md)
       * [🚧 HTML tables](contexts/webdev/html/semantic-html/html-tables.md)
       * [HTML forms](contexts/webdev/html/semantic-html/html-forms/README.md)
