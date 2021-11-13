@@ -109,6 +109,10 @@
   * [📕 (Glossary)](coding/webdev/glossary/README.md)
     * [🚨 Errors](coding/webdev/glossary/errors.md)
 
+## Filing
+
+* [😎 Mixtures](filing/mixtures.md)
+
 ## Living
 
 * [🌐 Geography](living/geography.md)
