@@ -49,7 +49,7 @@ To present data, we connect the following "3 S's":
 
 Sometimes, front-end developers may have to take part in:
 
-* **Imaging** (e.g. Photoshop)
+* **Imaging** (e.g. Photoshop or free [Photopea](https://www.photopea.com))
   * to adjust (resize, crop, etc.) visual assets provided by a client
   * to take the load off the design team who might work with more complex imaging and graphics projects
 
