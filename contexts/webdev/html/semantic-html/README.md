@@ -6,6 +6,8 @@ description: more meaningful way to "say" <div>
 
 Instead of using `<div>` tags to divide an HTML page up, **semantic HTML** allows us to replace "`div`" with more meaningful names such as:
 
+>
+
 | Tag                 | For                                                            |
 | ------------------- | -------------------------------------------------------------- |
 | `<header>`          | the top of a page                                              |
@@ -70,4 +72,4 @@ Some tags such as `<table>` and `<form>` could be seen as a pre-cursor to semant
 
 * their tags say what they mean
 * we could use `<div>` tags and [JavaScript](../../../javascript/javascript/) to re-create their functionality
-* yet, we continue to use the old tags because they still make so much more sense!
+* yet, we continue to use the old tags because they still make so much more sense

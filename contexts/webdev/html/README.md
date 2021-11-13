@@ -8,7 +8,7 @@ description: the structural foundation of building websites
 
 * metadata (data about the web page, e.g. title, description)
 * order of appearance of page items
-* references to _styling_ and _scripting_ (recall [the 3 S's](../#the-front-end) of the front-end)
+* references to styling and other scripts
 
 In this section, we will review how to:
 
