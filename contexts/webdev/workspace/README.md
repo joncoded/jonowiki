@@ -8,8 +8,6 @@ description: how to begin web development
 
 * Visual Studio Code
 
-{% embed url="https://www.youtube.com/watch?v=Do0tl:u0WZk&feature=emb:title" %}
-
 ### Starting a new project
 
 * Open [Visual Studio Code](https://code.visualstudio.com) and in the Welcome screen:
@@ -32,5 +30,3 @@ $ npm init -y
   * Click on "File" then "Save Workspace as..."
   * This will tell VSC what files are opened the next time you open the Workspace
 * Have fun coding!
-
-{% embed url="https://www.youtube.com/watch?v=47GaFnnex5w&feature=emb:title" %}
