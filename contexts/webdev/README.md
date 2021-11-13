@@ -6,28 +6,30 @@ description: about the things we do
 
 ### **Introduction**
 
+![](https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHx3aXJlZnJhbWV8ZW58MHx8fHwxNjM2ODI4Nzkz\&ixlib=rb-1.2.1\&q=85)
+
 **Web development** comes in two main flavours:
 
-* The **front-end** (presentation-oriented programming - what you see)
-* The **back-end** (data and logic-oriented programming - what you get)
+* The **front-end** (presentation-oriented programming, i.e. _what you see_)
+* The **back-end** (data and logic-oriented programming, i.e. _what you get_)
 
 We will see later on this page that:
 
 * the line between the front-end and the back-end often blurs
-* [theory](broken-reference) plays a large role in web development in surprising ways
+* computer science theory plays a large role in web development in surprising ways
 
 ### The front-end
 
-The front-end usually involves the following "3 S's":
+To present data, we connect the following "3 S's":
 
 * **Structuring** (HTML)
   * to enforce the **sensibility (order) of visual components**
-  * to ensure that a web resource has **accessibility to everyone**
+  * to ensure that a web resource has [**accessibility to everyone**](../javascript/accessibility.md)****
 * **Styling** (CSS)
   * to enhance the **visual look-and-feel**
 * **Scripting** (e.g. JavaScript, React, Angular, jQuery, etc.)
   * to manage **user input** and **data changes**
-  * to work with the back-end
+  * to connect the front-end with the back-end
 
 {% content-ref url="html/" %}
 [html](html/)
@@ -78,10 +80,16 @@ Each developer may also have to take part in:
 * **Deployment** (e.g. FTP, Jenkins, Netlify, etc.)
   * to get that web project onto the Internet!
     * usually nowadays handled by a specialized team called **development operations** (or **dev ops**)
+
+{% content-ref url="../javascript/web-operations/" %}
+[web-operations](../javascript/web-operations/)
+{% endcontent-ref %}
+
 * **Documenting** (e.g. GitBook!)
   * to communicate cases and learnings for obvious reasons
 * **Organizing** (e.g. SCRUM)
   * to ensure that all the programming, layout, look-and-feel, content, images (and any other assets) all come together, so that the development experience goes as smoothly as possible
+  * to send completed projects for quality assurance and correct defects
 * **Optimizing**
   * for more universal accessibility, better usability, improved speed
   * for enhancing the experience of the "finished" product
