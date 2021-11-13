@@ -18,7 +18,7 @@ A simple form in HTML may look like this:
     <label for="fname">First name</label>
     <input type="text" name="fname" id="fname">
     
-    <label for="lname">Last Name</label>
+    <label for="lname">Last name</label>
     <input type="text" name="lname" id="lname">
     
     <label for="gender">Gender</label>
