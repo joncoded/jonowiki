@@ -1,3 +1,7 @@
+---
+description: me, my writing style, my platform
+---
+
 # 🚩 About
 
 ### Me
