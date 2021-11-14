@@ -112,7 +112,7 @@
 
 ## Filing
 
-* [🖥 The history of the internets](filing/the-history-of-the-internets.md)
+* [🖥 The history of the internets](filing/history-of-internets.md)
 * [🤓 The future of work?](filing/the-future-of-work.md)
 
 ## Living

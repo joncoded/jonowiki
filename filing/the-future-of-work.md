@@ -30,6 +30,8 @@ People who want PWFH_ _might claim that they:
 * live alone and they find home the best place to work
 * are introverts and can't stand office politics
 
+![](https://images.unsplash.com/photo-1508419952089-1ed91186a695?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHx0cmFuc2l0fGVufDB8fHx8MTYzNjkyNzMyMQ\&ixlib=rb-1.2.1\&q=85)
+
 People who want PRTO might claim that they:
 
 * don't have to move equipment
@@ -48,9 +50,11 @@ I don't advocate for either permanent return-to-work or return-to-office but I s
 * Companies will eventually choose either PWFH or PRTO
 * Employees who react badly to the companies' decisions will "vote with their feet"&#x20;
 
+![](../.gitbook/assets/scalar-j-desk.jpg)
+
 So, the future of work will actually look quite boring, either
 
-1. looking like the work-from-home paradigm of the recent future
+1. looking like the work-from-home paradigm in the early 2020s
 2. looking like the pro-office paradigm before 2020
 
 _It should all depend on what work environment the employee desires!_
