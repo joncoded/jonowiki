@@ -52,9 +52,9 @@ I don't advocate for either permanent return-to-work or return-to-office but I s
 
 ![](../.gitbook/assets/scalar-j-desk.jpg)
 
-So, the future of work will actually look quite boring, either
+So, the future of work should resemble one of the following:
 
-1. looking like the work-from-home paradigm in the early 2020s
-2. looking like the pro-office paradigm before 2020
+1. permanently working from home
+2. permanently returning to the office
 
-_It should all depend on what work environment the employee desires!_
+_It just depends on which "corporate culture" each employee desires!_
