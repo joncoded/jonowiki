@@ -4,7 +4,7 @@ description: allowing the user to enter alphanumeric content
 
 # HTML input: text
 
-At the minimal, the `<input>` field for `type="text"` looks like this:
+At the minimal, the input field looks like this:
 
 ```markup
 <form action="destination.html" method="post">

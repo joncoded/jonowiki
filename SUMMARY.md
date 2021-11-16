@@ -17,7 +17,7 @@
       * [HTML forms](contexts/webdev/html/semantic-html/html-forms/README.md)
         * [HTML input labels](contexts/webdev/html/semantic-html/html-forms/html-input-text.md)
         * [HTML input: text](coding/webdev/html/semantic-html/html-forms/html-input-text.md)
-        * [🚧 HTML input: radio](contexts/webdev/html/semantic-html/html-forms/html-input-radio.md)
+        * [HTML input: radio](contexts/webdev/html/semantic-html/html-forms/html-input-radio.md)
         * [🚧 HTML input: checkbox](contexts/webdev/html/semantic-html/html-forms/html-input-checkbox.md)
         * [🚧 HTML input: password](contexts/webdev/html/semantic-html/html-forms/html-input-password.md)
         * [🚧 HTML input: reset](contexts/webdev/html/semantic-html/html-forms/html-input-reset.md)
