@@ -1,10 +1,10 @@
 ---
-description: allowing the user to input one line of plain text
+description: giving each form field a label
 ---
 
-# HTML input labels
+# HTML labels
 
-Looking closer into the `<form>` at our `<input>` fields:
+Looking closer into the `<form>` at our fields and their labels:
 
 ```html
 <form action="destination.html" method="post">

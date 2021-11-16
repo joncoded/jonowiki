@@ -4,7 +4,9 @@ description: allowing the user to enter alphanumeric content
 
 # HTML input: text
 
-At the minimal, the input field looks like this:
+### Essentials
+
+At the minimal, the `<input>` field for `type="text"` looks like this:
 
 ```markup
 <form action="destination.html" method="post">
@@ -30,4 +32,9 @@ We can certainly add more attributes:
 </form>
 ```
 
-Most of those attributes are self-explanatory and "google-able"; however, the difference between a `name` and `id` lies on the requirement uniqueness of `id` while we can use `name` multiple times in the same HTML document!
+### Takeaways
+
+Most of those attributes are self-explanatory and "google-able" but taking note that:&#x20;
+
+* the difference between a `name` and `id` lies on the requirement uniqueness of `id`&#x20;
+* we can use `name` multiple times in the same HTML document!

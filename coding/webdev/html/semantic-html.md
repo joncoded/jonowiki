@@ -69,5 +69,5 @@ Most of these tags could simply exist as `<div>` tags ... and the HTML would wor
 Some tags such as `<table>` and `<form>` could be seen as a pre-cursor to semantic HTML:
 
 * their tags say what they mean
-* we could use `<div>` tags and [JavaScript](../../../javascript/javascript/) to re-create their functionality
+* we could use `<div>` tags and [JavaScript](../../../contexts/javascript/javascript/) to re-create their functionality
 * yet, we continue to use the old tags because they still make so much more sense!

@@ -4,6 +4,8 @@ description: allowing the user to choose from one out of several options
 
 # HTML input: radio
 
+### Essentials
+
 The `<input>` field for `type="radio"` looks like this:
 
 ```html
@@ -34,7 +36,7 @@ The `<input>` field for `type="radio"` looks like this:
 </form>
 ```
 
-Things we can take away:
+### Takeaways
 
 * Unlike `type="text"` each `type="radio"` button must have the same `name` if it belongs to a set of related options&#x20;
   * (we would have a different value for the `name` attribute if we have another set of related options elsewhere on the same form, as in the case with `gender`)
