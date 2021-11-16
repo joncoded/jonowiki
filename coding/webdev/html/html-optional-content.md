@@ -12,4 +12,8 @@ description: good-to-know but not essential tags of HTML
 
 `<iframe>`
 
-\`\`
+`<embed>`
+
+`<video>`
+
+`<audio>`

@@ -21,4 +21,4 @@ In this section, we will review how to:
   * Build HTML [tables](../../../coding/webdev/html/html-tables.md) to display two-dimensional data
   * Build HTML [forms](../../../coding/webdev/html/html-forms/) for user interactivity
 * Manipulate the HTML [head](html-head/) which gives a webpage its metadata
-* Do some [optional stuff](html-optional-tags-and-things.md)
+* Do some [optional stuff](../../../coding/webdev/html/html-optional-content.md)
