@@ -19,7 +19,7 @@
       * [HTML input: text](coding/webdev/html/html-forms/html-input-text.md)
       * [HTML input: radio](coding/webdev/html/html-forms/html-input-radio.md)
       * [HTML input: checkbox](coding/webdev/html/html-forms/html-input-checkbox.md)
-      * [🚧 HTML input: password](coding/webdev/html/html-forms/html-input-password.md)
+      * [HTML input: password](coding/webdev/html/html-forms/html-input-password.md)
       * [🚧 HTML input: reset](coding/webdev/html/html-forms/html-input-reset.md)
       * [🚧 HTML input: submit](coding/webdev/html/html-forms/html-input-submit.md)
       * [🚧 HTML input: hidden](coding/webdev/html/html-forms/html-input-hidden.md)
