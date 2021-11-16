@@ -77,7 +77,7 @@ So why `==` and `===` ? Well:
 Also, note the amount of equal symbols in `!=` 😩 and `!==` 😩😩
 
 {% hint style="info" %}
-Linguistics has a term for "same symbols used, different meaning conveyed": [**false friends**](javascript-operators.md)\*\*\*\*
+Linguistics has a term for "same symbols used in two different contexts but each context has a different meaning": **false friends**
 {% endhint %}
 
 We see comparison operators used mostly in **branching (decision) statements**
