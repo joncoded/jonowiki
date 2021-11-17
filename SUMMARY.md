@@ -113,9 +113,9 @@
 ## Filing
 
 * [📖 Volume 2021](filing/volume-2021/README.md)
-  * [⚙ In defense of automation](filing/volume-2021/in-defense-of-automation.md)
-  * [🤓 The future of work?](filing/volume-2021/the-future-of-work.md)
-  * [🖥 The history of the internets](filing/volume-2021/the-history-of-the-internets.md)
+  * [⚙ In defense of automation](filing/in-defense-of-automation.md)
+  * [🤓 The future of work?](filing/the-future-of-work.md)
+  * [🖥 The history of the internets](filing/history-of-internets.md)
 
 ## Living
 
