@@ -114,6 +114,7 @@
 
 * [🖥 The history of the internets](filing/history-of-internets.md)
 * [🤓 The future of work?](filing/the-future-of-work.md)
+* [⚙ In defense of automation](filing/in-defense-of-automation.md)
 
 ## Living
 
