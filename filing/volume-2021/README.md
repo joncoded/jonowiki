@@ -1,5 +1,7 @@
 # 📖 Volume 2021
 
+Some summaries and opinions that I have:&#x20;
+
 {% content-ref url="../history-of-internets.md" %}
 [history-of-internets.md](../history-of-internets.md)
 {% endcontent-ref %}
