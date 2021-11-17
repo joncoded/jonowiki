@@ -4,6 +4,8 @@ description: allowing the user to reset the entire form
 
 # HTML input: reset
 
+### Essentials
+
 For whatever reason, this `<input>` with a `type="reset"` appears as a button and allows a user to return each field in the form back to its blank or default setting:&#x20;
 
 ```markup
