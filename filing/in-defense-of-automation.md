@@ -6,9 +6,9 @@ description: self-checkouts, automated buses or how about just no more elevator 
 
 We will always have people who fear or loathe the new:&#x20;
 
-* Self-checkouts: "Oh, what will the cashiers do? No way am I doing their job that they will lose!"
-* Automated buses: "The driver won't have a job now! What about in accidents?"
-  * (Have they ever thought about what would happen if the driver got hurt too?)
+* **Self-checkouts**: "Oh, what will the cashiers do? No way am I doing their job that they will lose!"
+* **Automated buses**: "The driver won't have a job now! What would happen during accidents?"
+  * So, what happens when the driver gets hurt in the accident?&#x20;
 
 Yet we have managed in the past to somehow let some "menial jobs" go:&#x20;
 
