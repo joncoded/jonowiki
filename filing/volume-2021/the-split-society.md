@@ -1,5 +1,5 @@
 ---
-description: possibly not split into just two but three or perhaps to the nth degree
+description: many agreements to disagree with few agreements to agree
 ---
 
 # 😎 The split society
