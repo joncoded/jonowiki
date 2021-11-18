@@ -115,6 +115,7 @@
   * [⚙ In defense of automation](filing/in-defense-of-automation.md)
   * [🤓 The future of work?](filing/the-future-of-work.md)
   * [🖥 The history of the internets](filing/history-of-internets.md)
+  * [😎 The split society](filing/volume-2021/the-split-society.md)
 
 ## Living
 
