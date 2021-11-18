@@ -6,14 +6,12 @@ Welcome to my virtual home (an on-going work-in-progress)!
 
 ### Starters
 
-{% content-ref url="filing/the-future-of-work.md" %}
-[the-future-of-work.md](filing/the-future-of-work.md)
-{% endcontent-ref %}
-
-{% content-ref url="filing/in-defense-of-automation.md" %}
-[in-defense-of-automation.md](filing/in-defense-of-automation.md)
-{% endcontent-ref %}
+Sub-books in progress:&#x20;
 
 {% content-ref url="contexts/webdev/" %}
 [webdev](contexts/webdev/)
+{% endcontent-ref %}
+
+{% content-ref url="filing/volume-2021/" %}
+[volume-2021](filing/volume-2021/)
 {% endcontent-ref %}
