@@ -6,11 +6,11 @@ An template for two CSS selectors and their properties:&#x20;
 
 ```css
 (selector1) {
-    (property1) : (value1) 
+    (property1) : (value1); 
 }
 
 (selector2) {
-    (property2) : (value2)
+    (property2) : (value2);
 }
 
 ...
