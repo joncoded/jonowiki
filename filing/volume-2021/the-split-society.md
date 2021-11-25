@@ -4,6 +4,8 @@ description: many agreements to disagree with few agreements to agree
 
 # 😎 The split society
 
+![I don't see myself as a "centrist" but more of an "inertian" when it comes to the left-right spectrum ;)](../../.gitbook/assets/FEzW-1iXMAA69So.jpeg)
+
 Anyone should have noticed, since 2016 and especially since 2020, that by now:&#x20;
 
 * You can no longer convince other people of things that go against their belief set
