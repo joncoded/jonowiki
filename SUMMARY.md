@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🏡 Introduction](README.md)
+* [🚩 About](master/about.md)
 
 ## Coding
 
@@ -110,21 +111,10 @@
   * [📕 (Glossary)](coding/webdev/glossary/README.md)
     * [🚨 Errors](coding/webdev/glossary/errors.md)
 
-## Filing
-
-* [📖 Volume 2021](filing/volume-2021/README.md)
-  * [⚙ In defense of automation](filing/in-defense-of-automation.md)
-  * [🤓 The future of work?](filing/the-future-of-work.md)
-  * [🖥 The history of the internets](filing/history-of-internets.md)
-  * [😎 The split society](filing/volume-2021/the-split-society.md)
-
 ## Living
 
-* [🌐 Geography](living/geography.md)
-* [📜 History](living/history.md)
-* [🀄 Language](living/language.md)
-* [📊 Mathematics](living/mathematics.md)
-
-***
-
-* [🚩 About](master/about.md)
+* [📖 Volume 2021](living/volume-2021/README.md)
+  * [⚙ In defense of automation](living/volume-2021/in-defense-of-automation.md)
+  * [🤓 The future of work?](living/volume-2021/the-future-of-work.md)
+  * [🖥 The history of the internets](living/volume-2021/the-history-of-the-internets.md)
+  * [😎 The split society](living/volume-2021/the-split-society.md)

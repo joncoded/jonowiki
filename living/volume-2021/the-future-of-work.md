@@ -4,8 +4,6 @@ description: wondering what will happen "after all this"
 
 # 🤓 The future of work?
 
-![](https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHx3b3JrJTIwZnJvbSUyMGhvbWV8ZW58MHx8fHwxNjM2OTI3MDY2\&ixlib=rb-1.2.1\&q=85)
-
 Countless discussions about how office workers will "return to the office" after "that thing in the early 2020s" have yielded three possibilities:
 
 * Permanently working from home (PWFH)
@@ -21,6 +19,8 @@ A "hybrid" company will gradually find themselves choosing either PWFH or PRTO f
   * Some of us don't have "just a laptop" but need accessories and other devices
 * The thought of having to sharing desks (not everyone will have their own "permanent" work station) might seem like a downgrade (or un-sanitary) compared to their home office or even their former permanent desk at that office
 * If everyone works from home, then everyone feels like they are "on the same digital boat"
+
+![](https://images.unsplash.com/photo-1606770347238-77fcfd29906c?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHx6b29tJTIwY2FsbHxlbnwwfHx8fDE2MzgxNTQzMjA\&ixlib=rb-1.2.1\&q=85)
 
 People who want PWFH_ _might claim that they:
 
@@ -50,7 +50,7 @@ I don't advocate for either permanent return-to-work or return-to-office but I s
 * Companies will eventually choose either PWFH or PRTO
 * Employees who react badly to the companies' decisions will "vote with their feet"&#x20;
 
-![](../.gitbook/assets/scalar-j-desk.jpg)
+![](../../.gitbook/assets/scalar-j-desk.jpg)
 
 So, the future of work should resemble one of the following:
 
