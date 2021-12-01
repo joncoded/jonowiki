@@ -6,18 +6,13 @@
 * Spacing (margins, borders, paddings)
 * Displaying
 * Positioning
-* Layering
-* Visibility
-* Transforming
+* Layering ("bring-to-front")
+* Visibility (hiding/showing)
+* Transforming (rotating/flipping)
 * Animating
 * Typography
-  * Colors
-  * Dimensions
-    * Font-style (italic)
-    * Font-variant (all caps, small caps)
-    * Font-weight (light, regular, bold)
-    * Font-size (in px \[pixels], pt \[points], em \[m-width], rem \[relative m-width])
-    * Font-family (Arial, Times, etc.)
+
+### Example
 
 CSS looks like this:
 

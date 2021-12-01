@@ -6,21 +6,21 @@ description: more meaningful way to "say" <div>
 
 Instead of using `<div>` tags to divide an HTML page up, **semantic HTML** allows us to replace "`div`" with more meaningful names such as:
 
-| Tag                                                                                                                                                                                                            | For                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| `<header>`                                                                                                                                                                                                     | the top of a page                                              |
-| `<nav>`                                                                                                                                                                                                        | ...a menu inside a header                                      |
-| `<main>`                                                                                                                                                                                                       | the main content of the page                                   |
-| `<section>`                                                                                                                                                                                                    | ...a part of the main content                                  |
-| `<article>`                                                                                                                                                                                                    | ...(think of a blog or a news site that show a list of posts!) |
-| `<aside>`                                                                                                                                                                                                      | ...related but "optional" content                              |
-| `<span>`                                                                                                                                                                                                       | ...differentiating content on the same line as the rest        |
-| `<figure>`                                                                                                                                                                                                     | ...encapsulating images/charts/diagrams or similar             |
-| `<figurecaption>`                                                                                                                                                                                              | ...a caption for the figure                                    |
-| `<embed src="...">`                                                                                                                                                                                            | ...animated GIFs (by convention, formerly for videos)          |
-| <p><code>&#x3C;audio controls></code></p><p>  <code>&#x3C;source src="..."></code></p><p>  <code>(Browser does not support audio element)</code></p><p><code>&#x3C;/audio></code></p>                          | ...a sound file                                                |
-| <p><code>&#x3C;video width="..." height="..." controls></code></p><p>  <code>&#x3C;source src="..."></code></p><p>  <code>(Browser does not support video element)</code></p><p><code>&#x3C;/video></code></p> | ...a video file                                                |
-| `<footer>`                                                                                                                                                                                                     | the bottom of a page                                           |
+| Tag                 | For                                                            |
+| ------------------- | -------------------------------------------------------------- |
+| `<header>`          | the top of a page                                              |
+| `<nav>`             | ...a menu inside a header                                      |
+| `<main>`            | the main content of the page                                   |
+| `<section>`         | ...a part of the main content                                  |
+| `<article>`         | ...(think of a blog or a news site that show a list of posts!) |
+| `<aside>`           | ...related but "optional" content                              |
+| `<span>`            | ...differentiating content on the same line as the rest        |
+| `<figure>`          | ...encapsulating images/charts/diagrams or similar             |
+| `<figurecaption>`   | ...a caption for the figure                                    |
+| `<embed src="...">` | ...animated GIFs (by convention, formerly for videos)          |
+| `<audio>`           | ...a sound file                                                |
+| `<video>`           | ...a video file                                                |
+| `<footer>`          | the bottom of a page                                           |
 
 Most of these tags could simply exist as `<div>` tags ... and the HTML would work the same way:
 

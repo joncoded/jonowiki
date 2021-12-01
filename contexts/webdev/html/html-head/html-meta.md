@@ -21,7 +21,7 @@ Located within the `<head>` tag, each `<meta>` tag usually consists of an attrib
 In the above example note that:
 
 * `charset` has no `name` attribute but simply describes what "character set" the page is using
-  * usually just has a value of `UTF-8` since nowadays that set contains _most_ of the alphabets and writing systems of the world's human languages
+  * usually just has a value of `UTF-8` since nowadays that set contains _most _of the alphabets and writing systems of the world's human languages
 * `description` for search engines to show a small blurb under your page's `<title>`
 * `keywords` to help the search engine lead users to your page if they type in these keywords
 * `author` not as important ;)

@@ -4,7 +4,7 @@ description: using this "hacker-looking" interface to access files
 
 # Command line
 
-We can access the file system using the **command line** (on Mac, via an application called _Terminal_ and on Windows, via _Command Prompt):_&#x20;
+We can access the file system using the **command line** (on Mac, via an application called _Terminal _and on Windows, via _Command Prompt): _
 
 ![](../../../.gitbook/assets/2021-01-20-at-22.02.57.png)
 

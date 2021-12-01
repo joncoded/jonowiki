@@ -11,7 +11,7 @@ These special characters come in three main types:
   * obscure mathematical symbols
   * obscure foreign characters
   * most currency symbols
-* **Emojis** (they are no longer pictures but now text-like characters!)
+* **Emoji** (no longer pictures but now exist as text-like characters!)
 
 ### Entities
 
