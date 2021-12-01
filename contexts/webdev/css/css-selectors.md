@@ -1,4 +1,4 @@
-# 🚧 CSS selectors
+# CSS selectors
 
 ### Structure
 
@@ -112,3 +112,41 @@ Looking at the attribute selectors above, we can see this has many fine-grained 
 [data-status$="war"] { ... }
 ```
 
+### Child selectors
+
+Let us define the parent element and child element as such:
+
+```html
+<div> <!-- parent -->
+  <p> <!-- child -->
+  </p>
+</div>
+```
+
+Then, to target only the child element, we simply use the "greater than" notation:
+
+```css
+div > p {
+    ...
+}
+```
+
+### Descendant selectors
+
+To target grand-children and great-grand-children elements (and so on), we just keep chaining the "greater than" notation:
+
+```css
+main > aside > p > span {
+    ...
+}
+```
+
+In order to select descendants of an ancestor element, regardless of "generation", simply place them side by side:
+
+```css
+main p {
+    ...
+}
+```
+
+That would apply the rule to any paragraph in the `<main>` tag!

@@ -31,7 +31,7 @@
     * [HTML special characters](contexts/webdev/html/html-entities-and-symbols.md)
   * [🖼 CSS](contexts/webdev/css/README.md)
     * [CSS setup](contexts/webdev/css/css-setup.md)
-    * [🚧 CSS selectors](contexts/webdev/css/css-selectors.md)
+    * [CSS selectors](contexts/webdev/css/css-selectors.md)
     * [🚧 CSS properties](coding/webdev/css/css-properties.md)
     * [CSS flexbox](contexts/javascript/css-flexbox.md)
     * [🚧 CSS grid](contexts/javascript/css-grid.md)
