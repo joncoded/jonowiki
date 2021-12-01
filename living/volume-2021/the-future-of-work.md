@@ -22,7 +22,7 @@ A "hybrid" company will gradually find themselves choosing either PWFH or PRTO f
 
 ![](https://images.unsplash.com/photo-1606770347238-77fcfd29906c?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHx6b29tJTIwY2FsbHxlbnwwfHx8fDE2MzgxNTQzMjA\&ixlib=rb-1.2.1\&q=85)
 
-People who want PWFH_ _might claim that they:
+People who want PWFH __ might claim that they:
 
 * reduce commuting (and other) costs with PWFH
 * save a lot of time with PRTO (by not commuting)

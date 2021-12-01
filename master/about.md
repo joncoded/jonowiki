@@ -8,9 +8,9 @@ description: me, my writing style, my platform
 
 ### Me
 
-* **front-end web developer **from Toronto, Canada (generationally-fluid)
+* **front-end web developer** from Toronto, Canada (generationally-fluid)
 * passions in **baseball**, **geography**, **languages**, **music** and **pandas**
-* a mission _to summarize information_ from various topics_ all in a format that suits me_!
+* a mission _to summarize information_ from various topics _all in a format that suits me_!
 
 ### My writing style
 

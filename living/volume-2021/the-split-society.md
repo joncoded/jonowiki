@@ -11,7 +11,7 @@ Anyone should have noticed, since 2016 and especially since 2020, that by now:&#
 * You can no longer convince other people of things that go against their belief set
   * despite glaring evidence against them (with mountains of proof and evidence), the other side will simply resist or change the subject
   * this goes regardless of which "political" "side" you lie on; no one is as "open minded" as they think
-* Essentially: people have made up their minds about things and will only change them _if they want to _and not because someone else has a convincing argument
+* Essentially: people have made up their minds about things and will only change them _if they want to_ and not because someone else has a convincing argument
 
 ### Split society
 

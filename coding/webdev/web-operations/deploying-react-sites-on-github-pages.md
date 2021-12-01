@@ -80,8 +80,8 @@ On GitHub:
 * Go into the repository's **Settings**
   * Go to the section **GitHub Pages**
   * Under **Source**
-    * Pick** "Branch: gh-pages" **
-      * leave the folder at** **/(root)
+    * Pick **"Branch: gh-pages"**&#x20;
+      * leave the folder at **** /(root)
     * Save
 
 Wait a few seconds or a few minutes to see the page live on yourname.github.io/yourrepo
