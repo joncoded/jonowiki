@@ -27,7 +27,6 @@
     * [HTML doctype](contexts/webdev/html/html-head/html-doctype.md)
     * [HTML \<head>](contexts/webdev/html/html-head/README.md)
       * [HTML \<meta>](contexts/webdev/html/html-head/html-meta.md)
-    * [🚧 HTML (optional content)](coding/webdev/html/html-optional-content.md)
     * [HTML special characters](contexts/webdev/html/html-entities-and-symbols.md)
   * [🖼 CSS](contexts/webdev/css/README.md)
     * [CSS setup](contexts/webdev/css/css-setup.md)
