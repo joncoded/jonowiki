@@ -150,3 +150,39 @@ main p {
 ```
 
 That would apply the rule to any paragraph in the `<main>` tag!
+
+### Sibling selectors
+
+Say that we have an element on the same level as another element in the HTML, e.g.:
+
+```markup
+<header>
+    <h2>...</h2>
+    <p>...</p>
+    <aside>...</aside>
+</header>
+```
+
+#### Adjacent siblings
+
+To reach an adjacent element on the same level as another element, we can use the "plus" notation:
+
+```css
+header h2 + p {
+    ...
+}
+```
+
+Note that, in that example, the `<p>` must come after `<h2>`!
+
+#### Non-adjacent siblings
+
+However, to reach a non-adjacent element, we can use the "tilde" notation:
+
+```css
+header h2 ~ aside {
+    ...
+}
+```
+
+That about covers most of the selectors we would encounter on a daily basis in front-end web development! Of course, more exist and we would simply search for them when the need arises!
