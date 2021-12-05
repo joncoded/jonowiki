@@ -95,4 +95,8 @@ Each developer may also have to take part in:
   * for enhancing the experience of the "finished" product
     * note: no product ever really gets "finished"
 
+{% content-ref url="../javascript/accessibility.md" %}
+[accessibility.md](../javascript/accessibility.md)
+{% endcontent-ref %}
+
 As one can gather, a lot of web development involves tasks other than simply programming!
