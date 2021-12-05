@@ -15,11 +15,12 @@ description: me, my writing style, my platform
 ### My writing style
 
 * I like hierarchy in writing: **headings** and **bulleted lists** make up my jam
-* Very few paragraphs in an age where people are in "TLDR mode"
+* Very few paragraphs in an age where people function in "TLDR mode"
 * [Sentence-case headings](https://en.wikipedia.org/wiki/Letter\_case#Sentence\_case) versus [Title-Case Headings](https://en.wikipedia.org/wiki/Title\_case)
-* Date-format: yyyy-mm-dd (e.g. 2022-08-11 for August 11, 2022)
-* Time-format: 24-hour clock
-* Drives on the right side of the road and thinks in terms of Canadian dollars
+  * especially for long headlines!
+* Date-format: _yyyy-mm-dd_ (e.g. 2022-08-11 for August 11, 2022)
+* Time-format: _24-hour_ clock for concise unambiguity
+* Thinks in terms of Canadian dollars when dealing with alternate currencies
 
 ### My platform
 
