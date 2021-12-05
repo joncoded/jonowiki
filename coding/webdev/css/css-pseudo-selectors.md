@@ -22,6 +22,8 @@ description: oh did they make things even more complicated!
 
 #### **: enabled**
 
+#### **: optional**
+
 #### **: required**
 
 #### **: invalid**
@@ -37,4 +39,14 @@ description: oh did they make things even more complicated!
 #### : last-child and : last-of-type
 
 #### : nth-child(x) and : nth-of-type(x)
+
+#### : only-child
+
+### Text-related pseudo-classes
+
+#### : first-letter
+
+: first-line
+
+
 
