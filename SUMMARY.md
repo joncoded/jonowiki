@@ -117,7 +117,6 @@
 ## Living
 
 * [📖 Volume 2021](living/volume-2021/README.md)
-  * [⚙ In defense of automation](living/volume-2021/in-defense-of-automation.md)
   * [🤓 The future of work?](living/volume-2021/the-future-of-work.md)
   * [🖥 The history of the internets](living/volume-2021/the-history-of-the-internets.md)
-  * [😎 The split society](living/volume-2021/the-split-society.md)
+  * [⚙ In defense of automation](living/volume-2021/in-defense-of-automation.md)

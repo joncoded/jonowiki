@@ -14,6 +14,6 @@ Some summaries and opinions that I have:&#x20;
 [in-defense-of-automation.md](in-defense-of-automation.md)
 {% endcontent-ref %}
 
-{% content-ref url="the-split-society.md" %}
-[the-split-society.md](the-split-society.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
