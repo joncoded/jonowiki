@@ -33,6 +33,7 @@
     * [CSS setup](contexts/webdev/css/css-setup.md)
     * [CSS selectors](contexts/webdev/css/css-selectors.md)
     * [🚧 CSS pseudo-classes](coding/webdev/css/css-pseudo-selectors.md)
+    * [🚧 CSS colors](coding/webdev/css/css-colors.md)
     * [CSS flexbox](contexts/javascript/css-flexbox.md)
     * [🚧 CSS grid](contexts/javascript/css-grid.md)
   * [👍 Accessibility](contexts/javascript/accessibility.md)
