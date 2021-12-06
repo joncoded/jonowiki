@@ -22,3 +22,17 @@
   * closer to 0% = increasingly darker to fully black
   * 50% = normal lighting
   * closer to 100% = increasingly brighter to fully white
+
+### Alpha in RSB(A) and HSL(A)
+
+The alpha, or opacity, represents the fourth argument in each of RGB and HSL:
+
+```css
+.RGBAClass {
+    color: rgba(100, 150, 200, 0.2) /* 20% opacity */
+}
+
+.HSLAclass {
+    color: hsla(240, 50%, 50%, 1.0) /* 100% opacity */
+}
+```
