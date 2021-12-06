@@ -49,10 +49,10 @@ However, instead of using a combination of digits and letters in each argument, 
   * 180 = cyan
   * 240 = blue
   * 300 = violet
-* Second number represents the **saturation**
-  * 100% = richer color
-  * 0% = grayer tone
-* Third number represents the **luminosity**
+* Second number represents the **saturation** (ranging from 0% to 100%)
+  * 0% = less color (grayer look)
+  * 100% = richer color (more vivid look)
+* Third number represents the **luminosity** (ranging from 0% to 100%)
   * closer to 0% = increasingly darker to fully black
   * 50% = normal lighting
   * closer to 100% = increasingly brighter to fully white
