@@ -118,5 +118,5 @@
 
 * [📖 Volume 2021](living/volume-2021/README.md)
   * [🤓 The future of work?](living/volume-2021/the-future-of-work.md)
-  * [🖥 The history of the internets](living/volume-2021/the-history-of-the-internets.md)
+  * [🖥 The history of the webs](living/volume-2021/the-history-of-the-webs.md)
   * [⚙ In defense of automation](living/volume-2021/in-defense-of-automation.md)

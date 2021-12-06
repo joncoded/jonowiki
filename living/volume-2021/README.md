@@ -2,8 +2,8 @@
 
 Some summaries and opinions that I have:&#x20;
 
-{% content-ref url="the-history-of-the-internets.md" %}
-[the-history-of-the-internets.md](the-history-of-the-internets.md)
+{% content-ref url="the-history-of-the-webs.md" %}
+[the-history-of-the-webs.md](the-history-of-the-webs.md)
 {% endcontent-ref %}
 
 {% content-ref url="the-future-of-work.md" %}
