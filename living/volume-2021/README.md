@@ -13,7 +13,3 @@ Some summaries and opinions that I have:&#x20;
 {% content-ref url="in-defense-of-automation.md" %}
 [in-defense-of-automation.md](in-defense-of-automation.md)
 {% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
