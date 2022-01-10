@@ -1,5 +1,9 @@
 # 🏡 Introduction
 
-Welcome to my virtual home (an on-going work-in-progress)!
+**Welcome to my virtual home (an on-going work-in-progress)!**
 
-![](.gitbook/assets/scalar-j-desk.jpg)
+### What's recent?&#x20;
+
+I recently (December 2021) **went to Iceland** and created a photo-map-blog thing:&#x20;
+
+{% embed url="https://joncoded.github.io/mapstory-202112-is/src" %}
