@@ -58,7 +58,7 @@ Items _within the container_ would still enjoy the flexbox layout!
   4. `space-around`
   5. `space-between`
 
-![](../../.gitbook/assets/justify-content.png)
+![](../../../.gitbook/assets/justify-content.png)
 
 {% code title="index.html" %}
 ```markup
@@ -85,7 +85,7 @@ Items _within the container_ would still enjoy the flexbox layout!
   * `flex-end`
   * `center`
 
-![](../../.gitbook/assets/align-items.png)
+![](../../../.gitbook/assets/align-items.png)
 
 * `align-content` (**vertical alignment** for the _**entire flex container**_)
   * `flex-start` (see `align-items` for diagram)
