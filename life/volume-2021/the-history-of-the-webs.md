@@ -2,7 +2,7 @@
 description: a timeline of how computers all came together
 ---
 
-# 🖥 The history of the internets
+# 🖥 The history of the webs
 
 ### Pre-Web (< 1990s)
 

@@ -6,7 +6,7 @@ description: Going from nothing to a boilerplate for your future React projects
 
 ### Pre-requisites
 
-* Ability to run UNIX commands on a [command-line interface](../../webdev/workspace/command-line.md)
+* Ability to run UNIX commands on a [command-line interface](../workspace/command-line.md)
 * You know that `$` means the prompt of a Terminal command line
 * You have [npm](https://www.npmjs.com) installed (check by entering `$ npm -v` on Terminal)
   * If it reveals a version number, then you're okay

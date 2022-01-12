@@ -56,7 +56,7 @@ https://app.netlify.com/sites/{your app-url here}/overview
 
 To **re-deploy** an app, repeat these steps starting from the _second_ step of this article!
 
-### Review <a href="block-3981a9a5-5fcd-47d1-a49b-93c867e5d9fe" id="block-3981a9a5-5fcd-47d1-a49b-93c867e5d9fe"></a>
+### Review <a href="#block-3981a9a5-5fcd-47d1-a49b-93c867e5d9fe" id="block-3981a9a5-5fcd-47d1-a49b-93c867e5d9fe"></a>
 
 We can sum up the Netlify deploy process as the following:
 
@@ -66,6 +66,6 @@ We can sum up the Netlify deploy process as the following:
 
 ![What the Netlify deployment process actually looks like in Terminal!](https://www.joncoded.com/wp-content/uploads/netlify.jpg)
 
-### References <a href="block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2" id="block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2"></a>
+### References <a href="#block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2" id="block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2"></a>
 
 * [Chris Dixon](https://www.youtube.com/watch?v=QnNdneKQR9M) (YouTube)
