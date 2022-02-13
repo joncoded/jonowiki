@@ -109,8 +109,6 @@
   * [🚀 Deployment](code/webdev/web-operations/README.md)
     * [Deploying React sites on GitHub pages](code/webdev/web-operations/deploying-react-sites-on-github-pages.md)
     * [Deploying on Netlify](code/webdev/web-operations/deploying-on-netlify.md)
-  * [🤔 Theories](code/webdev/theories/README.md)
-    * [3 basic kinds of websites](code/webdev/theories/3-basic-kinds-of-websites.md)
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
 
