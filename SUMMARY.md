@@ -5,7 +5,7 @@
 
 ## Code
 
-* [🖱 Web development](code/webdev/README.md)
+* [🖱 Notebook](code/webdev/README.md)
   * [🧰 Workspace](code/webdev/workspace/README.md)
     * [Command line](code/webdev/workspace/command-line.md)
   * [🛡 HTML](code/webdev/html/README.md)
@@ -111,6 +111,7 @@
     * [Deploying on Netlify](code/webdev/web-operations/deploying-on-netlify.md)
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
+* [📐 Projects](code/projects.md)
 
 ## Life
 

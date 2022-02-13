@@ -1,8 +1,8 @@
 ---
-description: about the things we do
+description: about web development
 ---
 
-# 🖱 Web development
+# 🖱 Notebook
 
 ### **Introduction**
 
