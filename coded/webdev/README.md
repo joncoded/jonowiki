@@ -2,7 +2,7 @@
 description: about web development
 ---
 
-# 🖱 Notebook
+# 🖱 Noted
 
 ### **Introduction**
 
