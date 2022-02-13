@@ -110,9 +110,14 @@
     * [Deploying React sites on GitHub pages](code/webdev/web-operations/deploying-react-sites-on-github-pages.md)
     * [Deploying on Netlify](code/webdev/web-operations/deploying-on-netlify.md)
   * [🤔 (Thoughts)](code/webdev/thoughts/README.md)
-    * [🖥 The history of the webs](code/webdev/thoughts/the-history-of-the-webs.md)
-    * [🤓 The future of work?](code/webdev/thoughts/the-future-of-work.md)
-    * [⚙ In defense of automation](code/webdev/thoughts/in-defense-of-automation.md)
+    * [🖥 The history of the webs](life/volume-2021/the-history-of-the-webs.md)
+    * [🤓 The future of work?](life/volume-2021/the-future-of-work.md)
+    * [⚙ In defense of automation](life/volume-2021/in-defense-of-automation.md)
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
 * [📐 Projects](code/projects.md)
+
+## Life
+
+* [2022](life/2022.md)
+* [2021](life/2021.md)
