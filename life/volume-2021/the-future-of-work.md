@@ -50,7 +50,7 @@ I don't advocate for either permanent return-to-work or return-to-office but I s
 * Companies will eventually choose either PWFH or PRTO
 * Employees who react badly to the companies' decisions will "vote with their feet"&#x20;
 
-![](../../../.gitbook/assets/scalar-j-desk.jpg)
+![](../../.gitbook/assets/scalar-j-desk.jpg)
 
 So, the future of work should resemble one of the following:
 
