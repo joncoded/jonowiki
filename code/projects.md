@@ -22,3 +22,8 @@ description: personal web-development and programming projects
 
 ![](<../.gitbook/assets/ 2022-02-21 at 16.59.06.png>)
 
+### \[ celllist ]
+
+\[ [demo](https://joncoded.github.io/celllist) ] \[ [repo](https://github.com/joncoded/celllist) ] a snippet in React that enables the sorting of tables&#x20;
+
+![](../.gitbook/assets/code-celllist.png)
