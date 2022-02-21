@@ -6,7 +6,7 @@ description: me and my style
 
 
 
-![](../.gitbook/assets/scalar-j-desk.jpg)
+![](broken-reference)
 
 ### Me
 
