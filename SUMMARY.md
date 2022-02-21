@@ -110,8 +110,6 @@
     * [Deploying React sites on GitHub pages](code/webdev/web-operations/deploying-react-sites-on-github-pages.md)
     * [Deploying on Netlify](code/webdev/web-operations/deploying-on-netlify.md)
   * [🤔 (Thoughts)](code/webdev/thoughts/README.md)
-    * [🖥 The history of the webs](life/volume-2021/the-history-of-the-webs.md)
-    * [🤓 The future of work?](life/volume-2021/the-future-of-work.md)
     * [⚙ In defense of automation](life/volume-2021/in-defense-of-automation.md)
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
