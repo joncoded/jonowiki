@@ -4,8 +4,6 @@ description: self-checkouts, automated buses or how about just no more elevator 
 
 # ⚙ In defense of automation
 
-![](https://images.unsplash.com/photo-1567789884554-0b844b597180?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxhdXRvbWF0aW9ufGVufDB8fHx8MTYzNzIwOTI0Nw\&ixlib=rb-1.2.1\&q=85)
-
 We will always have people who fear or loathe the new with things such as:
 
 * **Self-checkouts**: "Oh, what will the cashiers do? No way am I doing their job that they will lose!"
@@ -15,8 +13,6 @@ We will always have people who fear or loathe the new with things such as:
 * **Automated buses**: "The driver won't have a job now! What would happen during accidents?"
   * So, what happens when the driver gets hurt in the accident?
   * Do they think that passengers are all completely helpless people?
-
-![](https://images.unsplash.com/photo-1583737097406-5a4b42b37b97?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwzfHxhc3NlbWJseSUyMGxpbmV8ZW58MHx8fHwxNjM3MjA5MzQ1\&ixlib=rb-1.2.1\&q=85)
 
 We have also managed in the past to somehow let some "menial jobs" go:
 
