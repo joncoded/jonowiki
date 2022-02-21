@@ -2,7 +2,7 @@
 description: about web development
 ---
 
-# 🖱 Notebook
+# 📖 Docs
 
 ### **Introduction**
 
@@ -24,7 +24,7 @@ To present data, we connect the following "3 S's":
 
 * **Structuring** (HTML)
   * to enforce the **sensibility (order) of visual components**
-  * to ensure that a web resource has [**accessibility to everyone**](accessibility.md)****
+  * to ensure that a web resource has [**accessibility to everyone**](accessibility.md)\*\*\*\*
 * **Styling** (CSS)
   * to enhance the **visual look-and-feel**
 * **Scripting** (e.g. JavaScript, React, Angular, jQuery, etc.)

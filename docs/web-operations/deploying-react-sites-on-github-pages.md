@@ -1,12 +1,10 @@
 # Deploying React sites on GitHub pages
 
-
-
 ### Connecting the local repository with the remote
 
-If we have not yet already, let us run these commands in **Terminal**:&#x20;
+If we have not yet already, let us run these commands in **Terminal**:
 
-* `$ git init`&#x20;
+* `$ git init`
 * `$ git remote origin add (remote url on github)`
 * `$ git add -A`
 * `$ git commit -m "pushing initial version"`
@@ -36,7 +34,7 @@ Then, let's set up the `gh-pages` package as a "dev dependency":
 }
 ```
 
-Overall, the `package.json` file should look something like:&#x20;
+Overall, the `package.json` file should look something like:
 
 ```
 {
@@ -66,7 +64,7 @@ Overall, the `package.json` file should look something like:&#x20;
 
 ### Deploying
 
-* In Terminal, we can run just one-liner command:&#x20;
+* In Terminal, we can run just one-liner command:
 
 ```
 $ npm run deploy
@@ -80,8 +78,8 @@ On GitHub:
 * Go into the repository's **Settings**
   * Go to the section **GitHub Pages**
   * Under **Source**
-    * Pick **"Branch: gh-pages"**&#x20;
-      * leave the folder at **** /(root)
+    * Pick **"Branch: gh-pages"**
+      * leave the folder at \*\*\*\* /(root)
     * Save
 
 Wait a few seconds or a few minutes to see the page live on yourname.github.io/yourrepo
@@ -96,5 +94,5 @@ For every time that we wish to re-deploy, we just run these commands:
 * `$ npm run deploy`
 
 {% hint style="success" %}
-With [command aliasing](broken-reference) we can turn those four commands into probably just one or two commands!
+With [command aliasing](../../code/webdev/web-operations/broken-reference/) we can turn those four commands into probably just one or two commands!
 {% endhint %}

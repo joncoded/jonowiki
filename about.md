@@ -1,16 +1,17 @@
 ---
-description: me, my writing style, my platform
+description: me and my writing style
 ---
 
-# 🚩 About
+# 🚩 Aims
 
 
 
-![](../.gitbook/assets/scalar-j-desk.jpg)
+![](.gitbook/assets/scalar-j-desk.jpg)
 
 ### Me
 
-* **front-end web developer** from Toronto, Canada&#x20;
+* career and goals in **front-end web development**&#x20;
+  * HTML + CSS + JavaScript + jQuery + React
 * interests in **baseball**, **geography**, **languages**, **music** and **pandas**
 
 ### Style

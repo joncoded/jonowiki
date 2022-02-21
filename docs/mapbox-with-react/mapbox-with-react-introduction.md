@@ -1,12 +1,10 @@
 # Mapbox with React (introduction)
 
-
-
 [Mapbox](https://www.mapbox.com) allows us to display a customized map on our own websites (provided we stay within limits) - to do so, we need:
 
 ### Prerequisites
 
-* [Mapbox access token](https://account.mapbox.com)&#x20;
+* [Mapbox access token](https://account.mapbox.com)
 * [Mapbox GL](https://docs.mapbox.com/mapbox-gl-js/api/) Javascript library
 * Node.js with npm installed
 * [GitHub](https://github.com) account (optional for deployment)
@@ -25,12 +23,12 @@ In your project folder:
   * `index.html` where the final product will display
   * `index.css` to house the styles for index.html
 * Create an `src` folder and create the files to compile:
-  * `index.js`  for all the React logic
+  * `index.js` for all the React logic
 
 #### Setting up `package.json`
 
-* Copy and paste this into `package.json`&#x20;
-  * of course: change any text that includes the (bracketed text):&#x20;
+* Copy and paste this into `package.json`
+  * of course: change any text that includes the (bracketed text):
 
 ```javascript
 {
@@ -58,7 +56,7 @@ In your project folder:
 ```
 
 {% hint style="warning" %}
-Note that the properties of the `dependencies`  may require updating for future versions!
+Note that the properties of the `dependencies` may require updating for future versions!
 {% endhint %}
 
 #### Installing dependencies
@@ -69,7 +67,7 @@ Note that the properties of the `dependencies`  may require updating for future 
 ### Creating the HTML index file
 
 * We'll go into the `public` folder and open the `index.html` file
-* The following lines will minimally setup our map interface:  &#x20;
+* The following lines will minimally setup our map interface:
 
 ```markup
 <!DOCTYPE html>
@@ -100,7 +98,7 @@ Note that the properties of the `dependencies`  may require updating for future 
 ```
 
 {% hint style="info" %}
-If the above looks unfamiliar, please [review the HTML section about the \<head> tag](broken-reference) 👨‍💻
+If the above looks unfamiliar, please [review the HTML section about the \<head> tag](../../code/webdev/mapbox-with-react/broken-reference/) 👨‍💻
 {% endhint %}
 
 React will:
@@ -134,7 +132,7 @@ ReactDOM.render(<Map />, document.getElementById('app'))
 * Unpacking the above:
   * the first two lines deal with React
   * the next four lines actually deal with Mapbox
-    * remember to change `YOUR_MAPBOX_ACCESS_TOKEN`&#x20;
+    * remember to change `YOUR_MAPBOX_ACCESS_TOKEN`
   * finally, we have our app as the remainder of the file
     * all that React code will export into the `<div id="app"></div>` of the `index.html` file
 
@@ -236,12 +234,12 @@ ReactDOM.render(<Map />, document.getElementById('app'))
 
 * OK, let's test the map!
 * Go back to Terminal into the project folder and type `$ npm start`
-* When we see a message that says "Compiled successfully!" we can then:&#x20;
+* When we see a message that says "Compiled successfully!" we can then:
   * take note of the addresses where we can view in the browser
   * go to the browser and have a look
 
-![](../../../.gitbook/assets/remapbox-001.png)
+![](../../.gitbook/assets/remapbox-001.png)
 
 ### Deployment
 
-* Please refer to the [previous page](broken-reference) to see how to make this map appear on the Internet:
+* Please refer to the [previous page](../../code/webdev/mapbox-with-react/broken-reference/) to see how to make this map appear on the Internet:

@@ -1,13 +1,13 @@
 # Mapbox with React (components)
 
-To create a component located within [the map from the previous section](broken-reference):
+To create a component located within [the map from the previous section](../../code/webdev/mapbox-with-react/broken-reference/):
 
 * Continue working inside the `useEffect` function to add new functionality
 * Continue working inside the `return` statement to show this new functionality
 
 ### Adding new functionality
 
-Let's go back to `src/index.js` continuing off inside the `useEffect` from [this point](broken-reference):&#x20;
+Let's go back to `src/index.js` continuing off inside the `useEffect` from [this point](../../code/webdev/mapbox-with-react/broken-reference/):
 
 {% code title="src/index.js" %}
 ```jsx
@@ -101,8 +101,8 @@ Also in the CSS file:
 
 ### Result
 
-The map should have a small "bar" at the top left which displays the latitude, longitude and zoom level:&#x20;
+The map should have a small "bar" at the top left which displays the latitude, longitude and zoom level:
 
-![](<../../../.gitbook/assets/ 2021-03-13 at 14.37.41.png>)
+![](<../../.gitbook/assets/ 2021-03-13 at 14.37.41.png>)
 
 From this, we can then position all sorts of super-imposed component onto the map such as notes, statistics, legends and beyond!
