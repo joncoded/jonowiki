@@ -1,5 +1,5 @@
 ---
-description: reviewing non-web-development topics
+description: scribbling non-web-development ideas and topics
 ---
 
 # 🗃 File
