@@ -8,8 +8,8 @@
 }
 ```
 
-* We could simply use English names of colors but&#x20;
-  * we limit ourselves in terms of shades &#x20;
+* We could simply use English names of colors but
+  * we limit ourselves in terms of shades
   * we can become prone to spelling mistakes :P
 
 ### Hexadecimal colors
@@ -34,9 +34,9 @@ Each argument has a range from 0 (black) to 255 (white), creating around 16.7 mi
 }
 ```
 
-* First number represents the amount of red&#x20;
+* First number represents the amount of red
 * Second, the amount of green
-* Third, the amount of blue&#x20;
+* Third, the amount of blue
 
 However, instead of using a combination of digits and letters in each argument, we can use simpler integers from 0 to 255!
 

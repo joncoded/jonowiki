@@ -42,7 +42,7 @@ As part of semantic HTML, `<table>` tags allow us to make "two-dimensional lists
 
 ### Elements
 
-We will look at the tags above in the table below:&#x20;
+We will look at the tags above in the table below:
 
 | Tag        | Nesting level | Meaning                                                                                                           |
 | ---------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -57,9 +57,9 @@ We will look at the tags above in the table below:&#x20;
 
 ### Attributes
 
-One attribute to note is `scope` for table headings; these simply denote whether the heading refers to:&#x20;
+One attribute to note is `scope` for table headings; these simply denote whether the heading refers to:
 
-* items vertically below it (`col`) as a column&#x20;
+* items vertically below it (`col`) as a column
 * items that follow it (`row`) as a row
 
 Older attributes used to live in the `<table>` tag (e.g. `cellspacing` and `cellpadding`) but CSS takes care of them of these days!

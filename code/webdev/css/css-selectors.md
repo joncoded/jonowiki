@@ -2,7 +2,7 @@
 
 ### Structure
 
-A template for two CSS selectors and their properties:&#x20;
+A template for two CSS selectors and their properties:
 
 ```css
 (selector1) {

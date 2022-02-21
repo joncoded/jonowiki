@@ -34,7 +34,7 @@ We can certainly add more attributes:
 
 ### Takeaways
 
-Most of those attributes are self-explanatory and "google-able" but taking note that:&#x20;
+Most of those attributes are self-explanatory and "google-able" but taking note that:
 
-* the difference between a `name` and `id` lies on the requirement uniqueness of `id`&#x20;
+* the difference between a `name` and `id` lies on the requirement uniqueness of `id`
 * we can use `name` multiple times in the same HTML document!

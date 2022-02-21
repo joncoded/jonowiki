@@ -94,5 +94,5 @@ For every time that we wish to re-deploy, we just run these commands:
 * `$ npm run deploy`
 
 {% hint style="success" %}
-With [command aliasing](../../code/webdev/web-operations/broken-reference/) we can turn those four commands into probably just one or two commands!
+With [command aliasing](broken-reference/) we can turn those four commands into probably just one or two commands!
 {% endhint %}

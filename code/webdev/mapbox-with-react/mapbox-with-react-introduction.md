@@ -98,7 +98,7 @@ Note that the properties of the `dependencies` may require updating for future v
 ```
 
 {% hint style="info" %}
-If the above looks unfamiliar, please [review the HTML section about the \<head> tag](../../code/webdev/mapbox-with-react/broken-reference/) 👨‍💻
+If the above looks unfamiliar, please [review the HTML section about the \<head> tag](broken-reference/) 👨‍💻
 {% endhint %}
 
 React will:
@@ -238,8 +238,8 @@ ReactDOM.render(<Map />, document.getElementById('app'))
   * take note of the addresses where we can view in the browser
   * go to the browser and have a look
 
-![](../../.gitbook/assets/remapbox-001.png)
+![](../../../.gitbook/assets/remapbox-001.png)
 
 ### Deployment
 
-* Please refer to the [previous page](../../code/webdev/mapbox-with-react/broken-reference/) to see how to make this map appear on the Internet:
+* Please refer to the [previous page](broken-reference/) to see how to make this map appear on the Internet:

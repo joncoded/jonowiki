@@ -39,6 +39,5 @@ The `<input>` field for `type="checkbox"` looks like this:
   * When the checkbox _does not_ have a `value` then the value would simply be `on`
 * The `checked` attribute makes the checkbox checked by default
   * We can do this for more than one checkbox
-* The `<label>` for each `type="checkbox"` corresponds with each checkbox's `id` value (not the `name`)&#x20;
+* The `<label>` for each `type="checkbox"` corresponds with each checkbox's `id` value (not the `name`)
 * The `<label>` also allows the user to click on the label instead of the checkbox for greater accessibility
-

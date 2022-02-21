@@ -35,7 +35,7 @@ h2 {
 }
 ```
 
-Let's break that down ... the **selector** (h1) sits before an empty **declaration block** (curly braces)**:**&#x20;
+Let's break that down ... the **selector** (h1) sits before an empty **declaration block** (curly braces)**:**
 
 ```css
 h1 {}
@@ -47,7 +47,7 @@ Meanwhile, a **declaration** consists of:
 [a property]: [a value]
 ```
 
-e.g.:&#x20;
+e.g.:
 
 ```css
 h1 {

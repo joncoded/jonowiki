@@ -38,7 +38,7 @@ The `<input>` field for `type="radio"` looks like this:
 
 ### Takeaways
 
-* Unlike `type="text"` each `type="radio"` button must have the same `name` if it belongs to a set of related options&#x20;
+* Unlike `type="text"` each `type="radio"` button must have the same `name` if it belongs to a set of related options
   * (we would have a different value for the `name` attribute if we have another set of related options elsewhere on the same form, as in the case with `gender`)
 * The `value` attribute does not need to have the same value as the text in the `<label>`
   * i.e. the form will submit `"en"` even though the user may see `English` on the form

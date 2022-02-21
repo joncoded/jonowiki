@@ -6,7 +6,7 @@ description: allowing a programmer to include hidden information upon form submi
 
 ### Essentials
 
-In a form, an `<input>` tag with a `type="hidden"` would usually not appear on the form interface  but remain in the background:&#x20;
+In a form, an `<input>` tag with a `type="hidden"` would usually not appear on the form interface but remain in the background:
 
 ```markup
 <form action="destination.html" method="post">

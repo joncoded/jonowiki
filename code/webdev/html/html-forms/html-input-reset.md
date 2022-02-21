@@ -6,7 +6,7 @@ description: allowing the user to reset the entire form
 
 ### Essentials
 
-For whatever reason, this `<input>` with a `type="reset"` appears as a button and allows a user to return each field in the form back to its blank or default setting:&#x20;
+For whatever reason, this `<input>` with a `type="reset"` appears as a button and allows a user to return each field in the form back to its blank or default setting:
 
 ```markup
 <form action="destination.html" method="post">
@@ -46,14 +46,14 @@ For whatever reason, this `<input>` with a `type="reset"` appears as a button an
 In the example above, if we click "Reset", then:
 
 * The fields for "First name" and "Last name" would become blank
-* The select drop-down for "Gender" would revert back to "Male" if we had selected anything other than "Male"&#x20;
+* The select drop-down for "Gender" would revert back to "Male" if we had selected anything other than "Male"
 
 ### Takeaways
 
-Personally, using a "Reset" button:&#x20;
+Personally, using a "Reset" button:
 
 * feels like a waste of time after filling in a whole form
-* feels like over-kill after filling in just one field!&#x20;
+* feels like over-kill after filling in just one field!
 * could potentially annoy the user if clicked accidentally
 
 Still, this `input` type remains available for some odd reason...

@@ -6,7 +6,7 @@ description: me and my writing style
 
 
 
-![](.gitbook/assets/scalar-j-desk.jpg)
+![](../.gitbook/assets/scalar-j-desk.jpg)
 
 ### Me
 
