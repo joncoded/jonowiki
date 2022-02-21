@@ -1,6 +1,3 @@
----
-description: welcome to my home on the internet!
----
 
 # 🏡 \~\~\~\~
 
