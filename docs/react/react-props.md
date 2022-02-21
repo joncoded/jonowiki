@@ -62,7 +62,7 @@ export default App;
 
 ### Making each repetition "unique"
 
-However, we can go one step further and make the code re-use even more dynamic by adding [HTML-like attributes](../../../a/1678/) to each instance of `<SomeComponent />`:
+However, we can go one step further and make the code re-use even more dynamic by adding [HTML-like attributes](https://github.com/joncoded/jonsdocs/blob/main/a/1678/README.md) to each instance of `<SomeComponent />`:
 
 ```jsx
 import React from 'react';

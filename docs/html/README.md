@@ -21,4 +21,4 @@ In this section, we will review how to:
   * Build HTML [tables](html-tables.md) to display two-dimensional data
   * Build HTML [forms](html-forms/) for user interactivity
 * Manipulate the HTML [head](html-head/) which gives a webpage its metadata
-* Do some [optional stuff](broken-reference/)
+* Do some [optional stuff](https://github.com/joncoded/jonsdocs/blob/main/code/webdev/html/broken-reference/README.md)
