@@ -1,7 +1,6 @@
 # Table of contents
 
 * [🏡 Intro](README.md)
-* [🚩 About](master/about.md)
 
 ## Coded
 
@@ -125,3 +124,4 @@
 * [🗓 2017](life/2017.md)
 * [🗓 2016](life/2016.md)
 * [🗓 2014](life/2014.md)
+* [🚩 About](lived/about.md)
