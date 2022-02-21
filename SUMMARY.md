@@ -110,6 +110,7 @@
     * [🚨 Errors](code/webdev/glossary/errors.md)
 * [🗃 File](thoughts/README.md)
   * [⚙ In defense of automation](thoughts/in-defense-of-automation.md)
+  * [✈ Tourist typologies](file/tourist-typologies.md)
 * [😌 Life](life/README.md)
   * [🗓 2022](life/2022.md)
   * [🗓 2021](life/2021.md)
