@@ -1,6 +1,10 @@
+---
+description: launching those projects on Netlify
+---
+
 # Deploying on Netlify
 
-Other ways exist to **deploy** a web app (such as Heroku and GitHub pages) but let's use [Netlify](http://netlify.com)...
+&#x20;Other ways exist to **deploy** a web app (such as Heroku and GitHub pages) but let's use [Netlify](http://netlify.com)...
 
 ### Installing Netlify
 

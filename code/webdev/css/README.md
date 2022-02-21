@@ -1,3 +1,7 @@
+---
+description: styling a website using a design language
+---
+
 # 🖼 CSS
 
 **Cascading style sheets (CSS)** allows us to "style" a website and its components, in terms of its:

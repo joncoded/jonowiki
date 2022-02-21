@@ -1,5 +1,5 @@
 ---
-description: how to document your clean code
+description: documenting the script
 ---
 
 # JavaScript comments and whitespace

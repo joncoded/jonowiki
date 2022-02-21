@@ -1,3 +1,7 @@
+---
+description: passing data from parent to child components
+---
+
 # React props
 
 We streamline repetitive code with components, e.g. using subcomponent files:

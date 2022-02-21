@@ -1,3 +1,7 @@
+---
+description: accessing information about each function
+---
+
 # JavaScript function properties
 
 Every function (also an object) has two properties:

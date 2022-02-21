@@ -1,5 +1,5 @@
 ---
-description: how to begin web development
+description: reviewing how to get started with web development projects
 ---
 
 # 🧰 Workspace

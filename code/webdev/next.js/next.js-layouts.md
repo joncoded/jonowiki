@@ -1,3 +1,7 @@
+---
+description: arranging components
+---
+
 # Next.js layouts
 
 So now we have got the hang of creating pages in Next.js!

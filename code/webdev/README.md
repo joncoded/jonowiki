@@ -1,5 +1,5 @@
 ---
-description: about web development
+description: reviewing web-development concepts
 ---
 
 # 📖 Docs

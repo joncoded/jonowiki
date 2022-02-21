@@ -1,5 +1,5 @@
 ---
-description: the structural foundation of building websites
+description: structuring websites with a markup language
 ---
 
 # 🛡 HTML

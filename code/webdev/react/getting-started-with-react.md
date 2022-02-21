@@ -1,5 +1,5 @@
 ---
-description: Going from nothing to a boilerplate for your future React projects
+description: going from nothing to a boilerplate for your future React projects
 ---
 
 # React setup

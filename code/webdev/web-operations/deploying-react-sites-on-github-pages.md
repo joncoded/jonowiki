@@ -1,3 +1,7 @@
+---
+description: launching those projects on GitHub.io
+---
+
 # Deploying React sites on GitHub pages
 
 ### Connecting the local repository with the remote

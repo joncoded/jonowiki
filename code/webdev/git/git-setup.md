@@ -1,3 +1,7 @@
+---
+description: getting git on your computer
+---
+
 # Git setup
 
 After installation, we may wish to customize your Git with the following:

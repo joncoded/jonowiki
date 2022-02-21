@@ -1,5 +1,5 @@
 ---
-description: a library of JavaScript that can make dynamic user interfaces
+description: making dynamic user interfaces with this JavaScript library
 ---
 
 # ⚛ React

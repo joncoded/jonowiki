@@ -1,3 +1,7 @@
+---
+description: concatenating strings with variables in a neater way
+---
+
 # JavaScript string interpolation
 
 {% hint style="warning" %}

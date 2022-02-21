@@ -1,3 +1,7 @@
+---
+description: looking at some more good-to-know topics
+---
+
 # JavaScript (optional topics)
 
 The following are "nice-to-know" things in JavaScript ... although not essential, they can change your programming experience if you choose to use them:

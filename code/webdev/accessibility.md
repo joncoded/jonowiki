@@ -1,4 +1,8 @@
-# 👍 Accessibility
+---
+description: allowing everyone to use our web projects
+---
+
+# 🚧 Accessibility
 
 ### Definition
 

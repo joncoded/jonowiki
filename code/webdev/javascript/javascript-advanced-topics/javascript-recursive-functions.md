@@ -1,3 +1,7 @@
+---
+description: calling the function inside itself
+---
+
 # JavaScript recursive functions
 
 ### Recursive functions

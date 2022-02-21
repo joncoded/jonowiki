@@ -1,3 +1,7 @@
+---
+description: three ways to use CSS
+---
+
 # CSS setup
 
 ### Prerequisites

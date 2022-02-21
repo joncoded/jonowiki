@@ -1,5 +1,5 @@
 ---
-description: get started with JavaScript on a webpage
+description: getting started with JavaScript on a webpage
 ---
 
 # JavaScript and HTML

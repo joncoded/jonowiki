@@ -1,2 +1,6 @@
+---
+description: collecting several objects into one variable
+---
+
 # 🚧 JavaScript arrays
 

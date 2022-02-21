@@ -1,3 +1,7 @@
+---
+description: passing components to other components
+---
+
 # React imports
 
 **Importing** dependencies (third-party code) is a part of life in React programming:

@@ -1,7 +1,7 @@
 ---
-description: welcome to my virtual home!
+description: front-end web development
 ---
 
-# 🏡 Home
+# 🏡 \~\~\~\~
 
-![Experiencing an Icelandic morning in December 2021](.gitbook/assets/PXL\_20211227\_144834693.jpg)
+![](<.gitbook/assets/scalar-j-desk (1).jpg>)

@@ -1,3 +1,7 @@
+---
+description: using other people's data with this function
+---
+
 # JavaScript fetch(ing data)
 
 This handy function called `fetch()` allows us to:

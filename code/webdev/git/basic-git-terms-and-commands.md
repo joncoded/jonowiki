@@ -1,3 +1,7 @@
+---
+description: getting to know the git lingo
+---
+
 # Git terms and commands
 
 ### Common Git terms

@@ -1,3 +1,7 @@
+---
+description: how does this language work?
+---
+
 # JavaScript: how it works
 
 {% hint style="info" %}

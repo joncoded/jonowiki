@@ -1,7 +1,6 @@
 ---
-description: personal programming projects
+description: personal web-development and programming projects
 ---
 
 # 🖥 Code
 
-(Coming soon)

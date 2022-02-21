@@ -1,3 +1,7 @@
+---
+description: promising to do one thing before another
+---
+
 # 🚧 JavaScript promises
 
 ### **Promises made and kept!**

@@ -1,3 +1,7 @@
+---
+description: positioning elements in flexible containers
+---
+
 # CSS flexbox
 
 **Flexbox** allows us to position elements more easily and we should look at elements using this model as either a:

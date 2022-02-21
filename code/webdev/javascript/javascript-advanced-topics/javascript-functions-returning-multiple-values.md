@@ -1,3 +1,7 @@
+---
+description: looking at an application of variable destructuring
+---
+
 # JavaScript functions returning multiple values
 
 We can `return` more than one object from a function:
@@ -18,7 +22,7 @@ console.log(place[1], place[0])
 // "Toronto" "Canada"
 ```
 
-In ES6, we can use destructuring as such, to make using this array easier:
+In ES6, we can use **destructuring** as such, to make using this array easier:
 
 ```javascript
 const [country, city] = getPlace()

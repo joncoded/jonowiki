@@ -1,5 +1,5 @@
 ---
-description: Starting with the most basic app (a display of text) and adding more stuff
+description: starting with the most basic app (a display of text) and adding more stuff
 ---
 
 # React making a page

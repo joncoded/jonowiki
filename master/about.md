@@ -1,5 +1,5 @@
 ---
-description: me and my writing style
+description: me and my style
 ---
 
 # 🚩 Aims

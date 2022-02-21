@@ -1,3 +1,7 @@
+---
+description: trying to relieve common problems
+---
+
 # Git troubleshooting
 
 ### index.lock

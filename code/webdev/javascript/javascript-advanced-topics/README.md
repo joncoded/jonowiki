@@ -1,3 +1,7 @@
+---
+description: having a look at some good-to-know concepts
+---
+
 # JavaScript (advanced topics)
 
 These topics add some spice to the [essential topics](../javascript-essential-topics/):

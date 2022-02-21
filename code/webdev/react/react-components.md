@@ -1,3 +1,7 @@
+---
+description: encapsulating blocks of UI code
+---
+
 # React components
 
 In the last page we had:

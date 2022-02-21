@@ -1,3 +1,7 @@
+---
+description: targeting a group of elements of a webpage =
+---
+
 # CSS selectors
 
 ### Structure

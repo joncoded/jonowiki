@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏡 Home](README.md)
+* [🏡 \~\~\~\~](README.md)
 * [🚩 Aims](master/about.md)
 * [🖥 Code](code/projects.md)
 * [📖 Docs](code/webdev/README.md)
@@ -36,7 +36,7 @@
     * [🚧 CSS positioning](code/webdev/css/css-positioning.md)
     * [CSS flexbox](code/webdev/css/css-flexbox.md)
     * [🚧 CSS grid](code/webdev/css/css-grid.md)
-  * [👍 Accessibility](code/webdev/accessibility.md)
+  * [🚧 Accessibility](code/webdev/accessibility.md)
   * [🟨 JavaScript](code/webdev/javascript/README.md)
     * [JavaScript setup](code/webdev/javascript/javascript-setup/README.md)
       * [JavaScript and HTML](code/webdev/javascript/javascript-setup/javascript-html.md)

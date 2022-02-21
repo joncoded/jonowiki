@@ -1,5 +1,5 @@
 ---
-description: get started with the internet's programming language
+description: getting started with the internet's programming language
 ---
 
 # JavaScript setup
