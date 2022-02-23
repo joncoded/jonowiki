@@ -109,6 +109,7 @@
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
 * [🗃 File](thoughts/README.md)
+  * [🌆 Urbanism levels](file/urbanism-levels.md)
   * [⚙ In defense of automation](thoughts/in-defense-of-automation.md)
   * [🗣 Language casualness levels](file/language-casualness-levels.md)
   * [✈ Air travel steps](file/air-travel-steps.md)
