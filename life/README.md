@@ -4,7 +4,9 @@ description: sharing personal events
 
 # 😌 Life
 
-### Yearbooks
+### Years
+
+Photography to be added in these "yearbooks" later:&#x20;
 
 <details>
 
