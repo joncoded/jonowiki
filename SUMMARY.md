@@ -111,6 +111,7 @@
 * [🗃 File](thoughts/README.md)
   * [⚙ In defense of automation](thoughts/in-defense-of-automation.md)
   * [✈ Air travel steps](file/air-travel-steps.md)
+  * [🧳 Travel destination tiers](file/travel-destination-tiers.md)
   * [🌴 Tourist typologies](file/tourist-typologies.md)
 * [😌 Life](life/README.md)
   * [🗓 2022](life/2022.md)
