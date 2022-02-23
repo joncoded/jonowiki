@@ -110,7 +110,7 @@
     * [🚨 Errors](code/webdev/glossary/errors.md)
 * [🗃 File](thoughts/README.md)
   * [⚙ In defense of automation](thoughts/in-defense-of-automation.md)
-  * [Language casualness levels](file/language-casualness-levels.md)
+  * [🗣 Language casualness levels](file/language-casualness-levels.md)
   * [✈ Air travel steps](file/air-travel-steps.md)
   * [🧳 Travel destination tiers](file/travel-destination-tiers.md)
   * [🌴 Tourist typologies](file/tourist-typologies.md)

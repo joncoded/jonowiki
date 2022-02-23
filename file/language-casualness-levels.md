@@ -1,4 +1,4 @@
-# Language casualness levels
+# 🗣 Language casualness levels
 
 Such levels one might call **registers** but this is my classification system:
 
