@@ -1,8 +1,8 @@
 ---
-description: self-checkouts, automated buses or how about just no more elevator boys?
+description: defending the machines when it comes to repetitive tasks
 ---
 
-# ⚙ In defense of automation
+# ⚙ Automation defense
 
 We will always have people who fear or loathe the new with things such as:
 

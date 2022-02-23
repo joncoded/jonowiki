@@ -112,7 +112,7 @@
   * [🌆 Urbanism levels](file/urbanism-levels.md)
   * [🗣 Language casualness levels](file/language-casualness-levels.md)
   * [💻 Keyboard metatheses](file/keyboard-metatheses.md)
-  * [⚙ In defense of automation](thoughts/in-defense-of-automation.md)
+  * [⚙ Automation defense](file/automation-defense.md)
   * [✈ Air travel steps](file/air-travel-steps.md)
   * [🧳 Travel destination tiers](file/travel-destination-tiers.md)
   * [🌴 Tourist typologies](file/tourist-typologies.md)
