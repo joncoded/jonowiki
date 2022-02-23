@@ -1,4 +1,8 @@
-# ✈ Tourist typologies
+---
+description: ranking the kinds of tourist
+---
+
+# 🌴 Tourist typologies
 
 ### Typologies as a _spectrum_
 

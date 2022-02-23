@@ -1,3 +1,7 @@
+---
+description: process of taking a ride on a commercial flight
+---
+
 # ✈ Air travel steps
 
 ### Pre-flight

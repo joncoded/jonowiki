@@ -1,3 +1,7 @@
+---
+description: how well do speakers of a language know a word
+---
+
 # 🗣 Language casualness levels
 
 Such levels one might call **registers** but this is my classification system:
