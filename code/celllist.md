@@ -4,7 +4,7 @@ description: sortable tables in React
 
 # 🌐 CellList
 
-![](../.gitbook/assets/code-celllist.png)
+![](<../.gitbook/assets/code-celllist (1).png>)
 
 ### Demo
 

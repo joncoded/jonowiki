@@ -4,14 +4,12 @@ description: describing what we do
 
 # 1⃣ Intro to web development
 
-### **Introduction**
-
-![](https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHx3aXJlZnJhbWV8ZW58MHx8fHwxNjM2ODI4Nzkz\&ixlib=rb-1.2.1\&q=85)
-
 **Web development** comes in two main flavours:
 
 * The **front-end** (presentation-oriented programming, i.e. _what you see_)
 * The **back-end** (data and logic-oriented programming, i.e. _what you get_)
+
+![the "front-end" of a website in up-to-down traditional Mongolian script](../.gitbook/assets/image.png)
 
 We will see later on this page that:
 
