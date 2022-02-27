@@ -25,7 +25,7 @@ export default function Home() {
 
 When we run `npm run dev` we will see:
 
-![](../../../.gitbook/assets/next-001.png)
+![](../../../.gitbook/assets/docs-next-001.png)
 
 Notice how we used `className={styles.container}` for the root `<div>` - Next.js allows us to use CSS class names in our JSX, through the `styles` variable!
 
@@ -52,7 +52,7 @@ export default function Home() {
 
 So instead of the browser tab showing just "localhost:3000" (or whatever the URL is), it will show the contents of our `<title>` tag with such ease!
 
-![](../../../.gitbook/assets/next-003.png)
+![](../../../.gitbook/assets/docs-next-003.png)
 
 ### Review
 

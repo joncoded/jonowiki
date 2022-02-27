@@ -238,7 +238,7 @@ ReactDOM.render(<Map />, document.getElementById('app'))
   * take note of the addresses where we can view in the browser
   * go to the browser and have a look
 
-![](../../../.gitbook/assets/remapbox-001.png)
+![](../../../.gitbook/assets/docs-react-mapbox-001.png)
 
 ### Deployment
 

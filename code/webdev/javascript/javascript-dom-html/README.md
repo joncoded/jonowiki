@@ -16,7 +16,7 @@ description: how to take our logic and put it on a webpage
       * the parent of `<head>` is `<html>`
       * the children of `<head>` are `<title>` and `<meta>`
 
-![the DOM of a webpage depicted as a tree diagram (from bitsofco.de)](<../../../../.gitbook/assets/image (1).png>)
+![the DOM of a webpage depicted as a tree diagram (from bitsofco.de)](../../../../.gitbook/assets/docs-js.png)
 
 {% hint style="warning" %}
 Do not confuse the DOM with HTML but think of HTML as just _a_ visual _representation_ of the DOM!

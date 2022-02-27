@@ -52,7 +52,7 @@ We could also create a companion CSS file as discussed in the [last page](next.j
 
 Voilà - the page gets created:
 
-![](../../../.gitbook/assets/next-002.png)
+![](../../../.gitbook/assets/docs-next-002.png)
 
 The routing (`/about`) gets auto-magically created by Next.js and we now have our multi-page website!
 

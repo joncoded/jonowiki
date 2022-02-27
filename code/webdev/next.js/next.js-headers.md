@@ -128,7 +128,7 @@ export default Layout
 
 Hurray! We have successfully added a new sub-component to our layout!
 
-![](../../../.gitbook/assets/next-007.png)
+![](../../../.gitbook/assets/docs-next-007.png)
 
 So we can see a recurring pattern:
 

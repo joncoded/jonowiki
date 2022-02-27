@@ -16,7 +16,7 @@ console.log(aVariable)
 
 In a browser, we would right-click, then _Inspect_, then go to _Console_ to see the `log` print out `Application ready` ... but this would not change the program in any way:
 
-![](../../../../.gitbook/assets/console-log.png)
+![](../../../../.gitbook/assets/docs-console-log.png)
 
 Instead, it works as a debugging tool where we can see what happens to our code without directly displaying it on the browser :)
 

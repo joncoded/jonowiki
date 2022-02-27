@@ -1,6 +1,6 @@
 # 🏡 Ahoy!
 
-![](<.gitbook/assets/scalar-j-desk (1).jpg>)
+![](.gitbook/assets/ahoy-panda-desk.jpg)
 
 I am a **front-end web developer** based in Toronto, Canada
 

@@ -6,7 +6,7 @@ description: optional topic about making the console look good
 
 Earlier we looked at the [console](../javascript-setup/javascript-console.md) but now we can enhance our experience with it when we making logs to it, like this:
 
-![console.log with bold + green text + underline!](../../../../.gitbook/assets/console-styling.png)
+![console.log with bold + green text + underline!](../../../../.gitbook/assets/docs-console-styling.png)
 
 We can actually style how the messages appear in the `console.log` appear for increased readability:
 

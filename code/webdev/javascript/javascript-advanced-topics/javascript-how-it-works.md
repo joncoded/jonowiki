@@ -51,7 +51,7 @@ If everything is all so LIFO in the call stack, then JavaScript can do only one 
 
 By using special functions called **callback functions**, we can let the web browser make use of other components (e.g. the **Web API** and **callback queue**) and thereby allow some "slower" functions to by-pass the call stack of the JavaScript runtime!
 
-![](<../../../../.gitbook/assets/image (2).png>)
+![](../../../../.gitbook/assets/docs-dom.png)
 
 ### Hoisting
 

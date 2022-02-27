@@ -6,7 +6,7 @@ description: using this "hacker-looking" interface to access files
 
 We can access the file system using the **command line** (on Mac, via an application called _Terminal_ and on Windows, via _Command Prompt):_
 
-![](<../../../.gitbook/assets/ 2021-01-20 at 22.02.57.png>)
+![](../../../.gitbook/assets/docs-command-line.png)
 
 This interface allows us to:
 

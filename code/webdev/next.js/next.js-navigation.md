@@ -116,4 +116,4 @@ export default Layout
 
 The result: a working fixed header navigation on all pages that use the Layout!
 
-![](../../../.gitbook/assets/next-006.png)
+![](../../../.gitbook/assets/docs-next-006.png)

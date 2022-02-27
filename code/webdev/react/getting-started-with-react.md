@@ -33,7 +33,7 @@ This will create a React app boilerplate creator (yup, they've created a "creato
   * this will run your app on your machine (by default on `localhost:3000`)
   * you can go to your browser, enter `localhost:3000` and see React's atomic logo
 
-![](<../../../.gitbook/assets/ 2020-05-28 at 10.57.49.png>)
+![](../../../.gitbook/assets/docs-react.png)
 
 ### Modifying the React app
 

@@ -9,7 +9,7 @@ description: describing what we do
 * The **front-end** (presentation-oriented programming, i.e. _what you see_)
 * The **back-end** (data and logic-oriented programming, i.e. _what you get_)
 
-![the "front-end" of a website in up-to-down traditional Mongolian script](../.gitbook/assets/image.png)
+![the "front-end" of a website in up-to-down traditional Mongolian script](../.gitbook/assets/docs-mongolia.png)
 
 We will see later on this page that:
 
