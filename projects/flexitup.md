@@ -1,5 +1,5 @@
 ---
-description: a visual tool for CSS flexbox for front-end web developers
+description: an app to visualize flexbox attributes
 ---
 
 # 🔲 Flexitup

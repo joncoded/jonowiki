@@ -1,5 +1,5 @@
 ---
-description: a snippet in React that enables the sorting of tables
+description: sortable tables in React
 ---
 
 # 🌐 CellList
