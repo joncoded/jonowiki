@@ -4,9 +4,7 @@ description: personal web-development and programming projects
 
 # 🖥 Code
 
-### \[ flexitup ]
 
-\[ [demo](https://joncoded.github.io/flexitup) ] \[ [repo](https://www.github.com/joncoded/flexitup) ] a visual tool for CSS flexbox for front-end web developers&#x20;
 
 ![](../.gitbook/assets/code-flexitup.png)
 
