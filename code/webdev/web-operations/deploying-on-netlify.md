@@ -41,7 +41,11 @@ $ npx netlify deploy
 ? Publish directory build
 ```
 
-Check the app in the URL in "Website Draft URL"
+{% hint style="warning" %}
+Ensure that the directory specified is **build**
+{% endhint %}
+
+Check the app in the URL next to where it says "Website Draft URL"&#x20;
 
 * If all looks good then:
 
