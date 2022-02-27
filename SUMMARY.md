@@ -122,3 +122,8 @@
   * [🌆 Urbanism levels](file/urbanism-levels.md)
   * [💻 Keyboard metatheses](file/keyboard-metatheses.md)
   * [⚙ Automation defense](thoughts/in-defense-of-automation.md)
+
+## Blogs
+
+* [🔲 Obstroct](https://obstroct.wordpress.com)
+* [🐼 YYZPanda](https://yyzpanda.wordpress.com)
