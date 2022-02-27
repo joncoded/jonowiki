@@ -1,7 +1,8 @@
 # Table of contents
 
 * [🏡 Ahoy!](README.md)
-* [🖥 Code](code/projects.md)
+* [🖥 Code](projects/README.md)
+  * [🗺 Mapazine](projects/mapazine.md)
 * [📖 Docs](code/webdev/README.md)
   * [🧰 Workspace](code/webdev/workspace/README.md)
     * [Command line](code/webdev/workspace/command-line.md)

@@ -4,12 +4,6 @@ description: personal web-development and programming projects
 
 # 🖥 Code
 
-### \[ mapazine ]
-
-\[ [demo](https://joncoded.github.io/mapazine/) ] \[ [repo](https://www.github.com/joncoded/mapazine/) ] using a Mapbox library to document real world news and other events
-
-![](../.gitbook/assets/code-mapazine.png)
-
 ### \[ flexitup ]
 
 \[ [demo](https://joncoded.github.io/flexitup) ] \[ [repo](https://www.github.com/joncoded/flexitup) ] a visual tool for CSS flexbox for front-end web developers&#x20;
