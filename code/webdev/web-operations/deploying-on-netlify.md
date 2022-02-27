@@ -69,10 +69,8 @@ To **re-deploy** an app, repeat these steps starting from the _second_ step of t
 We can sum up the Netlify deploy process as the following:
 
 * npm run build
-* npx netlify deploy
+* npx netlify deploy (follow the instructions when prompted)
 * npx netlify deploy --prod
-
-![What the Netlify deployment process actually looks like in Terminal!](https://www.joncoded.com/wp-content/uploads/netlify.jpg)
 
 ### References <a href="#block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2" id="block-639d2aeb-ff73-44b3-8a02-1bb6f12a9fc2"></a>
 
