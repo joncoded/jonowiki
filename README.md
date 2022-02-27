@@ -1,4 +1,4 @@
-# 🏡 \~\~\~\~
+# 🏡 Ahoy!
 
 ![](<.gitbook/assets/scalar-j-desk (1).jpg>)
 
