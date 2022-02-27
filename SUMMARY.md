@@ -114,14 +114,6 @@
     * [Deploying on Netlify](code/webdev/web-operations/deploying-on-netlify.md)
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
-* [🗃 File](thoughts/README.md)
-  * [🌴 Tourist typologies](file/tourist-typologies.md)
-  * [🧳 Travel destination tiers](file/travel-destination-tiers.md)
-  * [✈ Air travel steps](file/air-travel-steps.md)
-  * [🗣 "Wordness" levels](file/language-casualness-levels.md)
-  * [🌆 Urbanism levels](file/urbanism-levels.md)
-  * [💻 Keyboard metatheses](file/keyboard-metatheses.md)
-  * [⚙ Automation defense](thoughts/in-defense-of-automation.md)
 
 ## Blogs
 
