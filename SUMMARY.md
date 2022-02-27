@@ -1,10 +1,10 @@
 # Table of contents
 
 * [🏡 Ahoy!](README.md)
-* [🖥 Code](code/projects.md)
-  * [🔲 Flexitup](projects/flexitup.md)
-  * [🔳 Griditup](projects/griditup.md)
-  * [🗺 Mapazine](projects/mapazine.md)
+* [🖥 Code](code/README.md)
+  * [🔲 Flexitup](code/flexitup.md)
+  * [🔳 Griditup](code/griditup.md)
+  * [🗺 Mapazine](code/mapazine.md)
 * [📖 Docs](code/webdev/README.md)
   * [🧰 Workspace](code/webdev/workspace/README.md)
     * [Command line](code/webdev/workspace/command-line.md)
