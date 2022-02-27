@@ -115,7 +115,12 @@
   * [📕 (Glossary)](code/webdev/glossary/README.md)
     * [🚨 Errors](code/webdev/glossary/errors.md)
 
-## Blogs
+## Follow
 
-* [🔲 Obstroct](https://obstroct.wordpress.com)
-* [🐼 YYZPanda](https://yyzpanda.wordpress.com)
+* [🐙 Github](https://www.github.com/joncoded)
+* [💡 Minds](https://www.minds.com/joncoded)
+
+## Others
+
+* [🔲 @obstroct](https://obstroct.wordpress.com)
+* [🐼 @yyzpanda](https://yyzpanda.wordpress.com)
