@@ -2,10 +2,11 @@
 
 * [🏡 Ahoy!](README.md)
 * [🖥 Code](code/projects.md)
+  * [🗺 Mapazine](projects/mapazine.md)
+  * [❓ KeepFAQs](code/keepfaqs.md)
   * [🔳 Griditup](projects/griditup.md)
   * [🔲 Flexitup](projects/flexitup.md)
-  * [CellList](code/celllist.md)
-  * [🗺 Mapazine](projects/mapazine.md)
+  * [🌐 CellList](code/celllist.md)
 * [📖 Docs](code/webdev/README.md)
   * [🧰 Workspace](code/webdev/workspace/README.md)
     * [Command line](code/webdev/workspace/command-line.md)

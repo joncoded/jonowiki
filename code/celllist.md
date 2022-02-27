@@ -2,7 +2,7 @@
 description: a snippet in React that enables the sorting of tables
 ---
 
-# CellList
+# 🌐 CellList
 
 ![](../.gitbook/assets/code-celllist.png)
 
