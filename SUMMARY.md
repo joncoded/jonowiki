@@ -8,6 +8,7 @@
   * [🔲 Flexitup](projects/flexitup.md)
   * [🌐 CellList](code/celllist.md)
 * [📖 Docs](code/webdev/README.md)
+  * [1⃣ Intro to web development](docs/intro-to-web-development.md)
   * [🧰 Workspace](code/webdev/workspace/README.md)
     * [Command line](code/webdev/workspace/command-line.md)
   * [🛡 HTML](code/webdev/html/README.md)
