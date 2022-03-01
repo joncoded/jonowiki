@@ -3,6 +3,7 @@
 * [🏡 Ahoy!](README.md)
 * [🖥 Code](code/projects.md)
   * [🗺 Mapazine](projects/mapazine.md)
+  * [🖼 Slidepic](code/slidepic.md)
   * [❓ KeepFAQs](code/keepfaqs.md)
   * [🔳 Griditup](projects/griditup.md)
   * [🔲 Flexitup](projects/flexitup.md)
