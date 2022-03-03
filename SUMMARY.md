@@ -2,6 +2,7 @@
 
 * [🏡 Ahoy!](README.md)
 * [🖥 Code](code/projects.md)
+  * [⬆ Uponsite](projects/uponsite.md)
   * [🗺 Mapazine](projects/mapazine.md)
   * [🖼 Slidepic](code/slidepic.md)
   * [❓ KeepFAQs](code/keepfaqs.md)
