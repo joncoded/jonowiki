@@ -119,5 +119,5 @@
 
 ## side projects
 
-* [🔲 @obstroct](https://obstroct.wordpress.com)
 * [🐼 @yyzpanda](https://yyzpanda.wordpress.com)
+* [🔲 @obstroct](https://obstroct.wordpress.com)
