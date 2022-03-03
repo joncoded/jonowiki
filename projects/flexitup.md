@@ -1,8 +1,10 @@
 ---
-description: an app to visualize flexbox attributes
+description: a web app to visualize flexbox attributes
 ---
 
 # 🔲 Flexitup
+
+
 
 ![](../.gitbook/assets/code-flexitup.png)
 

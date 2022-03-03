@@ -1,5 +1,5 @@
 ---
-description: sortable tables in React
+description: a script to make sortable tables in React
 ---
 
 # 🌐 CellList

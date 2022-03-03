@@ -1,5 +1,5 @@
 ---
-description: an app to visualize grid attributes
+description: a web app to visualize grid attributes
 ---
 
 # 🔳 Griditup

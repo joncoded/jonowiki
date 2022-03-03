@@ -1,5 +1,5 @@
 ---
-description: using a Mapbox library to document real world news and other events
+description: a Mapbox mashup to document real world news and other events
 ---
 
 # 🗺 Mapazine

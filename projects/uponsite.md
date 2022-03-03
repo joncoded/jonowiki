@@ -1,5 +1,5 @@
 ---
-description: React-based template for Cosmic websites
+description: a React-based template for Cosmic websites
 ---
 
 # ⬆ Uponsite
