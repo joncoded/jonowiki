@@ -2,7 +2,7 @@
 description: a React-based template for Cosmic websites
 ---
 
-# ⬆ Uponsite
+# 🚀 Lacosmic
 
 ![an implementation of uponsite in light mode](<../.gitbook/assets/code-uponsite-lite (1).png>)
 
@@ -14,4 +14,4 @@ description: a React-based template for Cosmic websites
 
 ### Repo
 
-{% embed url="https://www.github.com/joncoded/uponsite" %}
+{% embed url="https://www.github.com/joncoded/lacosmic" %}
