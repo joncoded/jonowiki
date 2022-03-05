@@ -4,13 +4,13 @@ description: a React-based template for Cosmic websites
 
 # 🚀 Lacosmic
 
-![an implementation of uponsite in light mode](<../.gitbook/assets/code-uponsite-lite (1).png>)
+![](../.gitbook/assets/code-lacosmic-home-lite.png)
 
-![dark mode](../.gitbook/assets/code-uponsite-dark.png)
+![](../.gitbook/assets/code-lacosmic-mini-dark.png)
 
 ### Demo
 
-{% embed url="https://joncoded.netlify.app" %}
+{% embed url="https://lacosmic.netlify.app" %}
 
 ### Repo
 
