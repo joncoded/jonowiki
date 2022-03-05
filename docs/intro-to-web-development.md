@@ -22,27 +22,27 @@ To present data, we connect the following "3 S's":
 
 * **Structuring** (HTML)
   * to enforce the **sensibility (order) of visual components**
-  * to ensure that a web resource has [**accessibility to everyone**](../code/webdev/accessibility.md)\*\*\*\*
+  * to ensure that a web resource has [**accessibility to everyone**](accessibility.md)\*\*\*\*
 * **Styling** (CSS)
   * to enhance the **visual look-and-feel**
 * **Scripting** (e.g. JavaScript, React, Angular, jQuery, etc.)
   * to manage **user input** and **data changes**
   * to connect the front-end with the back-end
 
-{% content-ref url="../code/webdev/html/" %}
-[html](../code/webdev/html/)
+{% content-ref url="html/" %}
+[html](html/)
 {% endcontent-ref %}
 
-{% content-ref url="../code/webdev/css/" %}
-[css](../code/webdev/css/)
+{% content-ref url="css/" %}
+[css](css/)
 {% endcontent-ref %}
 
-{% content-ref url="../code/webdev/javascript/" %}
-[javascript](../code/webdev/javascript/)
+{% content-ref url="javascript/" %}
+[javascript](javascript/)
 {% endcontent-ref %}
 
-{% content-ref url="../code/webdev/react/" %}
-[react](../code/webdev/react/)
+{% content-ref url="react/" %}
+[react](react/)
 {% endcontent-ref %}
 
 Sometimes, front-end developers may have to take part in:
@@ -71,16 +71,16 @@ Each developer may also have to take part in:
   * to not only submit content "to the cloud" but also to ensure backups if something goes wrong
   * to allow for collaboration by multiple developers within the same project(s)
 
-{% content-ref url="../code/webdev/git/" %}
-[git](../code/webdev/git/)
+{% content-ref url="git/" %}
+[git](git/)
 {% endcontent-ref %}
 
 * **Deployment** (e.g. FTP, Jenkins, Netlify, etc.)
   * to get that web project onto the Internet!
     * usually nowadays handled by a specialized team called **development operations** (or **dev ops**)
 
-{% content-ref url="../code/webdev/web-operations/" %}
-[web-operations](../code/webdev/web-operations/)
+{% content-ref url="web-operations/" %}
+[web-operations](web-operations/)
 {% endcontent-ref %}
 
 * **Documenting** (e.g. GitBook!)
@@ -93,8 +93,8 @@ Each developer may also have to take part in:
   * for enhancing the experience of the "finished" product
     * note: no product ever really gets "finished"
 
-{% content-ref url="../code/webdev/accessibility.md" %}
-[accessibility.md](../code/webdev/accessibility.md)
+{% content-ref url="accessibility.md" %}
+[accessibility.md](accessibility.md)
 {% endcontent-ref %}
 
 As one can gather, a lot of web development involves tasks other than simply programming!
