@@ -5,6 +5,7 @@
   * [🚀 Lacosmic](projects/lacosmic.md)
   * [🗺 Mapazine](projects/mapazine.md)
   * [🗞 Noosbuzz](projects/noosbuzz.md)
+  * [🌐 Page 1](projects/page-1.md)
   * [🔲 Flexitup](projects/flexitup.md)
   * [🔳 Griditup](projects/griditup.md)
   * [❓ KeepFAQs](code/keepfaqs.md)
