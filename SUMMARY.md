@@ -4,6 +4,7 @@
 * [🖥 Code](code/projects.md)
   * [🚀 Lacosmic](projects/lacosmic.md)
   * [🗺 Mapazine](projects/mapazine.md)
+  * [🗞 Noosbuzz](projects/noosbuzz.md)
   * [🔲 Flexitup](projects/flexitup.md)
   * [🔳 Griditup](projects/griditup.md)
   * [❓ KeepFAQs](code/keepfaqs.md)
