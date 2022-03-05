@@ -238,8 +238,9 @@ ReactDOM.render(<Map />, document.getElementById('app'))
   * take note of the addresses where we can view in the browser
   * go to the browser and have a look
 
-![](../../../.gitbook/assets/docs-react-mapbox-001.png)
+![](../../.gitbook/assets/docs-react-mapbox-001.png)
 
 ### Deployment
 
-* Please refer to the [previous page](https://github.com/joncoded/jonsdocs/blob/main/code/webdev/mapbox-with-react/broken-reference/README.md) to see how to make this map appear on the Internet:
+* Please refer to [deployment](../web-operations/deploying-on-netlify.md) to see how to make this map appear on the Internet:
+
