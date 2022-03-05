@@ -18,7 +18,7 @@ Please ensure that only the desired website URL(s) may use your **Mapbox access 
 
 In your project folder:
 
-* Create a `package.json` file at the root
+* Use `npm init` to create a `package.json` file at the root
 * Create a `public` folder for the final product and create the files:
   * `index.html` where the final product will display
   * `index.css` to house the styles for index.html
@@ -27,85 +27,81 @@ In your project folder:
 
 #### Setting up `package.json`
 
-* Copy and paste this into `package.json`
-  * of course: change any text that includes the (bracketed text):
+* Run the following commands in Terminal
+
+```
+% npm install mapbox-gl react react-dom react-scripts worker-loader
+```
+
+* Check if the `package.json` looks something like this:
 
 ```javascript
 {
-    "name": "(project name)", 
-    "description": "(the map project's description)",
-    "version": "1.0.0",
-    "main": "src/index.js",
-    "dependencies": {
-        "mapbox-gl": "^2.1.1",
-        "react": "^17.0.0",
-        "react-dom": "^17.0.0",
-        "react-scripts": "^4.0.1",
-        "worker-loader": "^3.0.7"
-    },
-    "scripts": {
-        "start": "react-scripts start"
-    },
-    "browserslist": [
-        "defaults"
-    ],
-    "author": "(your name)",
-    "license": "MIT",
-    "homepage": "(where you will upload this to)"
+  "name": "(your project name)",
+  "version": "1.0.0",
+  "description": "React-based mapbox portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "mapbox",
+    "react",
+    "maps"
+  ],
+  "author": "(you)",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox-gl": "^2.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^2.1.3",
+    "worker-loader": "^3.0.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
+
 ```
 
-{% hint style="warning" %}
-Note that the properties of the `dependencies` may require updating for future versions!
-{% endhint %}
-
-#### Installing dependencies
-
-* Similar to any node app, we begin by running the command: `npm install`
-  * (a `package.json` file will automatically generate)
+(Compare the "scripts" object to see if it matches)
 
 ### Creating the HTML index file
 
 * We'll go into the `public` folder and open the `index.html` file
 * The following lines will minimally setup our map interface:
 
+{% code title="public/index.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="en">
 
   <head>
 
-    <title>(our map project)</title>
-
+    <title>mapazine</title>
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <link
-    href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
-    rel="stylesheet"
-    />
-    <link href="%PUBLIC_URL%/index.css" rel="stylesheet" />
 
   </head>
 
   <body>
-
+  
     <div id="app"></div>
-
+  
   </body>
 
 </html>
+
 ```
-
-{% hint style="info" %}
-If the above looks unfamiliar, please [review the HTML section about the \<head> tag](https://github.com/joncoded/jonsdocs/blob/main/code/webdev/mapbox-with-react/broken-reference/README.md) 👨‍💻
-{% endhint %}
-
-React will:
-
-* use Mapbox's `mapbox-gl.css` to provide basic styling for the map (lines 11-14)
-* use our `index.css` for any custom styles we may have for the map (line 15)
-* render the map all within the `<div id="app"></div>` of the HTML above (line 21)
+{% endcode %}
 
 ### Creating the React front-end logic
 
@@ -113,122 +109,116 @@ React will:
 
 {% code title="src/index.js" %}
 ```jsx
-import React, { useRef, useEffect, useState } from 'react'
-import ReactDOM from 'react-dom'
+import React from "react"
+import ReactDOM from "react-dom"
+import "mapbox-gl/dist/mapbox-gl.css"
+import "./index.css"
+import App from "./App"
 
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp'
-import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker'
-mapboxgl.workerClass = MapboxWorker
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'
-
-const Map = () => {
-    // map logic goes here
-}
-
-ReactDOM.render(<Map />, document.getElementById('app'))
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("app")
+)
 ```
 {% endcode %}
 
 * Unpacking the above:
   * the first two lines deal with React
-  * the next four lines actually deal with Mapbox
-    * remember to change `YOUR_MAPBOX_ACCESS_TOKEN`
+  * the third line deals with the Mapbox styling library
+  * the line with `index.css` contains our own styling in the `src` folder
+  * the line with `App` contains our App logic
   * finally, we have our app as the remainder of the file
-    * all that React code will export into the `<div id="app"></div>` of the `index.html` file
+    * all that React code will populate the `<div id="app"></div>` of the `index.html` file
 
-### Initializing the map defaults
+### Initializing the MapBox API key
 
-* Now that we have our React Mapbox workspace setup, we still have to give our map with default values for geographical coordinates, zoom level and so on, in `src/index.js`:
+* Now that we have our React Mapbox workspace setup, we will move into the App.js file:&#x20;
 
-{% code title="src/index.js" %}
+{% code title="src/App.js" %}
 ```jsx
-import React, { useRef, useEffect, useState } from 'react'
-import ReactDOM from 'react-dom'
+import React, { useRef, useEffect, useState } from "react"
 
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp'
-import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker'
-mapboxgl.workerClass = MapboxWorker
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'
+import mapboxgl from "!mapbox-gl" // eslint-disable-line import/no-webpack-loader-syntax
 
-const Map = () => {
-
-    /* new code here */
-    const mapContainer = useRef()
-    const [lat, setLat] = useState(43.6532)
-    const [lng, setLng] = useState(-70.9)
-    const [zoom, setZoom] = useState(9)
-    
+function App() {
+  mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY;
+  return <div ref={mapContainer} className="map-container" />
 }
 
-ReactDOM.render(<Map />, document.getElementById('app'))
+export default App
 ```
 {% endcode %}
 
-* So, within that Map component, we have just set up our default latitude, longitude and zoom level
+* We must now create an `.env` file in the project's root folder:
 
-### Initializing the map
+```
+REACT_APP_MAPBOX_KEY=(YOUR_API_KEY_HERE)
+```
 
-* We will then kick-start our map, again in `src/index.js`:
+* React needs the `REACT_APP_` part of the variable name
+  * To access that `.env` variable, we use `process.env.REACT_APP_` in our JS file
 
-{% code title="src/index.js" %}
+{% hint style="warning" %}
+Ensure you have your own API key from [https://account.mapbox.com/access-tokens](https://account.mapbox.com/access-tokens)&#x20;
+{% endhint %}
+
+### Initializing the map defaults
+
+* We still have to give our map its default values for&#x20;
+  * geographical coordinates (latitude and longitude)
+  * zoom level&#x20;
+  * etc.
+* We shall then kick-start our map, again in `src/App.js`:
+
+{% code title="src/App.js" %}
 ```jsx
-import React, { useRef, useEffect, useState } from 'react'
-import ReactDOM from 'react-dom'
+import React, { useRef, useEffect, useState } from "react"
 
-import mapboxgl from 'mapbox-gl/dist/mapbox-gl-csp'
-import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker'
-mapboxgl.workerClass = MapboxWorker
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'
+import mapboxgl from "!mapbox-gl" // eslint-disable-line import/no-webpack-loader-syntax
 
-const Map = () => {
+function App() {
+  mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY
+  const mapContainer = useRef(null)
+  const map = useRef(null)
+  const [lng, setLng] = useState(-79.3832)
+  const [lat, setLat] = useState(43.6532)
+  const [zoom, setZoom] = useState(9)
 
-    const mapContainer = useRef()
-    const [lat, setLat] = useState(43.6532)
-    const [lng, setLng] = useState(-70.9)
-    const [zoom, setZoom] = useState(9)
-    
-    /* new code here */
-    useEffect(() => {
+  useEffect(() => {
+    if (map.current) return // initialize map only once
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: "mapbox://styles/mapbox/streets-v11",
+      center: [lng, lat],
+      zoom: zoom
+    })
+  })
 
-        const map = new mapboxgl.Map({
-            container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [lng, lat],
-            zoom: zoom
-        })
-
-        return () => map.remove()
-
-    }, [])
-    
-    /* new code here */
-    return (
-        <>
-            <div className="map-container" ref={mapContainer} />
-        </>
-    )
-    
+  return <div ref={mapContainer} className="map-container" />
 }
-
-ReactDOM.render(<Map />, document.getElementById('app'))
+export default App
 ```
 {% endcode %}
 
 * In the above, we implemented two things:
-  * a `useEffect` hook that ensures the rendering happens at the right time
+  * a `useEffect` hook that ensures the rendering happens anytime the state changes
   * a `return` statement that will provide a container for the map
     * recall the `useRef` hook at the top of the `Map` functional component
 
 ### Styling the map
 
-* Lastly, we just need to add some CSS in `public/index.css`
+* Lastly, we just need to add some CSS in `src/index.css`
 
+{% code title="src/index.css" %}
 ```css
 .map-container {
   position: absolute;
   top: 0; right: 0; left: 0; bottom: 0
 }
 ```
+{% endcode %}
 
 ### Running the map
 
