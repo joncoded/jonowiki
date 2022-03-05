@@ -2,7 +2,7 @@
 description: a React-based library for sorting tables
 ---
 
-# 🌐 Page 1
+# 🌐 CellList
 
 ![](<../.gitbook/assets/code-celllist (1).png>)
 
