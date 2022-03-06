@@ -4,11 +4,13 @@ description: a Mapbox mashup to document real world news and other events
 
 # 🗺 Mapazine
 
-![](../.gitbook/assets/code-mapazine.png)
+![](../.gitbook/assets/code-mapazine-1.png)
+
+![](../.gitbook/assets/code-mapazine-2.png)
 
 ### Demo
 
-{% embed url="https://joncoded.github.io/mapazine" %}
+
 
 ### Repo
 
