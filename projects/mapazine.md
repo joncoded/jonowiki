@@ -10,7 +10,7 @@ description: a Mapbox mashup to document real world news and other events
 
 ### Demo
 
-
+{% embed url="https://mapazine.netlify.app" %}
 
 ### Repo
 
