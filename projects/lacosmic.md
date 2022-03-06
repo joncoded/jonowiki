@@ -4,9 +4,11 @@ description: a React-based template for Cosmic websites
 
 # 🚀 Lacosmic
 
-![](../.gitbook/assets/code-lacosmic-home-lite.png)
+![home page](../.gitbook/assets/code-lacosmic-home-lite.png)
 
-![](../.gitbook/assets/code-lacosmic-mini-dark.png)
+![sub-index page](<../.gitbook/assets/code-lacosmic-mini-dark (1).png>)
+
+![single post page](../.gitbook/assets/code-lacosmic-page-lite.png)
 
 ### Demo
 
