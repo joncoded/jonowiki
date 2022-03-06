@@ -99,7 +99,6 @@
     * [React debugging](docs/react/react-debugging.md)
   * [🗺 Mapbox with React](docs/mapbox-with-react/README.md)
     * [Mapbox with React (introduction)](docs/mapbox-with-react/mapbox-with-react-introduction.md)
-    * [Mapbox with React (components)](docs/mapbox-with-react/mapbox-with-react-components.md)
   * [➡ Next.js](docs/next.js/README.md)
     * [Next.js setup](docs/next.js/next.js-setup.md)
     * [Next.js making a page](docs/next.js/next.js-making-a-page.md)
