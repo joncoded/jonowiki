@@ -4,14 +4,14 @@
 
 I am a **front-end web developer** based in Toronto, Canada
 
-\[ [joncoded.com](https://www.joncoded.com) ] houses my ongoing e-projects :panda\_face:
+\[ [joncoded.com](https://www.joncoded.com/code) ] houses my ongoing e-projects :panda\_face:
 
 ### Preferences
 
-* career and goals in **front-end web development**&#x20;
+* career and goals in **front-end web development**
   * HTML + CSS + JavaScript + jQuery + React
 * interests in **geography**, **languages**, **minimalism**, **music** and **pandas**
-* respect for hierarchies in things: **headings** and **bulleted lists**&#x20;
+* respect for hierarchies in things: **headings** and **bulleted lists**
   * prefers fewer paragraphs in a "[TLDR](https://en.wiktionary.org/wiki/tl;dr#English) age"
   * supports [sentence-case headings](https://en.wikipedia.org/wiki/Letter\_case#Sentence\_case) over [Title-Case Headings](https://en.wikipedia.org/wiki/Title\_case)
     * especially for long headlines!
