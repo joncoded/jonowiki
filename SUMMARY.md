@@ -114,8 +114,6 @@
   * [🚀 Deployment](docs/web-operations/README.md)
     * [Deploying React sites on GitHub pages](docs/web-operations/deploying-react-sites-on-github-pages.md)
     * [Deploying on Netlify](docs/web-operations/deploying-on-netlify.md)
-  * [📕 (Glossary)](docs/glossary/README.md)
-    * [🚨 Errors](docs/glossary/errors.md)
 
 ## side projects
 
