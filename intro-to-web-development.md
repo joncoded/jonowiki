@@ -7,9 +7,9 @@ description: describing what we do
 **Web development** comes in two main flavours:
 
 * The **front-end** (presentation-oriented programming, i.e. _what you see_)
-* The **back-end** (data and logic-oriented programming, i.e. _what they really have_)
+* The **back-end** (data and logic-oriented programming, i.e. _what you get_)
 
-![the "front-end" of a website in up-to-down traditional Mongolian script](.gitbook/assets/docs-mongolia.png)
+![the "front-end" of a website in up-to-down traditional Mongolian script](../.gitbook/assets/docs-mongolia.png)
 
 We will see later on this page that:
 
@@ -88,7 +88,6 @@ Each developer may also have to take part in:
 * **Organizing** (e.g. SCRUM)
   * to ensure that all the programming, layout, look-and-feel, content, images (and any other assets) all come together, so that the development experience goes as smoothly as possible
   * to send completed projects for quality assurance and correct defects
-  * to determine a release's suitability to go "into production" (i.e. on the internet)
 * **Optimizing**
   * for more universal accessibility, better usability, improved speed
   * for enhancing the experience of the "finished" product
