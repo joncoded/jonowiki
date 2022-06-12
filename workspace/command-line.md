@@ -4,18 +4,16 @@ description: using this "hacker-looking" interface to access files
 
 # Command line
 
-We can access the file system using the **command line** (on Mac, via an application called _Terminal_ and on Windows, via _Command Prompt):_
+We can access a computer's file system using the **command line:**&#x20;
 
-![](../../../.gitbook/assets/docs-command-line.png)
+* on Mac, via an application called _**Terminal**_&#x20;
+* on Windows, via _**Command Prompt**_
 
-This interface allows us to:
-
-* _**Access files and folders**_ on the computer and also on the internet
-  * Create, retrieve, update, delete!
+![](../.gitbook/assets/docs-command-line.png)
 
 ### The prompt
 
-The **prompt** appears when we load the command line app, show us its status:
+The **prompt,** which appears when we load the command line app, show us the current status:
 
 On Mac, it may look something like: `jon@Jons-Mac-mini Desktop %`:
 
@@ -26,8 +24,8 @@ On Mac, it may look something like: `jon@Jons-Mac-mini Desktop %`:
 
 On Windows, it may look something like: `C:\projects\>`:
 
-* `C:\` showing the hard drive
-* `projects` referring to an example folder on that drive
+* `C:\` refers to the hard drive
+* `projects` refers to a folder on that drive
 
 As shorthand, we will refer to the prompt as simply `$`
 
@@ -61,7 +59,7 @@ These commands come in handy on an everyday basis:
 | `clear` | (none)            | clears the command-line screen of its history                                         |
 | `ls`    | (none)            | lists the files and sub-folders of the current folder                                 |
 | `mkdir` | `foldername`      | creates a directory/folder                                                            |
-| `mv`    | `oldname newname` | renames a file to a new name                                                          |
+| `mv`    | `oldname newname` | renames ("moves") a file to a new name                                                |
 | `pwd`   | (no arguments)    | prints the path of the current folder                                                 |
 | `rmdir` | `foldername`      | removes the directory/folder (if it exists)                                           |
 | `rm`    | `filename`        | removes the file (if it exists)                                                       |
