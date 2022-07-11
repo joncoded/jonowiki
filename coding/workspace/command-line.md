@@ -9,7 +9,7 @@ We can access a computer's file system using the **command line:**&#x20;
 * on Mac, via an application called _**Terminal**_&#x20;
 * on Windows, via _**Command Prompt**_
 
-![](../.gitbook/assets/docs-command-line.png)
+![](../../.gitbook/assets/docs-command-line.png)
 
 ### The prompt
 

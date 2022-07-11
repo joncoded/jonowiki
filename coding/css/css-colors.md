@@ -2,7 +2,7 @@
 description: working with font hues and other light attributes
 ---
 
-# 🚧 CSS colors
+# 🎨 CSS colors
 
 ### Named colors
 
