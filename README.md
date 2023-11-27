@@ -10,34 +10,34 @@ My current project is [**Jonobase**](https://jonobase.vercel.app/), a mashup of 
 
 I also document here:&#x20;
 
-{% content-ref url="books/intro-to-web-development/workspace/" %}
-[workspace](books/intro-to-web-development/workspace/)
+{% content-ref url="docs/web-development/workspace/" %}
+[workspace](docs/web-development/workspace/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/html/" %}
-[html](books/intro-to-web-development/html/)
+{% content-ref url="docs/web-development/html/" %}
+[html](docs/web-development/html/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/css/" %}
-[css](books/intro-to-web-development/css/)
+{% content-ref url="docs/web-development/css/" %}
+[css](docs/web-development/css/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/javascript/" %}
-[javascript](books/intro-to-web-development/javascript/)
+{% content-ref url="docs/web-development/javascript/" %}
+[javascript](docs/web-development/javascript/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/react/" %}
-[react](books/intro-to-web-development/react/)
+{% content-ref url="docs/web-development/react/" %}
+[react](docs/web-development/react/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/git/" %}
-[git](books/intro-to-web-development/git/)
+{% content-ref url="docs/web-development/git/" %}
+[git](docs/web-development/git/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/web-operations/" %}
-[web-operations](books/intro-to-web-development/web-operations/)
+{% content-ref url="docs/web-development/web-operations/" %}
+[web-operations](docs/web-development/web-operations/)
 {% endcontent-ref %}
 
-{% content-ref url="books/intro-to-web-development/accessibility.md" %}
-[accessibility.md](books/intro-to-web-development/accessibility.md)
+{% content-ref url="docs/web-development/accessibility.md" %}
+[accessibility.md](docs/web-development/accessibility.md)
 {% endcontent-ref %}
