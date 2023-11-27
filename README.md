@@ -1,6 +1,6 @@
 # 🏡 Ahoy!
 
-Hi, you can call me **Jon** from **Toronto, Canada** - I like:
+Hi, you can call me **Jon** + I live in **Toronto, Canada** + I like:
 
 * **developing** **re-usable** **parts of websites** with [**React**](https://react.dev) and [**Next.js**](https://nextjs.org/docs)
 * **documenting** web development processes
