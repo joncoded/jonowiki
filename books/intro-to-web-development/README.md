@@ -6,8 +6,8 @@ description: an introduction to digital creation
 
 **Web development** comes in two main flavours:
 
-* The **front-end** (presentation-oriented programming, i.e. _what you see_)
-* The **back-end** (data and logic-oriented programming, i.e. _what they really have_)
+* The **front-end** (presentation-oriented programming, i.e. _the display_)
+* The **back-end** (data and logic-oriented programming, i.e. _the data_)
 
 ![the "front-end" of a website in up-to-down traditional Mongolian script](../../.gitbook/assets/docs-mongolia.png)
 
@@ -59,9 +59,9 @@ The back-end usually involves:
   * to **process the results** from database querying
 * **Database querying** (e.g. GraphQL, MongoDB, MySQL)
   * to **get/set data** from a database
-* **Authorization** and **authentication**
-  * the former refers to allowing a user into a system
-  * the latter refers to determining that the user is genuine
+* **Security**
+  * **Authorization** - allowing a user into a system
+  * Authentication - checking if the user is genuine
 
 ### All developers
 
