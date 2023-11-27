@@ -11,4 +11,4 @@ Hi, you can call me **Jon** + I live in **Toronto, Canada** + I like:
 
 My current project is [**Jonobase**](https://jonobase.vercel.app/), a mashup of Next.js + Pocketbase!
 
-I also document [**things about web development**](books/intro-to-web-development/) and more!
+I also document [**things about web development**](docs/web-development/) and more!
