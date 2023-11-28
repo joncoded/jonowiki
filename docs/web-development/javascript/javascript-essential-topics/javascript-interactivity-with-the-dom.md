@@ -1,5 +1,5 @@
 ---
-description: what objects listen to and how they respond (the "conversations")
+description: listening and responding to (user) interaction (the "conversations")
 ---
 
 # JavaScript event handling
