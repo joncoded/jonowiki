@@ -17,30 +17,6 @@ Organizing JavaScript code into reusable modules allows for:
 These ways require ES6 (i.e. use Babel if required) and assume that the **imported module** lives in the same folder as the **importing module**
 {% endhint %}
 
-### Older way of doing modules
-
-{% code title="moduleToExport.js" %}
-```javascript
-const moduleToExport = { 
-    property1: "hi",
-    property2: function() { return true },
-    property3: function() { return "hi" }
-}
-
-// attention to this
-module.exports = moduleToExport
-```
-{% endcode %}
-
-{% code title="moduleThatImports.js" %}
-```javascript
-// attention to this
-const ImportedModule = require('./moduleToExport.js')
-
-console.log(ImportedModule.property3)
-```
-{% endcode %}
-
 ### Newer way of doing modules (used in React)
 
 {% code title="moduleToExport.js" %}
@@ -60,6 +36,30 @@ export default moduleToExport
 ```javascript
 // attention to this
 import ImportedModule from ('./moduleToExport.js')
+
+console.log(ImportedModule.property3)
+```
+{% endcode %}
+
+### Older way of doing modules
+
+{% code title="moduleToExport.js" %}
+```javascript
+const moduleToExport = { 
+    property1: "hi",
+    property2: function() { return true },
+    property3: function() { return "hi" }
+}
+
+// attention to this
+module.exports = moduleToExport
+```
+{% endcode %}
+
+{% code title="moduleThatImports.js" %}
+```javascript
+// attention to this
+const ImportedModule = require('./moduleToExport.js')
 
 console.log(ImportedModule.property3)
 ```
