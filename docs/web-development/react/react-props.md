@@ -2,7 +2,7 @@
 description: passing data from parent to child components
 ---
 
-# React props
+# ⚛ React props
 
 To make a parent component "talk" to a child component:
 

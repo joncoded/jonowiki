@@ -1,2 +1,0 @@
-# 🗺 Mapbox with React
-

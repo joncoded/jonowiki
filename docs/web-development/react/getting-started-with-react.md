@@ -2,7 +2,7 @@
 description: going from nothing to a boilerplate for your future React projects
 ---
 
-# React setup (from scratch!)
+# ⚛ React setup (from scratch!)
 
 Many tutorials mention `create-react-app` to beginners of React, which often includes redundancies and intimidating stuff on the side ... however, another way exists! For a more bare-bones approach, we can follow this "big bang to life" procedure:
 
