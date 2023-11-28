@@ -20,8 +20,9 @@ A list of my online activities, coding and non-coding:
 ### 🐼 YYZPanda
 
 * [**Gitbook**](https://yyzpanda.gitbook.io) : recreational e-book
+* [**YouTube**](https://youtube.com/@yyzpanda) : recreational films (travel vlog)
 * [**Instagram**](https://instagram.com/yyzpanda) : recreational photos
 * [**Telegram**](https://t.me/s/yyzpanda) : recreational stuff
 * [**Twitter/X**](https://x.com/yyzpanda) : recreational verses
-* [**YouTube**](https://youtube.com/@yyzpanda) : travel vlog&#x20;
+* [**Duolingo**](https://duolingo.com/profile/yyzpanda) : wannabe linguist (zh + de + ru + fr + jp)
 
