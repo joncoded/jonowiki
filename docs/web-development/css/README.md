@@ -41,7 +41,7 @@ h2 {
 
 ### Selectors
 
-A **selector** points towards an element in an HTML document (e.g. `h1`) :
+A **selector** refers to an element in an HTML document (e.g. `h1`)  and has a set of curly braces `{}`:
 
 ```css
 h1 {}
@@ -59,15 +59,43 @@ Declarations lie inside a **declaration block**, i.e. inside the curly braces `{
 
 ```css
 h1 {
-    font-size: 48px; /* a comment about a font-size of 48 pixels */
-    color: red; /* a comment about its font color being red */
+    font-size: 48px; 
+    color: red; 
 }
 ```
 
-Whereas HTML provides a _rough order and arrangement_ of elements of a webpage, CSS supplies _design details_ with pixel-precision values!
+A group of selectors with declarations can form a **stylesheet** (the "SS" in CSS!)
 
-So, let's get started with CSS:
+Whereas:
 
-{% content-ref url="css-setup.md" %}
-[css-setup.md](css-setup.md)
-{% endcontent-ref %}
+* **HTML** provides a _rough order and arrangement_ of elements of a webpage...
+* ...**CSS** supplies _design details_ with pixel-precision values!
+
+### Cascades
+
+The "C" in CSS refers to "cascading" and, in this context, that simply means that any styling instruction/rule that happens further down the stylesheet, becomes the new rule!
+
+For example, in an HTML document like this:
+
+```xml
+<html>
+    <body>
+        <h1 class="red">Title</h1>
+    </body>
+</html>
+```
+
+The text will appear red if the CSS works like this:
+
+```css
+h1 {
+    color: green; 
+}
+
+.red {
+    /* any element with class="red" */
+    color: red;
+}
+```
+
+The second instruction overrides the first because it comes later in the stylesheet!
