@@ -6,28 +6,62 @@ description: reviewing how to get started with web development projects
 
 ### Setting up essential software
 
-* **Code editor** (that's all we'll need to install!)
-  * any of [Atom](https://atom.io), [Sublime](https://wwwsublimetext.com) or [Visual Studio Code](https://code.visualstudio.com) (the last of which we will outline here)
+* **Code editor** (we only need this for now!)
+  * [Visual Studio Code](https://code.visualstudio.com) (others exist but we will go with the most popular)
 
 ### Starting a new project
 
-* Open [Visual Studio Code](https://code.visualstudio.com) (VSC) and in the Welcome screen:
-  * Click on "Add workspace folder..." to add a folder in a desired location
-  * Click the top-most icon to view the **Explorer**
-  * Right-click on the folder name to add new files or folders
-* Have a **Terminal** window appear at the bottom of VSC while coding:
-  * Click on "View" > "Terminal" on the top bar
-  * Terminal panel will appear on the bottom
-    * this panel will also allow us to add new tabs
-* Start a new project via the Terminal with the following command:
+* Open VS Code&#x20;
+* _File > New Window_
 
-```
-$ npm init -y
-```
+### Project folder setup
 
-This will create a new `package.json` file that lists metadata and, more importantly, what **dependencies,** i.e. third-party code, this project will need!
+In the Welcome screen, let's create a project folder:
 
-* Save your **Workspace** in another folder (not in the _project folder_)
-  * Click on "File" then "Save Workspace as..."
-  * This will tell VSC what files to open again, the next time we open the Workspace
-* Have fun coding!
+* Click on "Open..." and create a new folder anywhere
+
+### Working on the project
+
+We should now see something like this:
+
+<figure><img src="../../../.gitbook/assets/20200101-0000-workspace.png" alt=""><figcaption></figcaption></figure>
+
+We can divide this interface into three main parts:
+
+* Left "sidebar" (a bird's eye view of our project + dev enhancements)
+  * _Search_: complex functionality for finding-and-replacing!
+  * _Open editors_: what files we have open
+  * _Timeline_: what steps we've taken
+* "Code-editing space" (allows splitting to work on more than one file!)
+* Bottom "command space"
+  * _Terminal_: (we will explain below)
+
+{% hint style="info" %}
+We can fully customize VS Code so that the sidebar can also appear on the right - VS Code has a lot of flexibility in the arrangement of "**panes**"!
+{% endhint %}
+
+#### Command-line view
+
+In addition to using the Finder (or File Explorer), we can have a command-line (aka _Terminal_) interface, that will help us navigate through folders and files:
+
+* On the top VS Code application bar, let's try _View_ > _Terminal_
+* At the bottom of VS Code, a _Terminal_ panel will appear
+* Here we can enter commands like `ls` to list the folders and files of our project
+
+### Saving the workspace
+
+We will continue working on the project later but let's save the "workspace":
+
+* _File_ > _Save Workspace as..._
+* Let's actually save this file outside of our project folder
+
+When we open this workspace file later, it will tell VS Code what files to re-open!
+
+### Other things to do
+
+As we become comfortable with VS Code, we can also enhance our "developer experience" via:
+
+* **Extensions** (optional language-specific helper plug-ins)
+* **Configurations** (e.g. keyboard shortcuts)
+
+For now, have fun coding and enjoy!
