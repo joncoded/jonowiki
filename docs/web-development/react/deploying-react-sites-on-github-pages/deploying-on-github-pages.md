@@ -1,8 +1,10 @@
 ---
-description: launching those projects on GitHub.io
+description: launching a project on GitHub pages
 ---
 
-# Deploying React sites on GitHub pages
+# 🚀 Deploying on GitHub pages
+
+**GitHub** provides a convenient way to store our app for free on their own servers and "github.io" domain (or even our own):&#x20;
 
 ### Connecting the local repository with the remote
 

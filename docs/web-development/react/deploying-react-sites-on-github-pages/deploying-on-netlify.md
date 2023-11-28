@@ -1,12 +1,12 @@
 ---
-description: launching those projects on Netlify
+description: launching a project on Netlify
 ---
 
-# Deploying on Netlify
+# 🚀 Deploying on Netlify
 
-Other ways exist to **deploy** a web app (such as Heroku and GitHub pages) but let's use [Netlify](http://netlify.com)...
+**Netlify**, like GitHub pages, is also free, provides a `yourname.netlify.app` subdomain (and also allows us to bring our own top-level domain!)&#x20;
 
-### Installing Netlify
+### Installing Netlify on local
 
 * Install Netlify on the same folder as your app's folder on Terminal
 

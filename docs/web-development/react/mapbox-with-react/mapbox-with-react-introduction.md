@@ -232,5 +232,5 @@ export default App
 
 ### Deployment
 
-* Please refer to [deployment](../../web-operations/deploying-on-netlify.md) to see how to make this map appear on the Internet:
+* Please refer to [deployment](../deploying-react-sites-on-github-pages/deploying-on-netlify.md) to see how to make this map appear on the Internet:
 
