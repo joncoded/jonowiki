@@ -82,7 +82,6 @@
   * [⚛ React](docs/web-development/react/README.md)
     * [React setup (from scratch!)](docs/web-development/react/getting-started-with-react.md)
     * [React props](docs/web-development/react/react-props.md)
-    * [React imports](docs/web-development/react/react-imports.md)
     * [React debugging](docs/web-development/react/react-debugging.md)
     * [🗺 Mapbox with React](docs/web-development/react/mapbox-with-react/README.md)
       * [Mapbox with React (introduction)](docs/web-development/react/mapbox-with-react/mapbox-with-react-introduction.md)
