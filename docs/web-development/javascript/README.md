@@ -13,11 +13,21 @@ description: the programming language of the internet
 We will look at the **ES6+** (post-2015) ways of doing JavaScript but occasionally take a brief look at how they do things in **pre-ES6+ ways** if applicable :)
 {% endhint %}
 
+Starting out, JavaScript will seem like it has nothing to do with working on a website, but let's look at it this way:
+
+* **data** form the building blocks of a programming language
+* **operators** work on that data
+* **branches** decide what data to use
+* **loops** eliminate repetitive data tasks
+* **variables** (especially **objects**) store data
+* **functions** organize all of the above into chunks for later re-use
+  * ... and **calling** certain functions can lead to ... putting content on a website!
+
 {% content-ref url="javascript-setup/" %}
 [javascript-setup](javascript-setup/)
 {% endcontent-ref %}
 
-JavaScript will seem like it has nothing to do with working on a website (a lot of mathematics and logic) but the reward comes after this initial phase:
+The reward comes after that initial phase:
 
 {% content-ref url="javascript-essential-topics/" %}
 [javascript-essential-topics](javascript-essential-topics/)
