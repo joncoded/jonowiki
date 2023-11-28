@@ -2,16 +2,12 @@
 
 <figure><img src=".gitbook/assets/ahoy-panda-desk.jpg" alt=""><figcaption></figcaption></figure>
 
-Hi, you can call me **Jon**&#x20;
-
-\+ I live in **Toronto, Canada**
-
-\+ I like:
+Hi, you can call me **Jon** + I live in **Toronto, Canada** + I like:
 
 * **developing** **re-usable** **parts of websites** with [**React**](https://react.dev) and [**Next.js**](https://nextjs.org/docs)
 * **documenting** web development processes
-* occasional [**travel**](https://youtube.com/@yyzpanda) to Europe (Northern + Central + Southeast) + Japan
-* watching [**giant pandas**](https://youtube.com/@yyzpanda2) 🐼 whenever they are near me
+* intensive [**travel**](https://youtube.com/@yyzpanda) to Europe (Northern + Central + Southeast) + Japan
+* observing [**giant pandas**](https://youtube.com/@yyzpanda2) 🐼 whenever they are near me
 
 ### Code
 
@@ -45,7 +41,7 @@ I like to document dev things here when I have the motivation and time:&#x20;
 
 ### Else
 
-My web presence with dev and non-dev things:
+My web presence with dev and non-dev things (including a travel vlog!):
 
 {% content-ref url="else/e-map.md" %}
 [e-map.md](else/e-map.md)
