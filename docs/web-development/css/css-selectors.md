@@ -4,6 +4,10 @@ description: targeting a group of elements of a webpage
 
 # ✅ CSS selectors
 
+A **CSS selector** finds a specific group of related objects on a webpage, in order to give each of them the same styling!
+
+For example, every second-level heading (`<h2>`) can enjoy the same font sizings or line heights (or whatever) with a concise, one-line CSS rule!
+
 ### Structure
 
 The template for two CSS selectors and their properties:
@@ -118,9 +122,9 @@ Looking at the attribute selectors above, we can see this has many fine-grained 
 
 In the example above, any element with a `data-status` value of:&#x20;
 
-* "warning" would take the styles in all three declaration blocks
-* "churning" would take the styles in only the last two blocks
-* "warsaw" would take the styles in only the first block
+* `warning` would take the styles in all three declaration blocks
+* `churning` would take the styles in only the last two blocks
+* `warsaw` would take the styles in only the first block
 
 ### Child selectors
 
