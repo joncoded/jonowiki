@@ -1,6 +1,6 @@
 # 🔗 E-map
 
-A list of my online activities, coding and non-coding:
+A list of my online activities, dev and non-dev:
 
 ### 🧑🏻‍💻 Joncoded
 
@@ -26,3 +26,4 @@ A list of my online activities, coding and non-coding:
 * [**Twitter/X**](https://x.com/yyzpanda) : recreational verses
 * [**Duolingo**](https://duolingo.com/profile/yyzpanda) : wannabe linguist (zh + de + ru + fr + jp)
 
+You may notice that my 3 "identities" spell "**JOY**" 😁
