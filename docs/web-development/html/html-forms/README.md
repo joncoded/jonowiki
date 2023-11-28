@@ -2,7 +2,7 @@
 description: adding user interactivity on a webpage
 ---
 
-# HTML form and input tags
+# 📄 HTML \<form> and \<input> tags
 
 **Forms** give the otherwise static web page a layer of _interactivity ..._
 

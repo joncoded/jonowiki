@@ -18,7 +18,7 @@
     * [🏷 HTML tag attributes](docs/web-development/html/html-tag-attributes.md)
     * [➗ HTML \<div> tag](docs/web-development/html/html-div.md)
     * [🍽 HTML \<table> tags](docs/web-development/html/html-tables.md)
-    * [📄 HTML form and input tags](docs/web-development/html/html-forms/README.md)
+    * [📄 HTML \<form> and \<input> tags](docs/web-development/html/html-forms/README.md)
       * [🏷 HTML labels](docs/web-development/html/html-forms/html-labels.md)
       * [🔤 HTML input: text](docs/web-development/html/html-forms/html-input-text.md)
       * [✴ HTML input: password](docs/web-development/html/html-forms/html-input-password.md)
