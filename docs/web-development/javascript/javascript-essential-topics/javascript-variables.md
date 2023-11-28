@@ -4,7 +4,7 @@ description: the storage locations of data (the "words")
 
 # JavaScript variables
 
-**Variables** store data:
+**Variables** store data for later use (and to make them more compact/portable):
 
 ### Statements
 
@@ -36,55 +36,33 @@ x <- x + 1
 
 #### Semi-colon at the end
 
-{% hint style="info" %}
-In ES6, the semi-colon (`;`) [has become optional](https://flaviocopes.com/javascript-automatic-semicolon-insertion/) but some programmers prefer to continue using it out of habit and/or clarity of code (I prefer not to!)
-{% endhint %}
+In ES6, semi-colons (`;`) [have become optional](https://flaviocopes.com/javascript-automatic-semicolon-insertion/)
+
+* some programmers prefer to continue using them out of habit
+* others just want to keep their a little cleaner!
 
 ### Declarations
 
-Indeed, we use the reserved keywords `var` ,`const` and `let` to **declare** what kind of statement that we wish to make:
+Indeed, we use the reserved keywords `const` and `let` to **declare** what kind of statement that we wish to make:
 
 * `const` is a variable but up until the point we declare it
   * we can change its value at its line of declaration
   * ...but we cannot re-assign it at any other point in the program
 * `let` is a variable in its truest form
   * we can change its value after its declaration
-* `var` is a variable like `let` but:
-  * `let` has **block scope**
-    * it exists only within the confines of its closest _curly braces_
-  * `var` has **function scope**
-    * it exists within the confines of its `function`
-* declaring a variable _without a keyword_ and _without_ `use strict`
-  * makes it a _global variable_ in JavaScript!
 
 ```javascript
-const x = 100 // change it here 
-x = 200 // but we can't do this
+// we can change "100" here...
+const x = 100 
 
-let y = 100 // change it here
-y = 200 // and we can do this
+// ...but we cannot change it here
+x = 200 
 
-function doSomething() {
-// function scope for var
+// we can change "100" here...
+let y = 100 
 
-    if (x > 0) {
-    // block scope for let
-        let z = 100
-        z = 200    // we can change it here
-        var t = 1
-    }
-    
-    console.log(z) // undefined error as z is outside scope
-    console.log(t) // 1 as var is still in function scope
-    
-    w = 1000 // note: no keyword declaration
-
-}
-
-doSomething()
-console.log(w) 
-// 1000 because it got declared as a global variable
-// undefined error if using `use strict` on top of file
+// ...and we can change it here because of let
+y = 200
 ```
 
 ### Reserved keywords
@@ -97,6 +75,37 @@ let let = 1
 
 ...won't work because the language won't let us use the second `let` as a variable name!
 
-A full list of reserved keywords:
+For a full list of reserved keywords, we have this _w3schools_ page:
 
 {% embed url="https://www.w3schools.com/js/js:reserved.asp" %}
+
+### Keyword `var`
+
+`var` is a variable like `let` but:
+
+* `let` has **block scope**
+  * it exists only within the confines of its closest _curly braces_
+* `var` has **function scope**
+  * it exists within the confines of its `function`
+
+```javascript
+function doSomething() {
+// function scope for var
+
+    const x = 10
+
+    if (x > 0) {
+    // block scope for let
+        let z = 100
+        z = 200    // we can change it here
+        var t = 1
+    }
+
+    // "1" (this call exists inside the function scope)
+    console.log(t) 
+    
+    // undefined (this call exists outside the block scope)
+    console.log(z) 
+
+}
+```
