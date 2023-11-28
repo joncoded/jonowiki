@@ -84,7 +84,6 @@
     * [⚛ React setup (from scratch!)](docs/web-development/react/getting-started-with-react.md)
     * [⚛ React props](docs/web-development/react/react-props.md)
     * [⚛ React state](docs/web-development/react/react-state.md)
-    * [🗺 React with Mapbox](docs/web-development/react/mapbox-with-react/mapbox-with-react-introduction.md)
     * [🚀 React app deployment](docs/web-development/web-operations/deploying-react-sites-on-github-pages.md)
       * [🚀 Deploying on GitHub pages](docs/web-development/react/deploying-react-sites-on-github-pages/deploying-on-github-pages.md)
       * [🚀 Deploying on Netlify](docs/web-development/web-operations/deploying-on-netlify.md)
@@ -104,7 +103,8 @@
   * [🚧 Accessibility](docs/web-development/accessibility.md)
   * [✍ Contentful](docs/web-development/contentful/README.md)
     * [Contentful app startup](docs/web-development/contentful/contentful-app-startup.md)
-* [📊 Data visualization](docs/data-visualization.md)
+* [📊 Data visualization](docs/data-visualization/README.md)
+  * [🗺 React with Mapbox](docs/data-visualization/mapbox-with-react-introduction.md)
 * [👨🔬 Data science](docs/data-science/README.md)
   * [🐍 Python](docs/data-science/python/README.md)
     * [Commenting](docs/data-science/python/commenting.md)
@@ -118,8 +118,3 @@
     * [Listing](docs/data-science/python/listing.md)
     * [Debugging](docs/data-science/python/debugging.md)
 * [⚙ Assorted technologies](docs/assorted-technologies.md)
-
-## Else
-
-* [📜 Telegram (curations)](https://t.me/s/joncoded)
-* [🐦 Twitter (narrations)](https://twitter.com/joncoded)
