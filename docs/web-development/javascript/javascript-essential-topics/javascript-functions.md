@@ -97,4 +97,4 @@ const myObject = {
 }
 ```
 
-We will look objects in more detail [soon](javascript-objects.md)!
+We will look objects in more detail in the next page:&#x20;
