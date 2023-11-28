@@ -40,6 +40,8 @@ div.example {
 }
 ```
 
+(In the above, the property `position` could take on one of those five values)
+
 ### Display
 
 The `display` property determines if and how an element appears relative to its preceding (sibling) element, and can take on the following values:&#x20;
@@ -68,7 +70,7 @@ The `z-index` property allows an element to overlap another element if it has a 
 
 ```css
 div.example1 {
-/* this will get overlapped by both of the below */
+/* both examples below will overlap this example */
     position: absolute;
     top: 0;
     z-index: 1;
@@ -87,7 +89,6 @@ div.example3 {
     top: 0;
     z-index: 100;
 }
-
 ```
 
 ### Float
@@ -131,4 +132,4 @@ The `clear` property specifies what should happen when the next element appears 
 </div>
 ```
 
-In the example above, the second paragraph would appear on a new line under the first paragraph and image! The `clear` property can also take on values of `left` and `right` if there exists the desire to clear the float of only the elements with a `float: left` or `float: right`
+In the example above, the second paragraph would appear on a new line under the first paragraph and image!&#x20;
