@@ -4,6 +4,8 @@ description: documenting the script
 
 # JavaScript comments and whitespace
 
+Here we will outline two handy concepts regarding documentation in JavaScript: &#x20;
+
 ### **Comments**
 
 **Comments** allow us to place notes inside the code, without affecting how the program runs:
@@ -12,9 +14,13 @@ description: documenting the script
 // this is a comment in JavaScript
 
 /* 
+
 this is also a comment in JavaScript
+
 when we want to write something 
+
 longer than one line
+
 */
 ```
 
@@ -52,4 +58,8 @@ We could still do more than one space like this:
 let x      =       1  
 ```
 
-...but why?
+...but why? Let's just stick to this kind of convention:
+
+```javascript
+let x = 1
+```
