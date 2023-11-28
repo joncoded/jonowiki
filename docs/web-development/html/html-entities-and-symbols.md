@@ -4,14 +4,13 @@ description: adding non-alphanumeric text
 
 # HTML special characters
 
-These special characters come in three main types:
+At least two kinds of special characters exist in HTML:
 
-* **Entities** (characters which are especially not present on a standard keyboard)
-  * things like "<" and ">" that should be converted to avoid confusion with their literal versions
-  * obscure mathematical symbols
-  * obscure foreign characters
-  * most currency symbols
-* **Emoji** (no longer pictures but now exist as text-like characters!)
+* **Entities**
+  * characters which do not appear on all keyboards; or
+  * characters that would interfere with HTML code such as `<` and `>`
+* **Emoji**
+  * icons that no longer consist of image files but text-like characters 😁
 
 ### Entities
 
@@ -27,26 +26,33 @@ There are two ways to encode entities:
 
 Common entities include:
 
-| Appearance | Meaning              | By name | By number |
-| ---------- | -------------------- | ------- | --------- |
-|            | non-breaking space\* |         | \&#160;   |
-| <          | less than            | <       | \&#60;    |
-| >          | greater than         | >       | \&#62;    |
-| &          | ampersand            | &       | \&#38;    |
-| ¢          | cent                 | ¢       | \&#162;   |
-| €          | euro                 | €       | \&#8364;  |
-| ©          | copyright            | ©       | \&#169;   |
-| ®          | registered trademark | ®       | \&#174;   |
-| ™          | trademark            | ™       | \&#8482;  |
+| Appearance | Meaning              | By name   | By number |
+| ---------- | -------------------- | --------- | --------- |
+|            | non-breaking space\* | `&nbsp;`  | `&#160;`  |
+| <          | less than            | `&lt;`    | `&#60;`   |
+| >          | greater than         | `&gt;`    | `&#62;`   |
+| &          | ampersand            | `&amp;`   | `&#38;`   |
+| ¢          | cent                 | `&cent;`  | `&#162;`  |
+| €          | euro                 | `&euro;`  | `&#8364;` |
+| £          | pound                | `&pound;` | `&#163;`  |
+| ©          | copyright            | `&copy;`  | `&#169;`  |
+| ®          | registered trademark | `&reg;`   | `&#174;`  |
+| ™          | trademark            | `&trade;` | `&#8482;` |
 
 {% hint style="warning" %}
 Remember that when HTML entities by name are _case sensitive!_
+
+i.e. `&euro;` will work but not `&Euro;`
 {% endhint %}
 
 ### Emoji
 
-{% hint style="info" %}
-Ensure that the `<head>` contains the following in order for emoji to work on the page:
+Emoji are just symbols like $ or ¢ and we can simply input them using:
+
+* an emoji keyboard (`control + command + space` on a Mac)
+* HTML entity code (such as `&#128516` for 😄)
+
+We also need to ensure that the `<head>` contains this line of code for emoji to appear on the page:&#x20;
 
 ```markup
 ...
@@ -57,13 +63,9 @@ Ensure that the `<head>` contains the following in order for emoji to work on th
 </head>
 ...
 ```
-{% endhint %}
-
-Emoji are just symbols like $ or ¢ and we can simply input them using:
-
-* an emoji keyboard (`control + command + space` on a Mac)
-* HTML entity code (such as `&#128516` for 😄)
 
 {% hint style="info" %}
-Emoji is the plural of emoji!
+**Fun fact:** Emoji is the plural of emoji!
+
+**Another fun fact:** The resemblance of the word "emoji" to "emotion" is a [complete coincidence](https://en.m.wiktionary.org/wiki/emoji)!
 {% endhint %}

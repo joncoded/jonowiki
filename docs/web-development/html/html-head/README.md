@@ -32,7 +32,7 @@ The `<head>` part of an HTML document describes the page:&#x20;
 The `<head>` may assist:
 
 * search engines list your page
-* screen readers (and other [assistive technologies](../accessibility.md))
+* screen readers (and other [assistive technologies](../../accessibility.md))
 * other web developers :smile:
 
 ### The \<meta> tag
