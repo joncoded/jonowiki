@@ -13,6 +13,41 @@ Hi, you can call me **Jon**&#x20;
 * occasional [**travel**](https://youtube.com/@yyzpanda) to Europe (Northern + Central + Southeast) + Japan
 * watching [**giant pandas**](https://youtube.com/@yyzpanda2) 🐼 whenever they are near me
 
-My current project is [**Jonobase**](https://jonobase.vercel.app/), a mashup of Next.js + Pocketbase!
+### Code
 
-I also try to document [**things about web development**](docs/web-development/)!
+{% content-ref url="code/projects/jonobase.md" %}
+[jonobase.md](code/projects/jonobase.md)
+{% endcontent-ref %}
+
+{% content-ref url="code/projects/jonomaps.md" %}
+[jonomaps.md](code/projects/jonomaps.md)
+{% endcontent-ref %}
+
+### Docs
+
+I like to document dev things here when I have the motivation and time:&#x20;
+
+{% content-ref url="docs/web-development/" %}
+[web-development](docs/web-development/)
+{% endcontent-ref %}
+
+{% content-ref url="docs/data-visualization/" %}
+[data-visualization](docs/data-visualization/)
+{% endcontent-ref %}
+
+{% content-ref url="docs/data-science/" %}
+[data-science](docs/data-science/)
+{% endcontent-ref %}
+
+{% content-ref url="docs/assorted-technologies.md" %}
+[assorted-technologies.md](docs/assorted-technologies.md)
+{% endcontent-ref %}
+
+### Else
+
+My web presence with dev and non-dev things:
+
+{% content-ref url="else/e-map.md" %}
+[e-map.md](else/e-map.md)
+{% endcontent-ref %}
+
