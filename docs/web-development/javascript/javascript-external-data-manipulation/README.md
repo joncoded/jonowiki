@@ -6,6 +6,7 @@ description: using other people's data
 
 **Retrieving data from an external source** makes web programming useful ... if we don't like creating datasets, we could always get them from somewhere else!
 
-{% content-ref url="javascript-fetch.md" %}
-[javascript-fetch.md](javascript-fetch.md)
-{% endcontent-ref %}
+In this section, we will look at:&#x20;
+
+* how JavaScript interacts with external data via **JSON** (a data format)
+* how to **fetch** JSON (and any other data)

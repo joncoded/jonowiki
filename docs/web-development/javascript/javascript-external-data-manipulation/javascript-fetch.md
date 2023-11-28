@@ -117,3 +117,28 @@ const getData = async () => {
 ```
 
 The `async` keyword creates a function that returns a \`Promise\` to `await` for responses from the API, before we proceed along the code blocks ... then, we can simply handle any errors and place any valid responses into `getData`!
+
+### Using XMLHttpRequest and JSON.parse
+
+Just for posterity's sake, we have this alternate "old" way to fetch JSON data:&#x20;
+
+```javascript
+const request = new XMLHttpRequest()
+request.open('GET', 'data.json', true)
+
+request.onload = function() {
+  if (this.status >= 200 && this.status < 400) {
+    const data = JSON.parse(this.response)      
+    // data here
+    console.log(data)
+  } else {
+    // server error
+  }
+}
+
+request.onerror = function() {
+  // connection error
+}
+
+request.send()
+```

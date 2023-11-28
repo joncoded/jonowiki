@@ -101,28 +101,3 @@ Calling the above _jsonObject_, we would enter _jsonObject.property2.property2B_
 ```
 
 We can then infer here that this versatile structure could allow for quite complex objects with many properties and sub-properties to the desired degree!
-
-### Accessing JSON data with JavaScript
-
-If we have a file named `data.json` on the same folder as the JavaScript file:
-
-```javascript
-const request = new XMLHttpRequest()
-request.open('GET', 'data.json', true)
-
-request.onload = function() {
-  if (this.status >= 200 && this.status < 400) {
-    const data = JSON.parse(this.response)      
-    // data here
-    console.log(data)
-  } else {
-    // server error
-  }
-}
-
-request.onerror = function() {
-  // connection error
-}
-
-request.send()
-```
