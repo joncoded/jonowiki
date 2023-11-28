@@ -6,9 +6,17 @@ description: essential math + logic + beyond (the "conjunctions")
 
 **Operators** look at data and try to do something with them:
 
+{% hint style="info" %}
+Due to the essential nature of operators, many of these operators will look similar to those used in other programming language: so if you learn it one language, you will learn it in most of them!
+{% endhint %}
+
 ### Arithmetic operators
 
-The mathematical operations we know from grade school (with slight variations in their _symbols_ to avoid confusion with other symbols, such as `x` , or for easy input - because where in heck is the division symbol (÷) key?):
+The mathematical operations we know from grade school, with slight variations, e.g.:
+
+* `*` for multiplication, to avoid confusion with the letter x
+* `/` for division, because `÷` keys don't exist much on keyboards
+* `%` for **modulo** (remainders), somehow not avoiding confusion with "percents"
 
 | Operator symbol | Meaning               |
 | --------------- | --------------------- |
@@ -53,15 +61,15 @@ As we advanced from second grade, we came across these concepts:
 
 | Operator symbol | Meaning                        |
 | --------------- | ------------------------------ |
-| >               | greater than                   |
-| >=              | greater than or equal to       |
-| <               | less than                      |
-| <=              | lesser than or equal to        |
-| ==              | equal to                       |
-| ===             | equal to or equal type to      |
-| !=              | not equal to                   |
-| !==             | not equal or not equal type to |
-| ?               | ternary (see below)            |
+| `>`             | greater than                   |
+| `>=`            | greater than or equal to       |
+| `<`             | less than                      |
+| `<=`            | lesser than or equal to        |
+| `==`            | equal to                       |
+| `===`           | equal to or equal type to      |
+| `!=`            | not equal to                   |
+| `!==`           | not equal or not equal type to |
+| `?`             | ternary (see below)            |
 
 A confusing phenomenon for the beginner in JavaScript, we use:
 
@@ -105,9 +113,9 @@ Later on in school, we had concepts like these:
 
 | Operator symbol | Meaning |
 | --------------- | ------- |
-| &&              | "and"   |
-| \|\|            | "or"    |
-| !               | "not"   |
+| `&&`            | "and"   |
+| `\|\|`          | "or"    |
+| `!`             | "not"   |
 
 #### Examples
 
@@ -124,12 +132,30 @@ if (x > 100 || x < 0) {
 }
 ```
 
+### Ternary operators
+
+We use **ternary operators** as a shorthand for `if` and `else` statements with the format:
+
+```javascript
+(/* comparison */) 
+    ? /* one-liner if true */ 
+    : /* one-liner if false */
+```
+
+For example:
+
+```javascript
+let y = (x > 100) 
+    ? "too much" 
+    : "too little"
+```
+
 ### Increment/decrement operators
 
 | Operator symbol | Meaning                                   |
 | --------------- | ----------------------------------------- |
-| ++              | increment the existing value (add 1)      |
-| --              | decrement the existing value (subtract 1) |
+| `++`            | increment the existing value (add 1)      |
+| `--`            | decrement the existing value (subtract 1) |
 
 #### Examples
 
@@ -147,10 +173,14 @@ These basically function as shorthand to the aforementioned arithmetic operators
 
 | Operator symbol | Meaning                          |
 | --------------- | -------------------------------- |
-| +=              | add to the existing value        |
-| -=              | subtract from the existing value |
-| \*=             | multiply by the existing value   |
-| /=              | divide by the existing value     |
+| `+=`            | add to the existing value        |
+| `-=`            | subtract from the existing value |
+| `*=`            | multiply by the existing value   |
+| `/=`            | divide by the existing value     |
+
+{% hint style="info" %}
+The programming language "C++" plays on the `++` operator to mean "the next version of C"
+{% endhint %}
 
 #### Examples
 
