@@ -17,7 +17,7 @@ In this section, we will review how to:
 * Use HTML [tags](html-tag-structure.md) for [structuring](html-tag-structure.md) (but not styling)
 * Use HTML [attributes](html-tag-structure.md) to give a tag more information
 * Divide a webpage up into [divs](html-div.md)
-* Use [semantic HTML tags](semantic-html/) which give tags a little more meaning
+* Use [semantic HTML tags](broken-reference) which give tags a little more meaning
   * Build HTML [tables](html-tables.md) to display two-dimensional data
   * Build HTML [forms](html-forms/) for user interactivity
 * Manipulate the HTML [head](html-head/) which gives a webpage its metadata
