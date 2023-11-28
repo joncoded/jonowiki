@@ -4,126 +4,139 @@ description: passing data from parent to child components
 
 # React props
 
-We streamline repetitive code with components, e.g. using subcomponent files:
+To make a parent component "talk" to a child component:
 
-```jsx
-import React from 'react';
+* the parent component will use a special kind of attribute or _property_ known as `props`
+  * this consists of an attribute in a JSX tag
+  * the attribute can take on any _key name_ with any _value_
+* the child component function will receive these `props` in its parameters
+  * its `return` JSX can then use it like a variable
 
-class SomeComponent extends React.Component {
-  render() {
-    return (
-      /* repeating code begins */
-      <div className="someComponent">            
-        <h1 className="component-title">Title</h5>
-        <p className="component-text">Text</p>
-        <a href="#" className="btn btn-primary component-button">Go!</a>
-      </div>
-      /* repeating code ends */
-    );
-  }
+For example, with an `App.js` we would introduce a `someData` attribute, or `props` :
+
+```javascript
+/* jonotype/src/App.js */
+
+import { Component } from './Component.js'
+
+export default function App() {
+  return (
+    <div>
+      <h1>Hello!</h1>
+      <h2>Let's begin our React App!</h2>
+      <Component someData="hello component" />
+    </div>
+  )
 }
-
-/* this allows us to use the file wherever we import it */
-export default SomeComponent;
 ```
 
-This allows us to use the subcomponent as a mere JSX tag in the parent component:
+Then, in the `Component.js` we would bring the `props` in as a **parameter**:
 
-```jsx
-import React from 'react';
-import './App.css';
+```javascript
+/* jonotype/src/Component.js */
 
-/* insert this */
-import SomeComponent from "./components/someComponent";
-
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="container">
-
-            /* use the component (and repeat it) here! */
-            <SomeComponent />
-            <SomeComponent />
-            <SomeComponent />
-            <SomeComponent />
-            <SomeComponent />
-            <SomeComponent />
-
-          </div>
-        </div>
-      </div>
-    );
-  }
+export function Component(props) {
+  return (
+    <div>
+      <h3>{props.someData}</h3>
+      <p>A child component!</p>      
+    </div>
+  )
 }
-
-export default App;
 ```
 
-### Making each repetition "unique"
+To access `someData` we would simply use `props.someData` as shown above!
 
-However, we can go one step further and make the code re-use even more dynamic by adding [HTML-like attributes](https://github.com/joncoded/jonsdocs/blob/main/a/1678/README.md) to each instance of `<SomeComponent />`:
+#### Alternate syntax
 
-```jsx
-import React from 'react';
-import './App.css';
-import SomeComponent from "./components/someComponent";
+We could make things more concise in the component (let's make a separate `ComponentAlternate.js` file for clarity's sake):
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="container">
-          <div className="row">
-            /* behold these similar-but-unique components! */
-            <SomeComponent name="Panda" job="President" />
-            <SomeComponent name="Frog" job="Vice President" />
-            <SomeComponent name="Rabbit" job="Treasurer" />
-          </div>
-          <div className="row">
-            /* behold these similar-but-unique components! */
-            <SomeComponent name="Horse" job="Officer" />
-            <SomeComponent name="Dog" job="Developer" />
-            <SomeComponent name="Snake" job="Analyst" />
-          </div>
-        </div>
-      </div>
-    );
-  }
+```javascript
+/* jonotype/src/Component.js */
+
+export function Component({someData}) {
+  return (
+    <div>
+      <h3>{someData}</h3>
+      <p>A child component!</p>      
+    </div>
+  )
 }
-
-export default App;
 ```
 
-### Giving props to the child
+Notice that:
 
-We thus pass attributes ("give props!"), like _parameters_, to the (child) component:
+* the `{someData}` parameter now has curly braces
+* the keyword `props` has become redundant via JavaScript destructuring
 
-```jsx
-import React from 'react';
+Moving this over to `App.js`
 
-class SomeComponent extends React.Component {
-  render() {
-    return (
-      <div class="col-md-4">
-        <div className="card">          
-          <div className="card-body">
-            /* give props to the child component */
-            <h2 className="card-title">{this.props.name}</h2>
-            <p className="card-text"><strong>{this.props.job}</strong></p>
-            <a href="#" className="btn btn-primary">See more</a>
-          </div>
-        </div>
-      </div>
-    );
-  }
+```javascript
+/* jonotype/src/App.js */
+
+import { Component } from './Component.js'
+import { ComponentAlternate } from './ComponentAlternate.js'
+
+export default function App() {
+  return (
+    <div>
+      <h1>Hello!</h1>
+      <h2>Let's begin our React App!</h2>
+      <Component someData="hello component" />
+      <ComponentAlternate someData="alternate component" />
+    </div>
+  )
 }
-
-export default SomeComponent;
 ```
 
-This passing of attributes from the parent class to `{this.props.x}` in the child class would result in repeated components as such:
+The output for `Component` and `ComponentAlternate` will look essentially identical (except for the value passed into the `someData` prop):
 
-![subcomponents within components!](https://www.joncoded.com/wp-content/uploads/props-new.png)
+<figure><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700771240407/63ce5e04-6608-4efc-a840-6267e6e89393.png" alt=""><figcaption></figcaption></figure>
 
-...with each repetition having unique details 🐼
+#### Passing in more than one parameter
+
+We could also pass in another parameter (let's use our `ComponentAlternate.js` file):
+
+```javascript
+/* jonotype/src/ComponentAlternate.js */
+
+export function ComponentAlternate({someData, otherData}) {
+  return (
+    <div>
+      <h3>{someData} #{otherData}</h3>
+      <p>A child component!</p>      
+    </div>
+  )
+}
+```
+
+Then, in the `App.js` file:
+
+```javascript
+import { Component } from './Component.js'
+import { ComponentAlternate } from './ComponentAlternate.js'
+
+export default function App() {
+  return ( 
+    <div>
+      <h1>Hello!</h1>
+      <h2>Let's begin our React App!</h2>
+      <Component someData="hello component" />
+      <ComponentAlternate 
+          someData="alternate component" 
+          otherData={100} 
+      />
+    </div>
+  )
+}
+```
+
+Note how we simply added an extra JSX attribute/prop called `otherData` in the `ComponentAlternate` tag!
+
+The output will look like this:
+
+<figure><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700771990849/2a127b14-b450-4094-a0d9-ea187a46da09.png" alt=""><figcaption></figcaption></figure>
+
+### **Code repo**
+
+available on [https://github.com/joncoded/jonotype/tree/001-props](https://github.com/joncoded/jonotype/tree/001-props)

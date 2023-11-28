@@ -81,8 +81,6 @@
         * [JavaScript Object.freeze()](docs/web-development/javascript/javascript-optional-content/javascript-built-in-functions/javascript-object.freeze.md)
   * [⚛ React](docs/web-development/react/README.md)
     * [React setup (from scratch!)](docs/web-development/react/getting-started-with-react.md)
-    * [React making a page](docs/web-development/react/react-making-a-page.md)
-    * [React components](docs/web-development/react/react-components.md)
     * [React props](docs/web-development/react/react-props.md)
     * [React imports](docs/web-development/react/react-imports.md)
     * [React debugging](docs/web-development/react/react-debugging.md)
