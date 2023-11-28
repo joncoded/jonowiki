@@ -4,11 +4,19 @@ description: creating a kind of secondary navigation
 
 # 🍞 CSS breadcrumbs
 
-**Breadcrumbs** enable a user to see the "forest for the trees" by having a one-liner navigation that shows where the current page lies, relative to the home page ... the breadcrumbs thus provide a hierarchical "trail" back to the home page:
+**Breadcrumbs** provide a linear navigation that shows&#x20;
+
+* where the current page lies
+* relative to the home page
+* ...and the path that led to the current page&#x20;
+
+They thus provide a hierarchical "trail" of "crumbs" back to the home page, e.g.:
 
 ```
 Home > Level 1 > Level 2 > Current 
 ```
+
+### HTML
 
 To implement this, we use an unordered list:&#x20;
 
@@ -31,6 +39,8 @@ To implement this, we use an unordered list:&#x20;
 </body>
 ```
 {% endcode %}
+
+### CSS
 
 To style this, we make that unordered list, an _inline_ list, then place a separator using the `::before` pseudoclass:&#x20;
 
