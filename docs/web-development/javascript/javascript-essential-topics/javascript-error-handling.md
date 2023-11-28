@@ -1,5 +1,5 @@
 ---
-description: how to respond to unsatisfactory data (the "interjections")
+description: responding to unsatisfactory data (the "interjections")
 ---
 
 # JavaScript error handling
