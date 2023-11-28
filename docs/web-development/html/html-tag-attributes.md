@@ -4,6 +4,8 @@ description: giving information to objects on a webpage
 
 # HTML tag attributes
 
+We can add information about the objects of a webpage (i.e. headings, paragraphs, images, etc.) onto the objects themselves!
+
 If tags were physical objects, think of the **attribute** as a _dimension_ like `height` and `width`:
 
 * For an object with a height of 120 pixels, think of
@@ -24,7 +26,8 @@ Also, coming from other backgrounds:
 
 Some attributes can appear on almost any tag, such as:
 
-* `id` whose value can only appear once per page (of course, to uniquely identify one element)
+* `id` whose value can only appear once per page&#x20;
+  * of course, to uniquely identify one element!
 * `class` whose value usually describes a quality
   * ...and possibly its membership in a group of related elements
 
@@ -90,4 +93,4 @@ In this example, the `src` consists of the full URL of the page to which we want
 <img src="https://www.placehold.it/300x300.jpg" />
 ```
 
-(Any tag that has to do with a media file usually has an attribute that indicates the filename)
+(Any tag that has to do with a media file usually has an attribute that indicates the filename!)
