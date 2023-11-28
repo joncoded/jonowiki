@@ -1,8 +1,10 @@
 ---
-description: three ways to use CSS
+description: 3 ways (and the best way) to add styling to an HTML page
 ---
 
 # ⚙ CSS setup
+
+How we can add CSS to an HTML page:
 
 ### Prerequisites
 
@@ -10,11 +12,13 @@ description: three ways to use CSS
 * HTML file
 * Web browser
 
-When using only HTML, we can use CSS in three ways:
+### Methods of adding CSS
 
-* In-line
-* Style tags
-* Style sheets
+For an HTML-only page, we have three ways to add CSS:
+
+* In-line (`style` attribute within an HTML tag)
+* `<style>` tags (anywhere on an HTML page)
+* External **style sheets** (outside of the HTML page)
 
 ### In-line styles
 
@@ -58,11 +62,11 @@ We could also use HTML `<style>` tags:
 </html>
 ```
 
-However, this can get messy easily so...
+However, with more styling rules, this can easily become messy and lengthy!
 
 ### Style sheets
 
-The "SS" in "CSS" allows us to separate the styling concerns from the HTML file, by placing them into a _stylesheet_:
+The "SS" in "CSS" allows us to separate the styling concerns from the HTML file, by placing them into a **style sheet**:
 
 {% code title="style.css" %}
 ```css
@@ -72,7 +76,10 @@ h1 {
 ```
 {% endcode %}
 
-We then reference the `style.css` file in the HTML using a special `<link>` tag within `<head>`:
+We then reference the above `style.css` file in the HTML page...
+
+* using a special `<link>` tag within the `<head>` tag
+  * which itself lives in the `<html>` tag:
 
 {% code title="index.html" %}
 ```markup
@@ -96,4 +103,4 @@ We then reference the `style.css` file in the HTML using a special `<link>` tag 
 ```
 {% endcode %}
 
-Next, we shall learn how to connect those styles in our HTML with [CSS selectors](css-selectors.md):
+Next, we shall learn how to connect those styles in our HTML with [CSS selectors](css-selectors.md)...
