@@ -79,8 +79,8 @@ Each developer may also have to take part in:
   * to get that web project onto the Internet!
     * usually nowadays handled by a specialized team called **development operations** (or **dev ops**)
 
-{% content-ref url="web-operations.md" %}
-[web-operations.md](web-operations.md)
+{% content-ref url="web-operations/" %}
+[web-operations](web-operations/)
 {% endcontent-ref %}
 
 * **Documenting** (e.g. GitBook!)
