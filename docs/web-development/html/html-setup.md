@@ -76,5 +76,5 @@ That makes up nearly the barest-bones HTML page; after that, the possibilities b
 
 * The optional `<meta charset="utf-8" />` tag tells the browser what kind of alphabets (and numbers) the document will use
   * We've included this tag here more to demonstrate self-closing tags than its function
-  * We will later look at [meta tags in detail](html-head/html-meta.md)
+  * We will later look at [meta tags in detail](broken-reference)
 * We will go over `<h1>` and `<p>` in the next page about **HTML tags...**
