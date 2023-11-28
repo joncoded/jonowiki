@@ -1,8 +1,23 @@
 ---
-description: displaying data in cells on an HTML page
+description: organizing similar records of data together on a webpage
 ---
 
-# HTML tables
+# HTML \<table> tags
+
+**Tables** display groups of similar data as a grid-like structure:
+
+* Rows typically show individual data observations
+* Table typically show values of a property
+
+For example:
+
+* A row could show a city
+* A column could show data that describe a city, e.g.
+  * country
+  * population
+  * mayor
+
+We could say that rows form the "nouns" and that columns form the "adjectives" of tables!
 
 ### Structure
 
@@ -63,3 +78,9 @@ One attribute to note is `scope` for table headings; these simply denote whether
 * items that follow it (`row`) as a row
 
 Older attributes used to live in the `<table>` tag (e.g. `cellspacing` and `cellpadding`) but CSS takes care of them of these days!
+
+{% hint style="warning" %}
+Web developers formerly used the `<table>` tag for layout purposes to divide up sections of a page
+
+However, this practice has become highly frowned upon and we prefer to use the `<div>` tag today!
+{% endhint %}

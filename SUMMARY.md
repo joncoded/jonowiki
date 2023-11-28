@@ -17,7 +17,7 @@
     * [HTML tag structure](docs/web-development/html/html-tag-structure.md)
     * [HTML tag attributes](docs/web-development/html/html-tag-attributes.md)
     * [HTML \<div> tag](docs/web-development/html/html-div.md)
-    * [HTML tables](docs/web-development/html/html-tables.md)
+    * [HTML \<table> tags](docs/web-development/html/html-table-tags.md)
     * [HTML forms](docs/web-development/html/html-forms/README.md)
       * [HTML labels](docs/web-development/html/html-forms/html-labels.md)
       * [HTML input: text](docs/web-development/html/html-forms/html-input-text.md)
