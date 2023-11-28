@@ -31,16 +31,15 @@ console.log(y)
 // undefined
 ```
 
-{% hint style="warning" %}
-`0` is NOT the same thing `null` in Javascript:
+Note that `0` does not mean the same thing as `null` in JavaScript:
 
-* the former consists of a number with which we can do calculations
-* the latter defines an empty (but not an `undefined`variable)
-{% endhint %}
+* `0` represents a number with which we can do calculations
+* `null` represents the intentional absence of a number
+* `undefined` represents that we have not yet decided on a value or a `null`
 
 ### `typeof` keyword
 
-To see what the type of value a variable has:
+To see what the type of value a variable has, we use `typeof` before a variable or value:
 
 ```javascript
 let x = 3.1415;
@@ -71,6 +70,10 @@ This happens with:
 * an `undefined`
 * a `Symbol`
 
+{% hint style="info" %}
+An analogy of **copying by value:** copying an image from the internet and then modifying the copy in an image editing software; the _original_ image does not change!
+{% endhint %}
+
 ### Copying by reference
 
 However, with:
@@ -82,11 +85,21 @@ However, with:
 ...we **copy by reference**:
 
 ```javascript
-let object1 = { prop1: 100, prop2: 'ax', prop3: true }
+let object1 = { 
+    prop1: 100, 
+    prop2: 'ax', 
+    prop3: true 
+}
+
 let object2 = object1
 object2.prop1 = 400
+
 console.log(object1.prop1)
 // 400
 ```
 
 Notice how changing `object2`'s property also changed `object1`'s property automatically!
+
+{% hint style="info" %}
+An analogy of **copying by reference**: editing a post on social media (our edit results in changing the original for all to see, as we change the original data!)
+{% endhint %}
