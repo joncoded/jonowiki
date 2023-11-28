@@ -19,7 +19,12 @@ At the minimal, the `<input>` field for `type="text"` looks like this:
 </form>
 ```
 
-We can certainly add more attributes:
+Other attributes can include
+
+* `maxlength` (enforce a maximum length of input)
+* `required` (enforces a value; cannot stay blank)
+* `id` (identifies the field uniquely)
+  * differs from `name` in that `name` does not enforce uniqueness
 
 ```html
 <form action="destination.html" method="post">
