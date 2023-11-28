@@ -6,7 +6,7 @@ description: specialized objects (the "jargon sets")
 
 Sometimes we need specialized objects to help express what we want to do - a specialized "vocabulary" within the programming language (a jargon!) ...
 
-... behold, some examples of **built-in objects**: \*\*\*\*
+... behold, some examples of **built-in objects**:
 
 ### Date
 
