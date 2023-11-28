@@ -4,6 +4,8 @@ description: how to take our logic and put it on a webpage
 
 # JavaScript (to the internet!)
 
+So what we want now is to take our "logical" JavaScript stuff and make it do things to webpages, but first some terminologY:&#x20;
+
 ### DOM (document object model)
 
 * **Document** = the webpage (for example)
