@@ -8,7 +8,7 @@ A list of my online activities, coding and non-coding:
   * [**Jonobase**](https://jonobase.vercel.app) : next.js tinkerings
 * [**GitHub**](https://github.com/joncoded) : code creations
 * [**Telegram**](https://t.me/s/joncoded) : code curations&#x20;
-* [**Twitter/X**](https://x.com/joncoded) : (under-used)
+* [**Twitter/X**](https://x.com/joncoded) : tech-related verses
 
 ### 🔲 Obstroct
 
