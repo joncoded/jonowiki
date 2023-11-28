@@ -1,12 +1,46 @@
 ---
-description: placing objects in an HTML page
+description: defining the objects of an web page
 ---
 
 # HTML tag structure
 
-This page consists of the most common basic **HTML tags** (objects) on a regular webpage:
+HTML tags follow a basic structure of **definition**, **attributes** and **content:**
 
-### Headings
+* Definition, as the tag/object itself, e.g. `<h1>` for a heading
+* Attributes, describe the tag, e.g. `src` for the source of an `<img>` tag
+  * `<img src="file.jpg" />`
+* Content, which houses additional objects and information
+
+### Content inside HTML tags
+
+If we were to include content inside an HTML tag, the tag would need an opening and closing component, for example:
+
+```xml
+<h1>(content)</h1>
+```
+
+As in the first-level heading above
+
+* `<h1>` makes up the opening tag
+* `</h1>` makes up the closing tag
+
+### Nesting
+
+We could even include tags inside tags! Most commonly, we do this with the `<html>` tag itself:
+
+```xml
+<html>
+    <body>
+        <h1>Heading</h1>
+    </body>
+</html>
+```
+
+When we nest a tag, we must close the innermost tag before closing the outer tag (in the above example, we must close `h1` before `body` before `html`)
+
+### Common HTML tag types
+
+#### Headings
 
 `<h1>` ... `<h6>`
 
@@ -19,14 +53,14 @@ This page consists of the most common basic **HTML tags** (objects) on a regular
 Do _not_ use these headings as font sizes, as the numbers serve a structural purpose of making "levels" for the document
 {% endhint %}
 
-### Paragraphs
+#### Paragraphs
 
 `<p>`
 
 * Exactly as advertised: paragraphs of text
 * By default, paragraphs will have dividing spaces between them like in written text
 
-### Lists
+#### Lists
 
 `<ul>` (unordered list) `<ol>`(ordered list) `<li>` (list item)
 
@@ -35,35 +69,33 @@ Do _not_ use these headings as font sizes, as the numbers serve a structural pur
 * There exist many ways to style the bullets of these lists (more on this later)
 * A list item appears inside of an unordered or ordered list
 
-### Importance
+#### Importance
 
 `<strong>`
 
 * Usually shows the text in **bold** type
 * Conveys the idea of an **important keyword** in the text of a document
 
-### Emphasis
+#### Emphasis
 
 `<em>`
 
 * Usually shows the text in _italic_ type
 * Conveys the idea of _stress_ on a word or phrase
 
-### Strikeout
+#### Strikeout
 
 `<del>` or `<strikeout>`
 
 * Usually shows the text slashed horizontally
 * Conveys the idea of removal of a text while still making the text visible
 
-### Quotations
+#### Quotations
 
 `<blockquote>`
 
 * Usually shows the text indented
 * Conveys the idea that the text is a reference of some other text
-
-#### Example
 
 ```markup
 <html>
