@@ -2,7 +2,7 @@
 description: adding user interactivity on a webpage
 ---
 
-# HTML forms
+# HTML form and input tags
 
 **Forms** give the otherwise static web page a layer of _interactivity ..._
 
@@ -41,23 +41,3 @@ Breaking that into small pieces, let's begin with the parent `<form>` tag:
 * `method` refers to how the form will submit (and what the URL will look like upon the form's submission)
   * `POST` - submitting data - the URL would have no query strings (the URL would have "?" followed by some text)
   * `GET` - retrieving data - the URL would have query strings (e.g. `index.html?fname=Jon`)
-
-As several input types exist, we can give each standard `input` field type of a form its own page:
-
-* `text`
-* `radio`
-* `checkbox`
-* `password`
-* `submit`
-* `reset`
-* `hidden`
-
-...as well as some newer and more obscure types!
-
-We will also have a look at other form elements:
-
-* `select` (dropdown)
-* `textarea`
-* `fieldset`
-* `legend`
-* `datalist`
