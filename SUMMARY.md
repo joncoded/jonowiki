@@ -27,7 +27,6 @@
       * [HTML input: reset](docs/web-development/html/html-forms/html-input-reset.md)
       * [HTML input: hidden](docs/web-development/html/html-forms/html-input-hidden.md)
     * [HTML commenting](docs/web-development/html/html-commenting.md)
-    * [HTML doctype](docs/web-development/html/html-doctype.md)
     * [HTML \<head>](docs/web-development/html/html-head/README.md)
       * [HTML \<meta>](docs/web-development/html/html-head/html-meta.md)
     * [HTML special characters](docs/web-development/html/html-entities-and-symbols.md)
