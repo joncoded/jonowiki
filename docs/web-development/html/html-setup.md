@@ -4,6 +4,8 @@ description: getting that first webpage in
 
 # HTML setup
 
+Let us begin with the creation of a basic HTML file!
+
 ### Prerequisites
 
 To create an HTML file, you could use only a **text editor,** like [TextEdit](https://en.wikipedia.org/wiki/TextEdit) or [Notepad](https://en.wikipedia.org/wiki/Microsoft\_Notepad)...
@@ -31,8 +33,9 @@ If we open the text editor, we can copy and paste the below:
 
 * The first line tells the browser to expect an HTML document
 * The actual HTML begins inside the `<html>` tag which contains an optional `lang` attribute to indicate what human language the page uses
-  * The HTML continues with the `<head>` tag which contains the HTML page's metadata (data about the page)
-  * The `<body>` tag then contains the actual content that the browser displays
+  * the HTML continues with the `<head>` tag&#x20;
+    * this contains the HTML page's metadata (data about the page) with `<meta>` tags
+  * then the `<body>` tag contains the actual content that the browser displays
 
 ### Closing tags
 
