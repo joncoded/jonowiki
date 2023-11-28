@@ -1,10 +1,10 @@
 ---
-description: how to look at our variables without affecting anything
+description: looking at JavaScript variables without displaying them
 ---
 
 # JavaScript console
 
-In the `console` we can output any processed data without directly affecting the program ... in our `app.js`:
+For debugging purposes, we can output any processed data without directly affecting the program using **console logging** or `console.log`:
 
 ```javascript
 const aVariable = "Application ready"
@@ -14,11 +14,16 @@ console.log(aVariable)
 // outputs "Application ready" 
 ```
 
-In a browser, we would right-click, then _Inspect_, then go to _Console_ to see the `log` print out `Application ready` ... but this would not change the program in any way:
+We can access the `console` by&#x20;
+
+* loading the page that contains the script on the browser
+* right-clicking on the page
+* clicking on "Inspect" (or similar)
+* finding the "Console" tab:&#x20;
 
 ![](../../../../.gitbook/assets/docs-console-log.png)
 
-Instead, it works as a debugging tool where we can see what happens to our code without directly displaying it on the browser :)
+Thus, we can see what happens to our code without directly displaying it on the browser!
 
 ### Another example
 
@@ -47,10 +52,4 @@ console.log(aVariable)
 // outputs 5
 ```
 
-...and then we can see how `console.log` enables us to see outputs of sensitive calculations without showing them on the webpage!
-
-### Related
-
-{% content-ref url="../javascript-optional-content/javascript-console-styling.md" %}
-[javascript-console-styling.md](../javascript-optional-content/javascript-console-styling.md)
-{% endcontent-ref %}
+Wwe can see how `console.log` enables us to see outputs of sensitive calculations without showing them directly on the webpage!
