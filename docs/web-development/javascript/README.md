@@ -51,6 +51,6 @@ For more rewards, we can always learn more:
 [javascript-optional-content](javascript-optional-content/)
 {% endcontent-ref %}
 
-{% content-ref url="javascript-common-problems/" %}
-[javascript-common-problems](javascript-common-problems/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

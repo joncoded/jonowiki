@@ -30,4 +30,4 @@ const z = 'yet another thing'
 const sentence = `We would like ${x} and then ${y} and also ${z}!`
 ```
 
-Note the one key thing of using backticks (the \`\`\`\`\` symbol) instead of quotations when using string interpolation! The sentence variable now reads more like a sentence!
+Note the one key thing of using backticks (the `` ` `` symbol) instead of quotations when using string interpolation! The sentence variable now reads more like a sentence!
