@@ -5,6 +5,9 @@
 ## Code
 
 * [🐙 Github](https://www.github.com/joncoded)
+* [📌 Projects](code/projects/README.md)
+  * [🛢 Jonobase](code/projects/jonobase.md)
+  * [🗺 Jonomaps](code/projects/jonomaps.md)
 
 ## Docs
 
