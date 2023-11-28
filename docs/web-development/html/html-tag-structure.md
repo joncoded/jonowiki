@@ -2,7 +2,7 @@
 description: defining the objects of an web page
 ---
 
-# HTML tag structure
+# 🏷 HTML tag structure
 
 HTML tags follow a basic structure of **definition**, **attributes** and **content:**
 

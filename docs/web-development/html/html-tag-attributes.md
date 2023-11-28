@@ -2,7 +2,7 @@
 description: giving information to objects on a webpage
 ---
 
-# HTML tag attributes
+# 🏷 HTML tag attributes
 
 We can add information about the objects of a webpage (i.e. headings, paragraphs, images, etc.) onto the objects themselves!
 

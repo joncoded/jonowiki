@@ -5,7 +5,7 @@ description: splitting function arguments rather than cooking some spicy dish
 # JavaScript currying
 
 {% hint style="info" %}
-The name "currying" is named after the mathematician [Haskell Curry](https://en.wikipedia.org/wiki/Haskell\_Curry)
+The name "currying" is named after the mathematician [Haskell Curry](https://en.wikipedia.org/wiki/Haskell\_Curry) and has nothing to do with "currying" a favour, or the spicy dish!
 {% endhint %}
 
 **Currying** exists in other programming languages (as well as in mathematics) and has to do with splitting the arguments of functions, into functions with one argument each...

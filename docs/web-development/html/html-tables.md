@@ -2,7 +2,7 @@
 description: organizing similar records of data together on a webpage
 ---
 
-# HTML \<table> tags
+# 🍽 HTML \<table> tags
 
 **Tables** display groups of similar data as a grid-like structure:
 

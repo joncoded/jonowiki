@@ -2,7 +2,7 @@
 description: allowing the user to enter alphanumeric content
 ---
 
-# HTML input: text
+# 🔤 HTML input: text
 
 ### Essentials
 

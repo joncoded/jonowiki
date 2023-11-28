@@ -2,7 +2,7 @@
 description: dividing up a webpage with "container tags" + other names for <div>
 ---
 
-# HTML \<div> tag
+# ➗ HTML \<div> tag
 
 The `<div>` tag, as its name implies, can divide an HTML document into more organized sections as such:
 

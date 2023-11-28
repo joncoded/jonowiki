@@ -18,14 +18,14 @@ These topics add some spice to the [essential topics](../javascript-essential-to
 [javascript-currying.md](javascript-currying.md)
 {% endcontent-ref %}
 
-{% content-ref url="javascript-functions-returning-multiple-values.md" %}
-[javascript-functions-returning-multiple-values.md](javascript-functions-returning-multiple-values.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="javascript-recursive-functions.md" %}
-[javascript-recursive-functions.md](javascript-recursive-functions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="javascript-apply.md" %}
-[javascript-apply.md](javascript-apply.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
