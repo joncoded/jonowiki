@@ -5,7 +5,12 @@ description: how does this language work?
 # JavaScript: how it works
 
 {% hint style="info" %}
-Before going through the following, [this article](https://medium.com/@misbahulalam/uncover-the-javascript-engine-vs-runtime-6556ef449634) about the **JavaScript Engine** (the interpreter that compiles JS code into machine language) and the **JavaScript Runtime** (the JS Engine user and provider of additional functionalities) - might come in handy
+Before going through the following, [this article](https://medium.com/@misbahulalam/uncover-the-javascript-engine-vs-runtime-6556ef449634) covers&#x20;
+
+* the **JavaScript Engine**
+  * the interpreter that compiles JS code into machine language
+* the **JavaScript Runtime**
+  * the JS Engine user and provider of additional functionalities
 {% endhint %}
 
 Let's try to understand how JavaScript works with the help of some very nicely written articles from [JavaScript Tutorial](https://www.javascripttutorial.net):
@@ -45,11 +50,14 @@ When we have a lot of **execution contexts,** leap-frogging from here to there a
 
 ### Event loop
 
-If everything is all so LIFO in the call stack, then JavaScript can do only one thing at a time! So, how do we get it to _multi-task_? Some functions might take a _loooooong_ time to execute (think of a file download) and this can cause **blockage**! \*\*\*\*Just \*\*\*\*how do we make things more efficient?
+If everything is all so LIFO in the call stack, then JavaScript can do only one thing at a time! So, how do we get it to _multi-task_? Some functions might take a _very long_ _time_ to execute (think of a file download) and this can cause **blockage**!  _Just_ how do we make things more _efficient_?
 
 {% embed url="https://www.javascripttutorial.net/javascript-event-loop/" %}
 
-By using special functions called **callback functions**, we can let the web browser make use of other components (e.g. the **Web API** and **callback queue**) and thereby allow some "slower" functions to by-pass the call stack of the JavaScript runtime!
+By using special functions called **callback functions**, we can&#x20;
+
+* let the web browser make use of other components (e.g. the **Web API** and **callback queue**)&#x20;
+* allow some "slower" functions to by-pass the call stack of the JavaScript runtime!
 
 ![](../../../../.gitbook/assets/docs-dom.png)
 
@@ -65,7 +73,7 @@ Functions then get hoisted _above_ the variables, so the code behaves in a rearr
 * variable declarations
 * function calls
 
-### Variable scopes
+### Scoping
 
 So, where does a variable live?
 
@@ -148,7 +156,7 @@ function getCounter() {
 console.log(getCounter()); // outputs a ReferenceError
 ```
 
-### Closures
+### Closuring
 
 Now, another weird thing:
 
@@ -237,6 +245,7 @@ const cat = {
       nestedFunction.call(this) // instead of just "nestedFunction();"
       nestedFunction.apply(this) // instead of just "nestedFunction();"
       const storedFunction = nestedFunction.bind(this)
+
       // allows storage and manipulation of this
       storedFunction()
       
