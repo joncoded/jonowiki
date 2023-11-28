@@ -2,7 +2,7 @@
 description: getting that first webpage in
 ---
 
-# HTML setup
+# ⚙ HTML setup
 
 Let us begin with the creation of a basic HTML file!
 

@@ -2,7 +2,7 @@
 description: giving each form field a label
 ---
 
-# HTML labels
+# 🏷 HTML labels
 
 Looking closer into the `<form>` at our fields and their labels:
 

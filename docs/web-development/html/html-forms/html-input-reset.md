@@ -2,7 +2,7 @@
 description: allowing the user to reset the entire form
 ---
 
-# HTML input: reset
+# ❌ HTML input: reset
 
 ### Essentials
 

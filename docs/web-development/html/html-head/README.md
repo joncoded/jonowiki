@@ -2,7 +2,7 @@
 description: the metadata (background information) container of a webpage
 ---
 
-# HTML \<head> and \<meta> tags
+# 👤 HTML \<head> and \<meta> tags
 
 The `<head>` part of an HTML document describes the page:&#x20;
 

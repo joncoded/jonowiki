@@ -2,7 +2,7 @@
 description: writing notes while coding webpages
 ---
 
-# HTML commenting
+# 🗣 HTML commenting
 
 **HTML comments** allow us to enter notes in an HTML file and they won't directly affect the run time of a page:
 

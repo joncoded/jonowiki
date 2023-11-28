@@ -2,7 +2,7 @@
 description: adding non-alphanumeric text
 ---
 
-# HTML special characters
+# 💱 HTML special characters
 
 At least two kinds of special characters exist in HTML:
 
