@@ -50,7 +50,7 @@
       * [JavaScript variables](docs/web-development/javascript/javascript-essential-topics/javascript-variables.md)
       * [JavaScript operators](docs/web-development/javascript/javascript-essential-topics/javascript-operators.md)
       * [JavaScript branches](docs/web-development/javascript/javascript-essential-topics/javascript-branches.md)
-      * [🚧 JavaScript loops](docs/web-development/javascript/javascript-essential-topics/javascript-loops.md)
+      * [JavaScript loops](docs/web-development/javascript/javascript-essential-topics/javascript-loops.md)
       * [JavaScript functions](docs/web-development/javascript/javascript-essential-topics/javascript-functions.md)
       * [JavaScript objects](docs/web-development/javascript/javascript-essential-topics/javascript-objects.md)
       * [🚧 JavaScript arrays](docs/web-development/javascript/javascript-essential-topics/javascript-arrays.md)
