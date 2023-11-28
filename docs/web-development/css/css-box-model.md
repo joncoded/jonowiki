@@ -54,14 +54,23 @@ If we had specified the height and width, the `min-height`, `min-width`, `max-he
 </strong><strong>}
 </strong><strong>
 </strong><strong>div.example {
+</strong><strong>
+</strong><strong>    /* ensures the div is at least 50px tall */
 </strong>    min-height: 50px;
-    max-height: 100px; /* this will shrink the div from 140px to 100px tall */
-    min-width: 100px; /* this will expand the div from 90px to 100px */
-    max-width: 100%; /* unless of course the div is 90-100px, then it will be 100%! */
+
+    /* ensures the div is at most 100px tall */
+    max-height: 100px; 
+    
+    /* ensures the div is at least 100px wide */
+    min-width: 100px; 
+    
+    /* ensures the div never extends beyond the full width of its container */
+    max-width: 100%; 
+    
 }
 </code></pre>
 
-### Padding
+### Paddings
 
 Padding refers to the _inner_ whitespace of a container; it literally _pads_ the content from the container's edges!
 
@@ -95,7 +104,7 @@ div.example {
 }
 ```
 
-### Margin
+### Margins
 
 Margin refers to the outer whitespace of a container; the container's size does include this region that separates the container from other elements!&#x20;
 
@@ -124,7 +133,7 @@ div.bottomcontainer {
 }
 ```
 
-for an HTML:
+...for an HTML that has:
 
 ```markup
 <div class="topcontainer">...</div>
@@ -143,9 +152,9 @@ div.centered {
 }
 ```
 
-### Border
+### Borders
 
-The border refers to the space between the margin and the padding:
+The border refers to the space between the (outer) margin and the (inner) padding:
 
 ```css
 div.example {
@@ -244,7 +253,7 @@ div.example {
 
 (Of course, the latter serves as the "clockwise shorthand" for the former in the above example!)
 
-### Overflow
+### Overflows
 
 The overflow refers to how much content the container will display:
 
@@ -271,3 +280,6 @@ div.example {
 ```
 
 There also exist `overflow-x` and `overflow-y` to limit the overflow value in, respectively, the horizontal and vertical directions!
+
+* `Overflow-x` will apply to the horizontal (left-right) direction
+* `Overflow-y` will apply to the vertical (top-bottom) direction
