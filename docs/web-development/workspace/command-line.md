@@ -13,11 +13,11 @@ We can access a computer's file system using the **command line:**&#x20;
 
 ### The prompt
 
-The **prompt,** which appears when we load the command line app, show us the current status:
+The **prompt,** which appears when we load the command line app, shows us the current status:
 
 On Mac, it may look something like: `jon@Jons-Mac-mini Desktop %`:
 
-* `jon@Jons-Mac-mini` refers to the _**current machine**_
+* `jon@Jons-Mac-mini` (or similar) refers to the _**current machine**_
 * `Desktop` refers to the _**current folder**_
 * `%` is the _**prompt**_ (this symbol may also be `$` or `#` depending on the system)
   * just a way of stating our "cue" to type a command
@@ -38,7 +38,7 @@ A **command** consists of a:
 
 For example:
 
-```
+```bash
 $ cd myfolder
 ```
 
