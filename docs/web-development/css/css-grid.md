@@ -50,5 +50,3 @@ This would simply create a grid of three columns:&#x20;
 * first column: 100px wide
 * middle column: 200px wide
 * last column: 100px wide&#x20;
-
-(more to come)
