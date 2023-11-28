@@ -4,6 +4,13 @@ description: working with font hues and other light attributes
 
 # 🎨 CSS colors
 
+**Colors** have at least four different notations in CSS but we normally use just one or two:
+
+* Names
+* Hexadecimal
+* RGB
+* HSL
+
 ### Named colors
 
 ```css
@@ -12,11 +19,17 @@ description: working with font hues and other light attributes
 }
 ```
 
-* We could simply use English names of colors but
-  * we limit ourselves in terms of shades
-  * we can become prone to spelling mistakes :P
+* We could simply use English names of colors but we
+  * limit ourselves in terms of shades
+  * can become prone to spelling mistakes
 
 ### Hexadecimal colors
+
+With hexadecimal (base-16) numbers, each "digit":
+
+* can be anything from 0 to 15, with A representing 10, B for 11, all the way up to F for 15
+* when combined with another "digit", a two-digit hex code pair can have up to 256 possible combinations
+* three pairs of hexadecimal digits can therefore represent 16,777,216 possible combinations of colors
 
 ```css
 .hexFont {
@@ -24,11 +37,15 @@ description: working with font hues and other light attributes
 }
 ```
 
-* First pair of characters after # represents the amount of _red_
-* Second pair, the amount of _green_
-* Third pair, the amount of _blue_
+In the above snippet, we look at each pair of digits after the `#` as such:
+
+* First pair (`#64`): amount of red \[(16 x 6) + 4 = **100**]
+* Second pair (`#96`): amount of green \[(16 x 9) + 6 = **150**]
+* Third pair (`#C8`): amount of blue \[(16 x 12) + 8 = **200**]
 
 ### RGB colors
+
+This follows the same principle as hexadecimal but using a different notation...
 
 Each argument has a range from 0 (black) to 255 (white), creating around 16.7 million shades of color:
 
@@ -46,6 +63,8 @@ However, instead of using a combination of digits and letters in each argument, 
 
 ### HSL colors
 
+Unlike hexadecimal and RGB notation, this **HSL (hue-saturation-luminolosity)** notation has to do with two additional properties of color:
+
 * First number represents the degree value of the **hue** on the color wheel
   * 0/360 = red
   * 60 = yellow
@@ -61,9 +80,9 @@ However, instead of using a combination of digits and letters in each argument, 
   * 50% = normal lighting
   * closer to 100% = increasingly brighter to fully white
 
-### Alpha in RSB(A) and HSL(A)
+### Adding "alpha" or opacity
 
-The alpha, or opacity, represents the fourth argument in each of RGB and HSL:
+The **alpha**, or **opacity (fadedness)**, represents the fourth argument in each of RGB and HSL:
 
 ```css
 .RGBAClass {
@@ -75,4 +94,7 @@ The alpha, or opacity, represents the fourth argument in each of RGB and HSL:
 }
 ```
 
-Recall that an opacity ranges from 0 to 1: 0 means no visibility and 1 means full visibility!
+Recall that an opacity ranges from 0 to 1:&#x20;
+
+* 0 means no visibility
+* 1 means full visibility
