@@ -26,8 +26,9 @@ export default function Main() {
 npm run dev
 ```
 
-* This will open up `localhost:3000` on your browser and we will see a simple page with "Home"
-* Every saved change we make to `page.tsx` will immediately **hot reload** the browser
+* This will open up `localhost:3000` on the browser
+  * We should see a simple page with "Home"
+  * Every saved change we make to `page.tsx` will immediately **hot reload** the browser
 
 ### Layout
 
@@ -65,6 +66,7 @@ export default function RootLayout({
 * Let's also test the Tailwind we added [previously](../react/next.js/next.js-setup.md)
 * In `layout.tsx` import the `global.css` file
 
+{% code title="app/layout.tsx" fullWidth="true" %}
 ```jsx
 import "./global.css"
 
@@ -85,9 +87,11 @@ export default function RootLayout({
   )
 }
 ```
+{% endcode %}
 
 * Finally, in `app/page.tsx` let us test a few styles in the `<h1>` tag:&#x20;
 
+{% code title="app/page.tsx" fullWidth="true" %}
 ```jsx
 export default function Main() {
     return (
@@ -95,6 +99,7 @@ export default function Main() {
     )
 }
 ```
+{% endcode %}
 
 * Have a look at `localhost:3000` and, as opposed to "**Home**" in the default serif font", something like this should appear:
 
