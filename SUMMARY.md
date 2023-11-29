@@ -96,6 +96,7 @@
     * [Git setup](docs/web-development/git/git-setup.md)
     * [Git terms and commands](docs/web-development/git/basic-git-terms-and-commands.md)
     * [Git command aliasing](docs/web-development/git/git-aliasing.md)
+    * [Git ignore file](docs/web-development/git/git-ignore-file.md)
     * [Git troubleshooting](docs/web-development/git/git-troubleshooting.md)
   * [🚀 Deployment](docs/web-development/web-operations/README.md)
   * [🚧 Accessibility](docs/web-development/accessibility.md)
