@@ -2,125 +2,96 @@
 description: getting ourselves ready with Next.js
 ---
 
-# Next.js setup
+# ⚙ Next.js setup
 
-### Pre-requisites
+On this page, we will have Next.js setup with only&#x20;
 
-* Ability to run UNIX commands on a [command-line interface](../../workspace/command-line.md)
-* You know that `$` means the prompt of a Terminal command line
-* You have [npm](https://www.npmjs.com) installed (check by entering `$ npm -v` on Terminal)
-  * If it reveals a version number, then you're okay
-  * If not:
-    * `$ npm install -g n`(let the installation of the installer run)
-    * `$ n stable` ( to get the latest stable version of node and npm)
-* Knowledge of JavaScript and JSON
-* Some knowledge of React will help
+* **npm commands** on the Terminal
+* [**VS Code**](../../workspace/)
 
 ### Installation
 
-On **Terminal** try:
+* Create a new folder on your local machine
+* In Terminal, enter the following:
 
+{% code fullWidth="true" %}
+```bash
+npm init -y
 ```
-$ npx create-next-app appname
+{% endcode %}
+
+* Then, install [**React**](../) + [**TypeScript**](../../typescript.md) + **Next**:
+
+{% code fullWidth="true" %}
+```bash
+npm install --save react react-dom typescript next
 ```
+{% endcode %}
 
-...replacing `appname` with the name of our choice...
+* Then, in `package.json`:
 
-We may get a prompt to install `create-next-app` (just enter `y` for yes) and then the boilerplate app will install!
-
-### Working with Next.js
-
-Let's go into the code:
-
-```
-$ cd appname
-```
-
-We will notice that the folder structure looks like:
-
-{% tabs %}
-{% tab title="root" %}
-`package.json` will look something like this:
-
-```
-{
-  "name": "codenext",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+{% code fullWidth="true" %}
+```json
+...
+"scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build", 
     "start": "next start"
+    "lint": "next lint"
+}
+...
+```
+{% endcode %}
+
+### Folders
+
+* Create a folder called `app` at the root level of the project folder
+
+#### Public folder (optional)
+
+* Create a folder called `public` also at the root level to store static assets
+  * we can then refer a file such as `public/logo.png` as simply `/logo.png`
+
+### Tailwind (optional)
+
+* _Optionally_, we could also install **Tailwind CSS**, a styling framework with [these instructions](https://tailwindcss.com/docs/guides/nextjs), i.e.
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+* Configure Tailwind with the file:&#x20;
+
+{% code title="tailwind.config.js" %}
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {},
   },
-  "dependencies": {
-    "next": "10.0.8",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+  plugins: [],
 }
 ```
+{% endcode %}
 
-Pretty straightforward looking! Looking at the `dependencies` we see that Next.js only really needs React, React-DOM and Next itself!
+* In the `app` folder, add a `global.css` file:
 
-Other files included are also pretty standard stuff:
+{% code title="app/global.css" %}
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+{% endcode %}
 
-* `README.md`
-* `package-lock.json`
-* `gitignore`
-{% endtab %}
-
-{% tab title="pages" %}
-This folder kind of acts like the `src` folder in a traditional React app...
-
-A mock API comes with the sample app in this folder:
-
-* `/pages/api/hello.js`
-
-A boilerplate layout file set in the `/pages/` root:
-
-* `/pages/_app.js` - the **container** for our pages
-* `/pages/index.js` - **our home page**!
-{% endtab %}
-
-{% tab title="public" %}
-The built code as well as any hard assets go here - as the boilerplate has:
-
-* `favicon.ico` - so you don't have to make one if you don't want to
-* `vercel.svg` - Next's equivalent of that atomic logo
-{% endtab %}
-
-{% tab title="styles" %}
-CSS goes here! Next comes with:
-
-* `/styles/globals.css` - the reset sheet
-* `/styles/Home.module.css` - the style sheet for the home page
-
-{% hint style="info" %}
-Note that when we import a `styles` file, we must give it the same name as the component + `.module.css,`e.g.
-
-In `pages/index.js` we saw that it had a `Home()` function, so the style file name to import would be `Home.module.css`
-{% endhint %}
-{% endtab %}
-{% endtabs %}
-
-As we can see from the above walkthrough, Next.js starts off pretty minimal and we like minimal!
-
-### Making our first build
-
-To create our deployment-friendly version, we run:
+* Start the Tailwind CLI build process in Terminal
 
 ```
-$ npm run build
+npx tailwindcss init -p
 ```
 
-We will then notice that a `.next` folder appears in our project folder, ready for launch!
-
-### Seeing our build
-
-Let's see what the boilerplate app looks like:
-
-```
-$ npm run dev
-```
-
-On `localhost:3000` a sample Next.js website will appear!
+We will test the Tailwind styles in the next page when we build our first page!
