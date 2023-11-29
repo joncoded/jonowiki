@@ -32,6 +32,10 @@ We place `node_modules` in `.gitignore` not because we have anything to hide, bu
 
 ### Library-specific .gitignores&#x20;
 
+{% hint style="info" %}
+This section is a stub and will expand as I work with other libraries!
+{% endhint %}
+
 #### Next.js
 
 Exclude the `.next` folder because it will come with the `npm install`
