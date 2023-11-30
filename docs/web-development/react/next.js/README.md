@@ -9,16 +9,11 @@ With a **traditional React app**:
 * all the loading and rendering of an application gets done on the client
   * e.g. the browser
 * however, this makes it bad for SEO
-  * it only sees your "app" div
+  * it only sees inside your UI render and not the tags inside `<head>`
 
 With a [**Next.js**](https://nextjs.org) **app**:
 
-* The first page load gets rendered by the server
-* Easier page routing
-* Easier deployment
-
-Let's begin:
-
-{% content-ref url="next.js-setup.md" %}
-[next.js-setup.md](next.js-setup.md)
-{% endcontent-ref %}
+* The first page load gets rendered by the server and stays cached there
+* Easier page routing and error pages
+* Simple page transitions
+* Quicker deployment (with [**Vercel**](https://vercel.com/docs))
