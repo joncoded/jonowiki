@@ -92,6 +92,7 @@
   * [➡ Next.js](docs/web-development/react/next.js/README.md)
     * [⚙ Next.js setup](docs/web-development/react/next.js/next.js-setup.md)
     * [1⃣ Next.js first page](docs/web-development/next.js/next.js-first-page.md)
+    * [🔢 Next.js nth page](docs/web-development/next.js/next.js-nth-page.md)
   * [🐙 Git](docs/web-development/git/README.md)
     * [Git setup](docs/web-development/git/git-setup.md)
     * [Git terms and commands](docs/web-development/git/basic-git-terms-and-commands.md)
