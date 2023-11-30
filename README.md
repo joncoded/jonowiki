@@ -15,9 +15,13 @@ Hi, you can call me **Jon** + I live in **Toronto, Canada** + I like:
 [jonobase.md](code/projects/jonobase.md)
 {% endcontent-ref %}
 
+<figure><img src=".gitbook/assets/jonobase-001.png" alt=""><figcaption></figcaption></figure>
+
 {% content-ref url="code/projects/jonomaps.md" %}
 [jonomaps.md](code/projects/jonomaps.md)
 {% endcontent-ref %}
+
+<figure><img src=".gitbook/assets/jonomaps-001.png" alt=""><figcaption></figcaption></figure>
 
 ### Docs
 
