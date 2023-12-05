@@ -36,7 +36,7 @@ npm install --save react react-dom typescript next
 "scripts": {
     "dev": "next dev",
     "build": "next build", 
-    "start": "next start"
+    "start": "next start",
     "lint": "next lint"
 }
 ...
