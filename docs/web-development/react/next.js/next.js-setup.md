@@ -14,7 +14,7 @@ On this page, we will have Next.js setup with only&#x20;
 * Create a new folder on your local machine
 * In Terminal, enter the following:
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```bash
 npm init -y
 ```
@@ -22,7 +22,7 @@ npm init -y
 
 * Then, install [**React**](../) + [**TypeScript**](../../typescript.md) + **Next**:
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```bash
 npm install --save react react-dom typescript next
 ```
@@ -30,7 +30,7 @@ npm install --save react react-dom typescript next
 
 * Then, in `package.json`:
 
-{% code fullWidth="true" %}
+{% code fullWidth="false" %}
 ```json
 ...
 "scripts": {
