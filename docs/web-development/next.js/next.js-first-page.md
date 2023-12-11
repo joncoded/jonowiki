@@ -63,7 +63,7 @@ export default function RootLayout({
 
 ### Test the Tailwind styles (optional)
 
-* Let's also test the Tailwind we added [previously](../react/next.js/next.js-setup.md)
+* Let's also test the Tailwind we added [previously](next.js-setup.md)
 * In `layout.tsx` import the `global.css` file
 
 {% code title="app/layout.tsx" fullWidth="true" %}
