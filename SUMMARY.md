@@ -2,12 +2,6 @@
 
 * [🏡 Ahoy!](README.md)
 
-## Code
-
-* [📌 Projects](code/projects/README.md)
-  * [🛢 Jonobase](code/projects/jonobase.md)
-  * [🗺 Jonomaps](code/projects/jonomaps.md)
-
 ## Docs
 
 * [➡ Web development](docs/web-development/README.md)
@@ -118,7 +112,3 @@
     * [Listing](docs/data-science/python/listing.md)
     * [Debugging](docs/data-science/python/debugging.md)
 * [⚙ Assorted technologies](docs/assorted-technologies.md)
-
-## Else
-
-* [🔗 E-map](else/e-map.md)
