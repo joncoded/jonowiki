@@ -98,7 +98,7 @@
   * [✍ Contentful](docs/web-development/contentful/README.md)
     * [Contentful app startup](docs/web-development/contentful/contentful-app-startup.md)
 * [📊 Data visualization](docs/data-visualization/README.md)
-  * [🗺 React with Mapbox](docs/data-visualization/mapbox-with-react-introduction.md)
+  * [🗺 Mapbox with React](docs/data-visualization/mapbox-with-react-introduction.md)
 * [👨🔬 Data science](docs/data-science/README.md)
   * [🐍 Python](docs/data-science/python/README.md)
     * [Commenting](docs/data-science/python/commenting.md)
